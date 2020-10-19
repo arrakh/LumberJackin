@@ -42,6 +42,7 @@ namespace Quiz
 
         private void Start()
         {
+            //TO DO: Write a proper json importer for anki decks, put it in quizset and queue the desired cards based on review
             //Temporary debug before a proper deck importer / scheduler
             if (useDebugSet)
             {
@@ -52,9 +53,11 @@ namespace Quiz
                 }
             }
 
+            //TO DO: queue cards based on desired amount of cards to review + new cards
             List<string> temp = new List<string>(quizSet.Keys);
             quizQueue = temp.Shuffle().ToQueue();
 
+            //Spawn new quiz type based on available quiz types
             SpawnNewQuiz();
         }
 
@@ -79,6 +82,7 @@ namespace Quiz
             qb.difficultyModifier = difficultyModifier;
             qb.quizSetRef = quizSet;
 
+            //take queue out and store both question and answer
             qb.question = quizQueue.Dequeue();
             qb.answer = quizSet[qb.question];
 
@@ -88,6 +92,7 @@ namespace Quiz
 
         public void OnQuizAnswered(bool isCorrect, float points)
         {
+            Debug.Log(isCorrect + " / " + points);
             SpawnNewQuiz();
         }
 

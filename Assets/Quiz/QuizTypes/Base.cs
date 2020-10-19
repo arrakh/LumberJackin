@@ -20,7 +20,12 @@ namespace Quiz
         public virtual void OnStart() { }
         public virtual void OnAnswer(bool isCorrect)
         {
-            OnAnswered.Invoke(isCorrect, points);
+            OnAnswered.Invoke(isCorrect, OnCalculatePoints(isCorrect));
+        }
+
+        public virtual float OnCalculatePoints(bool isCorrect)
+        {
+            return points;
         }
     }
 

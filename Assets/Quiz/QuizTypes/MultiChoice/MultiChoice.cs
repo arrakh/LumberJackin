@@ -14,55 +14,63 @@ namespace Quiz
         [SerializeField] private GameObject choiceButtonPrefab;
         [SerializeField] private int choicesToGenerate;
 
-        private List<string> choicesList;
+        private List<string> choicesList = new List<string>();
 
         public override void OnStart()
         {
             base.OnStart();
-            choicesToGenerate = 2 + Mathf.FloorToInt(difficultyModifier);
-            choicesList = PopulateChoices(quizSetRef, choicesToGenerate, answer);
+
+            //Calculate how many options to show. default with diff of 1 will be 4 options, 2 will be 5 options, and so on
+            choicesToGenerate = 3 + Mathf.FloorToInt(difficultyModifier);
+
+            //Add answer to choices List
             choicesList.Add(answer);
+
+            //Fill list with random choices based on quiz set ref
+            choicesList = FillList(quizSetRef, choicesToGenerate, choicesList);
+
+            //Shuffle list
             choicesList.Shuffle();
-            GenerateChoiceButtons(choicesList, choicePanel, choiceButtonPrefab, false);
+
+            //Generate buttons based on choicesList
+            GenerateChoiceButtons(choicesList, choicePanel, choiceButtonPrefab);
 
             answerTextHolder.text = question;
         }
 
-        private void GenerateChoiceButtons(List<string> choices, GameObject choicePanel, GameObject buttonPrefab, bool isCorrect)
+        private void GenerateChoiceButtons(List<string> choices, GameObject choicePanel, GameObject buttonPrefab)
         {
             foreach (string choice in choices)
             {
+                //Spawn and initialize button based on answer
                 ChoiceButtonScript cbs = Instantiate(buttonPrefab, choicePanel.transform, false).GetComponent<ChoiceButtonScript>();
+                bool isCorrect = choice == answer ? true : false;
                 cbs.Initialize(isCorrect, this, choice);
             }
         }
 
-
-        private List<string> PopulateChoices(Dictionary<string, string> quizSet, int numOfChoices, string toAvoid)
+        private List<string> FillList(Dictionary<string, string> quizSet, int max, List<string> listToFill)
         {
-            List<string> list = new List<string>();
-
-            for (int i = 0; i < numOfChoices; i++)
+            //Is list already filled
+            if (listToFill.Count < max)
             {
-                list.Add(LookUpAnswer(quizSet, toAvoid));
-            }
+                //Get new entry on set
+                string newEntry = quizSet.ElementAt(Random.Range(0, quizSet.Count)).Value;
 
-            return list;
-        }
+                //Does the new entry not exist on the list?
+                if (!listToFill.Contains(newEntry))
+                {
+                    listToFill.Add(newEntry);
+                }
 
-        //TO DO: Find a better num generator since this one is Shit
-        private string LookUpAnswer(Dictionary<string, string> quizSet, string toAvoid)
-        {
-            string temp = quizSet.ElementAt(Random.Range(0, quizSet.Count)).Value;
-            if (temp == toAvoid)
-            {
-                return LookUpAnswer(quizSet, toAvoid);
+                return FillList(quizSet, max, listToFill);
             }
             else
             {
-                return temp;
+                return listToFill;
             }
         }
+          
     }
 
     
