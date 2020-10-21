@@ -582,7 +582,7 @@ MonoBehaviour:
   delayBtwQuiz: 2
   useDebugSet: 0
   debugSetToUse: {fileID: 11400000, guid: 005aa49ff89bb54489ddbf688d7f6217, type: 2}
-  json: {fileID: 4900000, guid: 25d78479a1521984983d831b9efcdbf2, type: 3}
+  json: {fileID: 4900000, guid: b254fcfc47794fe468e42136ad836d3c, type: 3}
   tempDude: {fileID: 1770030007}
 --- !u!1 &1770030006
 GameObject:

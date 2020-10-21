@@ -66,7 +66,10 @@ namespace Quiz
 
             foreach (Note note in deck.notes)
             {
-                quizSet.Add(note.Fields[0], note.Fields[4]);
+                if (!quizSet.ContainsKey(note.Fields[0]))
+                {
+                    quizSet.Add(note.Fields[0], note.Fields[2]);
+                }
             }
 
             //TO DO: queue cards based on desired amount of cards to review + new cards

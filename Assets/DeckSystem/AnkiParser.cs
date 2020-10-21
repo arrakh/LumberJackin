@@ -41,7 +41,7 @@ public class AnkiParser
             //Add to deck notes
             deck.notes.Add(newNote);
 
-            Debug.Log($"Capital: {newNote.Fields[0]}, UID: {newNote.UID}");
+            //Debug.Log($"Capital: {newNote.Fields[0]}, UID: {newNote.UID}");
         }
 
 
