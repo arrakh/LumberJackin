@@ -12,10 +12,13 @@ namespace Quiz
         [SerializeField] private TextMeshProUGUI answerTextHolder;
         [SerializeField] private GameObject choicePanel;
         [SerializeField] private GameObject choiceButtonPrefab;
+        [SerializeField] private BonusBar bonusBar;
         [SerializeField] private int choicesToGenerate;
 
         private List<string> choicesList = new List<string>();
+        private List<ChoiceButtonScript> btns = new List<ChoiceButtonScript>();
 
+        //==============================================- OVERRIDE FUNCTIONS -======================================================
         public override void OnStart()
         {
             base.OnStart();
@@ -38,14 +41,48 @@ namespace Quiz
             answerTextHolder.text = question;
         }
 
+        public override float OnCalculatePoints(bool isCorrect)
+        {
+            points = isCorrect ? bonusBar.value : 0.0f;
+            return points;
+        }
+
+        public override void OnAnswer(bool isCorrect)
+        {
+            //call done answer in each button
+            foreach (ChoiceButtonScript cbs in btns)
+                cbs.OnDoneAnswering();
+
+            //Stop Bonus bar
+            bonusBar.stopBar = true;
+
+            //call base override func
+            base.OnAnswer(isCorrect);
+        }
+        //==========================================================================================================================
+
         private void GenerateChoiceButtons(List<string> choices, GameObject choicePanel, GameObject buttonPrefab)
         {
-            foreach (string choice in choices)
+            //foreach (string choice in choices)
+            //{
+            //    //Spawn and initialize button based on answer
+            //    ChoiceButtonScript cbs = Instantiate(buttonPrefab, choicePanel.transform, false).GetComponent<ChoiceButtonScript>();
+            //    bool isCorrect = choice == answer ? true : false;
+            //    cbs.Initialize(isCorrect, this, choice);
+
+            //    //Add to button array
+            //    btns.Add(cbs);
+            //}
+
+            for (int i = 0; i < choices.Count; i++)
             {
                 //Spawn and initialize button based on answer
                 ChoiceButtonScript cbs = Instantiate(buttonPrefab, choicePanel.transform, false).GetComponent<ChoiceButtonScript>();
-                bool isCorrect = choice == answer ? true : false;
-                cbs.Initialize(isCorrect, this, choice);
+                bool isCorrect = choices[i] == answer ? true : false;
+                cbs.Initialize(isCorrect, this, choices[i], i);
+
+                //Add to button array
+                btns.Add(cbs);
             }
         }
 
