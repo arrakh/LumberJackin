@@ -8,6 +8,10 @@ namespace Quiz
 {
     public class QuizManager : MonoBehaviour
     {
+        //TO DO: Refactor this whole sh*t based on the new Deck and Note objects, sigh.
+        public Deck currentDeck;
+
+
         public Dictionary<string, string> quizSet = new Dictionary<string, string>();
         public Action OnComplete;
         public float difficultyModifier = 1f;
@@ -19,6 +23,7 @@ namespace Quiz
 
         [SerializeField] private List<GameObject> quizType;
         [SerializeField] private GameObject quizPanel;
+        [SerializeField] private NoteView.NoteView noteView;
         [SerializeField] private float delayBtwQuiz = 2.0f;
 
         //Temporary debug before a proper deck importer / scheduler
@@ -50,7 +55,7 @@ namespace Quiz
 
         private void Start()
         {
-            //TO DO: Write a proper json importer for anki decks, put it in quizset and queue the desired cards based on review
+
             //Temporary debug before a proper deck importer / scheduler
             if (useDebugSet)
             {
@@ -61,14 +66,14 @@ namespace Quiz
                 }
             }
 
-            //DELETE LATER
-            Deck deck = AnkiParser.GetDeckFromJson(json.text);
+            //TO DO: Lazy sync on a deck collection instead
+            currentDeck = AnkiParser.GetDeckFromJson(json.text);
 
-            foreach (Note note in deck.notes)
+            foreach (Note note in currentDeck.notes)
             {
                 if (!quizSet.ContainsKey(note.Fields[0]))
                 {
-                    quizSet.Add(note.Fields[0], note.Fields[2]);
+                    quizSet.Add(note.Fields[0], note.Fields[4]);
                 }
             }
 
@@ -106,6 +111,7 @@ namespace Quiz
                 qb.difficultyModifier = difficultyModifier;
                 qb.quizSetRef = quizSet;
 
+                //QUESTION: Why dequeue it now? just dequeue OnQuizAnswered. Will probably be taken care of when we eventually switch to Deck&Note system though
                 //take queue out and store both question and answer
                 qb.question = quizQueue.Dequeue();
                 qb.answer = quizSet[qb.question];
@@ -132,18 +138,18 @@ namespace Quiz
             //Stuff to do when answer is correct
             if (isCorrect)
             {
-
+                //Spawn quiz after a delay, will spawn randomly by default
+                Invoke("SpawnNewQuiz", delayBtwQuiz);
             }
             //Stuff to do when answer is wrong
             else
             {
+                Invoke("ShowNoteView", delayBtwQuiz / 2);
                 //Add wrong answer to end of queue
                 quizQueue.Enqueue(lastQuiz);
             }
 
-            //Spawn quiz after a delay, will spawn randomly by default
-            //SpawnNewQuiz();
-            Invoke("SpawnNewQuiz", delayBtwQuiz);
+            
 
             //TO DO: Send this to a "game scene" that will be spawned on start later
 
@@ -154,11 +160,29 @@ namespace Quiz
             OnCompleteQuiz();
         }
 
+        public void ShowNoteView()
+        {
+            noteView.gameObject.SetActive(true);
+            noteView.Initialize(currentDeck, OhGodPleaseDeleteThisStupidCodeLater(lastQuiz), delegate
+            {
+                noteView.gameObject.SetActive(false);
+                SpawnNewQuiz();
+            });
+
+        }
+
         public void OnCompleteQuiz()
         {
             OnComplete?.Invoke();
+        }
 
-
+        private Note OhGodPleaseDeleteThisStupidCodeLater(string fieldToCheck)
+        {
+            foreach (Note note in currentDeck.notes)
+            {
+                if (note.Fields.Contains(fieldToCheck)) return note;
+            }
+            return null;
         }
 
         [Button]

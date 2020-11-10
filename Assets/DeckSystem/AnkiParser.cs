@@ -19,6 +19,8 @@ public class AnkiParser
             deck.fieldNames.Add(arr[i]["name"].Value);
         }
 
+        bool hasGeneratedFieldTypes = false;
+
         //Store Note fields
         arr = parsed["notes"].AsArray;
 
@@ -35,18 +37,30 @@ public class AnkiParser
 
             for (int j = 0; j < fieldArr.Count; j++)
             {
-                newNote.Fields.Add(fieldArr[j].Value);
+                //cache field value
+                string note = fieldArr[j].Value;
+
+                //cache type and detect + format field value
+                FieldType type = deck.DetectFieldType(note, out note);
+
+                if (!hasGeneratedFieldTypes)
+                {
+                    //Store field type. this will only run on the first set of note
+                    deck.fieldTypes.Add(type);
+                }
+
+                //add field to note
+                newNote.Fields.Add(note);
             }
+
+            hasGeneratedFieldTypes = true;
 
             //Add to deck notes
             deck.notes.Add(newNote);
 
             //Debug.Log($"Capital: {newNote.Fields[0]}, UID: {newNote.UID}");
         }
-
-
-
-
+                
         return deck;
     }
 
