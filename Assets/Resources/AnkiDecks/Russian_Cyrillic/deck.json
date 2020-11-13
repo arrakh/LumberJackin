@@ -1,0 +1,854 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "85760940-1299-11eb-a5cc-8878730f6ebd",
+    "deck_config_uuid": "85760941-1299-11eb-afce-8878730f6ebd",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "85760941-1299-11eb-afce-8878730f6ebd",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "Please see the <a href='https://ankiweb.net/shared/info/'>shared deck page</a> for more info.",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "09067dc45914a109d204da034ba1771e.png",
+        "18a510294c0d69e0b56bea2b3e1b1d20.png",
+        "24fc78630782ff2a51b2a2ddfe8355c1.png",
+        "2f86cd9e25cc3a61a68923a41345f9c9.png",
+        "358c748b5d3fcd1c785b48b24f703dda.png",
+        "367317e987a5e16343f2aa812fc222ea.png",
+        "3ffbeb4ab2a5da16fa21b6282fdbc526.png",
+        "55031e7cbfcbb76f72d44804cb4317c1.png",
+        "650cec751f51e0e38a2ce053a7b61f8c.png",
+        "70f5ae565586fc7fe79bf33bbfd67127.png",
+        "71d8410187a5e9174a08ea488626244b.png",
+        "84738c1c3d7e4deea974eeaeee6c75af.png",
+        "852b4ad77a4046df0481f1446b0caa62.png",
+        "8f822e32e9606a7bbb3498e50f94b9c8.png",
+        "902aeeaefe2c5e8c825c57dbd186ccb4.png",
+        "9f5a05131835dba6f03182f34c5b0b5a.png",
+        "adae4bbc13af2102244489bbb77e7c13.png",
+        "b15c6bd3d66591aadb04e67fe4aa2554.png",
+        "b9d081ff759c9768111a6a89213b30d7.png",
+        "bcd30add05f0efa20c9bed548c6d82d8.png",
+        "c05ee53af252dc7fd7db60654331cfc9.png",
+        "c568fc92f7afddd087cbc14d808df195.png",
+        "c957e3e24b2e01c9fedbc2cbee9f6605.png",
+        "cf1cef01c6d0143e5a3f3a2ce1c888a1.png",
+        "d57f127c607410288ad327ca59023b1d.png",
+        "dbc0a4875089de122e4f5bdfd25110da.png",
+        "dfd47bdcf3f30b0d94dc8b58dea79dc5.png",
+        "e7954bc0f52303bca59bebaf2523c39b.png",
+        "eaea9cc0fe34e217887993610392a53c.png",
+        "eba063f9005e06d2f474c9311b0c71cd.png",
+        "edb493aeff4b3927e4028f2f59a23fbc.png",
+        "f5e511e68af14b914375c32abc132f68.png",
+        "f9720eb74fbb9537f57af8c9f432d963.png",
+        "sound01.mp3",
+        "sound02.mp3",
+        "sound03.mp3",
+        "sound04.mp3",
+        "sound05.mp3",
+        "sound06.mp3",
+        "sound07.mp3",
+        "sound08.mp3",
+        "sound09.mp3",
+        "sound10.mp3",
+        "sound11.mp3",
+        "sound12.mp3",
+        "sound13.mp3",
+        "sound14.mp3",
+        "sound15.mp3",
+        "sound16.mp3",
+        "sound17.mp3",
+        "sound18.mp3",
+        "sound19.mp3",
+        "sound20.mp3",
+        "sound21.mp3",
+        "sound22.mp3",
+        "sound23.mp3",
+        "sound24.mp3",
+        "sound25.mp3",
+        "sound26.mp3",
+        "sound27.mp3",
+        "sound28.mp3",
+        "sound29.mp3",
+        "sound30.mp3",
+        "sound31.mp3",
+        "sound32.mp3",
+        "sound33.mp3"
+    ],
+    "name": "Russian Cyrillic",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.card1 { background-color: #FFFFFF; }\n.card2 { background-color: #FFFFFF; }",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Capital",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Small",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Handwriting",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Name",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "IPA",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "English Example",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Audio",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cyrillic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        2
+                    ]
+                ],
+                [
+                    2,
+                    "all",
+                    [
+                        6
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span style=\"   \">{{IPA}}<br>{{Handwriting}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "cyrillic-translit",
+                    "ord": 0,
+                    "qfmt": "{{Capital}}, {{Small}}<br>"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n{{IPA}}<br>\n{{Capital}}, {{Small}}<br>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "translit-cyrillic",
+                    "ord": 1,
+                    "qfmt": "<span style=\"   \"><br>{{Handwriting}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span style=\"   \"><br>{{Capital}}, {{Small}}<br>{{Handwriting}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Audio",
+                    "ord": 2,
+                    "qfmt": "\n<div style='font-family: Arial; font-size: 20px;'>{{Audio}}</div>\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "А",
+                "а",
+                "<img src=\"70f5ae565586fc7fe79bf33bbfd67127.png\" />",
+                "a",
+                "[a]",
+                "a in father",
+                "[sound:sound01.mp3]"
+            ],
+            "flags": 0,
+            "guid": "l#|eet]vn%",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Б",
+                "б",
+                "<img src=\"2f86cd9e25cc3a61a68923a41345f9c9.png\" />",
+                "бэ",
+                "/b/ or /bʲ/",
+                "b in bit",
+                "[sound:sound02.mp3]"
+            ],
+            "flags": 0,
+            "guid": "n;`R?pHD[u",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "В",
+                "в",
+                "<img src=\"3ffbeb4ab2a5da16fa21b6282fdbc526.png\" />",
+                "вэ",
+                "/v/ or /vʲ/",
+                "v in vine",
+                "[sound:sound03.mp3]"
+            ],
+            "flags": 0,
+            "guid": "o(l|ODbYi!",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Г",
+                "г",
+                "<img src=\"71d8410187a5e9174a08ea488626244b.png\" />",
+                "гэ",
+                "/g/",
+                "g in go",
+                "[sound:sound04.mp3]"
+            ],
+            "flags": 0,
+            "guid": "tGZ&?~.V^c",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Д",
+                "д",
+                "<img src=\"eba063f9005e06d2f474c9311b0c71cd.png\" />",
+                "дэ",
+                "/d/ or /dʲ/",
+                "d in do",
+                "[sound:sound05.mp3]"
+            ],
+            "flags": 0,
+            "guid": "p!}`jof/*+",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Е",
+                "е",
+                "<img src=\"adae4bbc13af2102244489bbb77e7c13.png\" />",
+                "е",
+                "/je/ or / ʲe/",
+                "ye in yet",
+                "[sound:sound06.mp3]"
+            ],
+            "flags": 0,
+            "guid": "q^0ohimB],",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ё",
+                "ё",
+                "<img src=\"edb493aeff4b3927e4028f2f59a23fbc.png\" />",
+                "ё",
+                "/jo/ or / ʲo/",
+                "yo in yolk",
+                "[sound:sound07.mp3]"
+            ],
+            "flags": 0,
+            "guid": "cH&0EYEN}(",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ж",
+                "ж",
+                "<img src=\"eaea9cc0fe34e217887993610392a53c.png\" />",
+                "жэ",
+                "/ʐ/",
+                "g in genre, s in pleasure, j in Jean-Jacques or zh in Dr Zhivago (voiced retroflex fricative)",
+                "[sound:sound08.mp3]"
+            ],
+            "flags": 0,
+            "guid": "bq9df=*N!@",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "З",
+                "з",
+                "<img src=\"650cec751f51e0e38a2ce053a7b61f8c.png\" />",
+                "зэ",
+                "/z/ or /zʲ/",
+                "z in zoo",
+                "[sound:sound09.mp3]"
+            ],
+            "flags": 0,
+            "guid": "ggdDcw1vm(",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "И",
+                "и",
+                "<img src=\"c957e3e24b2e01c9fedbc2cbee9f6605.png\" />",
+                "и",
+                "/i/ or / ʲi/",
+                "e in me",
+                "[sound:sound10.mp3]"
+            ],
+            "flags": 0,
+            "guid": "q!,&^02]OI",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Й",
+                "й",
+                "<img src=\"e7954bc0f52303bca59bebaf2523c39b.png\" />",
+                "и краткое",
+                "/j/",
+                "y in yes",
+                "[sound:sound11.mp3]"
+            ],
+            "flags": 0,
+            "guid": "eVj~`GV()2",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "К",
+                "к",
+                "<img src=\"bcd30add05f0efa20c9bed548c6d82d8.png\" />",
+                "ка",
+                "/k/ or /kʲ/",
+                "k in kitten",
+                "[sound:sound12.mp3]"
+            ],
+            "flags": 0,
+            "guid": "dJdI!32g!&",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Л",
+                "л",
+                "<img src=\"f5e511e68af14b914375c32abc132f68.png\" />",
+                "эл <i>or</i> эль",
+                "/l/ or /lʲ/",
+                "l in lamp",
+                "[sound:sound13.mp3]"
+            ],
+            "flags": 0,
+            "guid": "nM]Vo|n?/m",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "М",
+                "м",
+                "<img src=\"84738c1c3d7e4deea974eeaeee6c75af.png\" />",
+                "эм",
+                "/m/ or /mʲ/",
+                "m in map",
+                "[sound:sound14.mp3]"
+            ],
+            "flags": 0,
+            "guid": "J)>B_W0y|",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Н",
+                "н",
+                "<img src=\"852b4ad77a4046df0481f1446b0caa62.png\" />",
+                "эн",
+                "/n/ or /nʲ/",
+                "n in not",
+                "[sound:sound15.mp3]"
+            ],
+            "flags": 0,
+            "guid": "h{MhGn3p!{",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "О",
+                "о",
+                "<img src=\"c568fc92f7afddd087cbc14d808df195.png\" />",
+                "о",
+                "/o/",
+                "o in more",
+                "[sound:sound16.mp3]"
+            ],
+            "flags": 0,
+            "guid": "hS2)6iOJxY",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "П",
+                "п",
+                "<img src=\"d57f127c607410288ad327ca59023b1d.png\" />",
+                "пэ",
+                "/p/ or /pʲ/",
+                "p in pet",
+                "[sound:sound17.mp3]"
+            ],
+            "flags": 0,
+            "guid": "suQ![e`QSM",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "С",
+                "с",
+                "<img src=\"367317e987a5e16343f2aa812fc222ea.png\" />",
+                "эс",
+                "/s/ or /sʲ/",
+                "s in see",
+                "[sound:sound19.mp3]"
+            ],
+            "flags": 0,
+            "guid": "iGcq3{83&~",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Т",
+                "т",
+                "<img src=\"b15c6bd3d66591aadb04e67fe4aa2554.png\" />",
+                "тэ",
+                "/t/ or /tʲ/",
+                "t in tip",
+                "[sound:sound20.mp3]"
+            ],
+            "flags": 0,
+            "guid": "m(g!/;QCPL",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "У",
+                "у",
+                "<img src=\"55031e7cbfcbb76f72d44804cb4317c1.png\" />",
+                "у",
+                "/u/",
+                "oo in boot",
+                "[sound:sound21.mp3]"
+            ],
+            "flags": 0,
+            "guid": "qg!g-@76s8",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ф",
+                "ф",
+                "<img src=\"b9d081ff759c9768111a6a89213b30d7.png\" />",
+                "эф",
+                "/f/ or /fʲ/",
+                "f in face",
+                "[sound:sound22.mp3]"
+            ],
+            "flags": 0,
+            "guid": "oahpd$1v2`",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Х",
+                "х",
+                "<img src=\"24fc78630782ff2a51b2a2ddfe8355c1.png\" />",
+                "ха",
+                "/x/",
+                "Ba<i>ch</i> (German) (voiceless velar fricative)",
+                "[sound:sound23.mp3]"
+            ],
+            "flags": 0,
+            "guid": "jF}CO4X,?N",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ц",
+                "ц",
+                "<img src=\"8f822e32e9606a7bbb3498e50f94b9c8.png\" />",
+                "цэ",
+                "/t͡s/",
+                "ts in sits",
+                "[sound:sound24.mp3]"
+            ],
+            "flags": 0,
+            "guid": "bge;D,~xnJ",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ч",
+                "ч",
+                "<img src=\"c05ee53af252dc7fd7db60654331cfc9.png\" />",
+                "че",
+                "/t͡ɕ/",
+                "ch in chip",
+                "[sound:sound25.mp3]"
+            ],
+            "flags": 0,
+            "guid": "nZHuaX32c?",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ш",
+                "ш",
+                "<img src=\"358c748b5d3fcd1c785b48b24f703dda.png\" />",
+                "ша",
+                "/ʂ/",
+                "similar to the sh in shut (voiceless retroflex fricative)",
+                "[sound:sound26.mp3]"
+            ],
+            "flags": 0,
+            "guid": "nX0;V/E37N",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Щ",
+                "щ",
+                "<img src=\"18a510294c0d69e0b56bea2b3e1b1d20.png\" />",
+                "ща",
+                "/ɕː/",
+                "similar to the \"sh\" in sheer (but with a slightly more \"y\" sound) (voiceless alveolo-palatal fricative)",
+                "[sound:sound27.mp3]"
+            ],
+            "flags": 0,
+            "guid": "sGOT~J.bmU",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ъ",
+                "ъ",
+                "<img src=\"f9720eb74fbb9537f57af8c9f432d963.png\" />",
+                "твёрдый знак (hard sign)",
+                "hard",
+                "hard sign (shows that preceding consonant is NOT palatalized)",
+                "[sound:sound28.mp3]"
+            ],
+            "flags": 0,
+            "guid": "mA9X2_R3-_",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ы",
+                "ы",
+                "<img src=\"9f5a05131835dba6f03182f34c5b0b5a.png\" />",
+                "ы",
+                "[ɨ]",
+                "Pronounced like the letter E with the u and y sound. \"uh-E-y\" (close central unrounded vowel)",
+                "[sound:sound29.mp3]"
+            ],
+            "flags": 0,
+            "guid": "kFL[-Bg_7K",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ь",
+                "ь",
+                "<img src=\"dfd47bdcf3f30b0d94dc8b58dea79dc5.png\" />",
+                "мягкий знак (soft sign)",
+                "/ ʲ/",
+                "a sign which, placed after a consonant, acts as a \"silent front vowel\", slightly palatalises the preceding consonant",
+                "[sound:sound30.mp3]"
+            ],
+            "flags": 0,
+            "guid": "rAx_TpDk4O",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Э",
+                "э",
+                "<img src=\"dbc0a4875089de122e4f5bdfd25110da.png\" />",
+                "э",
+                "/e/",
+                "e in met",
+                "[sound:sound31.mp3]"
+            ],
+            "flags": 0,
+            "guid": "eaT2<TgY>%",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ю",
+                "ю",
+                "<img src=\"cf1cef01c6d0143e5a3f3a2ce1c888a1.png\" />",
+                "ю",
+                "/ju/ or / ʲu/",
+                "u in use",
+                "[sound:sound32.mp3]"
+            ],
+            "flags": 0,
+            "guid": "jJ|@D:bG}(",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Я",
+                "я",
+                "<img src=\"902aeeaefe2c5e8c825c57dbd186ccb4.png\" />",
+                "я",
+                "/ja/ or / ʲa/",
+                "ya in yard",
+                "[sound:sound33.mp3]"
+            ],
+            "flags": 0,
+            "guid": "unk0Ya#nJp",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Р",
+                "р",
+                "<img src=\"09067dc45914a109d204da034ba1771e.png\" />",
+                "эр",
+                "/r/ or /rʲ/",
+                "rolled r, like spanish pe<i>rr</i>o",
+                "[sound:sound18.mp3]"
+            ],
+            "flags": 0,
+            "guid": "uh=0J{Ji.a",
+            "newlyAdded": false,
+            "note_model_uuid": "8576a519-1299-11eb-9d64-8878730f6ebd",
+            "tags": []
+        }
+    ]
+}

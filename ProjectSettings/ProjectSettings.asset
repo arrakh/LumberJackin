@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 20
+<<<<<<< HEAD
   productGUID: 155b9fda124cd794ea00648d080e4e95
+=======
+  productGUID: b3b03ac832deab04baca7b2266715b4b
+>>>>>>> e846b4ea416e6be8121a45263fccbfda784adfc6
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +17,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: Database LumberJackin
+=======
+  productName: LumberJackin
+>>>>>>> e846b4ea416e6be8121a45263fccbfda784adfc6
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -111,6 +119,7 @@ PlayerSettings:
   switchNVNShaderPoolsGranularity: 33554432
   switchNVNDefaultPoolsGranularity: 16777216
   switchNVNOtherPoolsGranularity: 16777216
+<<<<<<< HEAD
   switchNVNMaxPublicTextureIDCount: 0
   switchNVNMaxPublicSamplerIDCount: 0
   stadiaPresentMode: 0
@@ -118,6 +127,10 @@ PlayerSettings:
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
   vulkanEnableLateAcquireNextImage: 0
+=======
+  vulkanNumSwapchainBuffers: 3
+  vulkanEnableSetSRGBWrite: 0
+>>>>>>> e846b4ea416e6be8121a45263fccbfda784adfc6
   m_SupportedAspectRatios:
     4:3: 1
     5:4: 1
@@ -195,6 +208,25 @@ PlayerSettings:
   uIStatusBarHidden: 1
   uIExitOnSuspend: 0
   uIStatusBarStyle: 0
+<<<<<<< HEAD
+=======
+  iPhoneSplashScreen: {fileID: 0}
+  iPhoneHighResSplashScreen: {fileID: 0}
+  iPhoneTallHighResSplashScreen: {fileID: 0}
+  iPhone47inSplashScreen: {fileID: 0}
+  iPhone55inPortraitSplashScreen: {fileID: 0}
+  iPhone55inLandscapeSplashScreen: {fileID: 0}
+  iPhone58inPortraitSplashScreen: {fileID: 0}
+  iPhone58inLandscapeSplashScreen: {fileID: 0}
+  iPadPortraitSplashScreen: {fileID: 0}
+  iPadHighResPortraitSplashScreen: {fileID: 0}
+  iPadLandscapeSplashScreen: {fileID: 0}
+  iPadHighResLandscapeSplashScreen: {fileID: 0}
+  iPhone65inPortraitSplashScreen: {fileID: 0}
+  iPhone65inLandscapeSplashScreen: {fileID: 0}
+  iPhone61inPortraitSplashScreen: {fileID: 0}
+  iPhone61inLandscapeSplashScreen: {fileID: 0}
+>>>>>>> e846b4ea416e6be8121a45263fccbfda784adfc6
   appleTVSplashScreen: {fileID: 0}
   appleTVSplashScreen2x: {fileID: 0}
   tvOSSmallIconLayers: []
@@ -241,7 +273,11 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   clonedFromGUID: 5f34be1353de5cf4398729fda238591b
+<<<<<<< HEAD
   templatePackageId: com.unity.template.2d@3.3.2
+=======
+  templatePackageId: com.unity.template.2d@3.3.0
+>>>>>>> e846b4ea416e6be8121a45263fccbfda784adfc6
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
@@ -477,7 +513,10 @@ PlayerSettings:
   ps4ShareFilePath: 
   ps4ShareOverlayImagePath: 
   ps4PrivacyGuardImagePath: 
+<<<<<<< HEAD
   ps4ExtraSceSysFile: 
+=======
+>>>>>>> e846b4ea416e6be8121a45263fccbfda784adfc6
   ps4NPtitleDatPath: 
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
@@ -503,7 +542,10 @@ PlayerSettings:
   ps4UseResolutionFallback: 0
   ps4ReprojectionSupport: 0
   ps4UseAudio3dBackend: 0
+<<<<<<< HEAD
   ps4UseLowGarlicFragmentationMode: 1
+=======
+>>>>>>> e846b4ea416e6be8121a45263fccbfda784adfc6
   ps4SocialScreenEnabled: 0
   ps4ScriptOptimizationLevel: 0
   ps4Audio3dVirtualSpeakerCount: 14
@@ -520,8 +562,11 @@ PlayerSettings:
   ps4disableAutoHideSplash: 0
   ps4videoRecordingFeaturesUsed: 0
   ps4contentSearchFeaturesUsed: 0
+<<<<<<< HEAD
   ps4CompatibilityPS5: 0
   ps4GPU800MHz: 1
+=======
+>>>>>>> e846b4ea416e6be8121a45263fccbfda784adfc6
   ps4attribEyeToEyeDistanceSettingVR: 0
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
@@ -610,7 +655,10 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   XboxOneXTitleMemory: 8
   XboxOneOverrideIdentityName: 
+<<<<<<< HEAD
   XboxOneOverrideIdentityPublisher: 
+=======
+>>>>>>> e846b4ea416e6be8121a45263fccbfda784adfc6
   vrEditorSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
