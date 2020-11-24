@@ -17,8 +17,13 @@
     $mail = new PHPMailer(TRUE);
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
+<<<<<<< HEAD
     $mail->Username = 'sender@gmail.com';
     $mail->Password = 'senderpass'; 
+=======
+    $mail->Username = 'sendermail';
+    $mail->Password = 'password'; 
+>>>>>>> 1311687c060182f91fbbba5ad6bbc7ad2db781e8
     $mail->Port = 587;
     $mail->SMTPAuth = true;
     $mail->SMTPDebug = 1;
