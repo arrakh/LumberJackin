@@ -17,13 +17,13 @@
     $mail = new PHPMailer(TRUE);
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
-    $mail->Username = 'ilhamjp17@gmail.com';
-    $mail->Password = 'ilhamjalu17'; 
+    $mail->Username = 'sendermail';
+    $mail->Password = 'password'; 
     $mail->Port = 587;
     $mail->SMTPAuth = true;
     $mail->SMTPDebug = 1;
 
-    $mail->setFrom('ilhamjp17@gmail.com', 'TEST');
+    $mail->setFrom('sender@gmail.com', 'TEST');
     $mail->addAddress($test['email']);
     $mail->Subject = "VERIFICATION CODE";
     $mail->Body    = "MASUKKAN KODE INI : " . $pesan;
