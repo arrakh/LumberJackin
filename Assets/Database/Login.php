@@ -4,7 +4,7 @@
     $user = $_POST['username'];
     $pass = $_POST['password'];
     
-    $check_data = "SELECT username FROM login WHERE username ='" .$user. "';";
+    $check_data = "SELECT * FROM login WHERE username = '$user' and password = '$pass'";
     $result = $connection->query($check_data);
 
     if($result->num_rows > 0){
@@ -13,7 +13,7 @@
         }
     }
     else{
-        echo "DATA BELUM ADA";  
+        echo "error, DATA BELUM ADA";  
     }
 
     $connection->close();

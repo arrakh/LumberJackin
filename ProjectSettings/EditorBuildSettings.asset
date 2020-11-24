@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Regis.unity
+    guid: b437dba7b9ea9234dbe02aa35166466c
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: f163a9bb1712cea42b648341cb1779f7
+  - enabled: 0
+    path: Assets/Scenes/Forgot Pass.unity
+    guid: 426a59d5f7b6014418c02e936a8e993a
+  - enabled: 1
+    path: Assets/Scenes/S_Task.unity
+    guid: c7cee13c9574a1a4f859b4904c7ac801
+  - enabled: 1
+    path: Assets/Scenes/Reset Pass.unity
+    guid: 0521a7afa31b8f14bbd78c193ed013b3
   m_configObjects: {}
