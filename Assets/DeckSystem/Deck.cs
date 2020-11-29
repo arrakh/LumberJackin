@@ -16,16 +16,18 @@ public enum FieldType
 public class Deck
 {
     //Deck Vars
+    public string deckName;
+    public string deckMediaPath;
     public List<string> fieldNames      = new List<string>();
     public List<Note> notes             = new List<Note>();
     public List<FieldType> fieldTypes   = new List<FieldType>();
 
     //Deck Settings
-    private string imagePrefix  = "<img src=\"";
-    private string imagePostfix = "\" />";
-    private string soundPrefix = "[sound:";
-    private string soundPostfix = "]";
-    private string clozeFormat = "";
+    private string imagePrefix      = "<img src=\"";
+    private string imagePostfix     = "\" />";
+    private string soundPrefix      = "[sound:";
+    private string soundPostfix     = "]";
+    private string clozeFormat      = "";
 
     public List<Note> GetDueNotes()
     {

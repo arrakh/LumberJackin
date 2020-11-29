@@ -11,6 +11,9 @@ public class AnkiParser
 
         JSONNode parsed = JSON.Parse(json);
 
+        //Get Deck Name
+        deck.deckName = parsed["name"].Value;
+
         //Get Field Name
         JSONArray arr = parsed["note_models"][0]["flds"].AsArray;
 
