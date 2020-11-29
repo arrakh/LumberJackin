@@ -163,11 +163,7 @@ namespace Quiz
         public void ShowNoteView()
         {
             noteView.gameObject.SetActive(true);
-            noteView.Initialize(currentDeck, OhGodPleaseDeleteThisStupidCodeLater(lastQuiz), delegate
-            {
-                noteView.gameObject.SetActive(false);
-                SpawnNewQuiz();
-            });
+            noteView.Initialize(currentDeck, OhGodPleaseDeleteThisStupidCodeLater(lastQuiz));
 
         }
 
@@ -176,6 +172,7 @@ namespace Quiz
             OnComplete?.Invoke();
         }
 
+        //PLEASE REFACTOR PLEASE OH GOD
         private Note OhGodPleaseDeleteThisStupidCodeLater(string fieldToCheck)
         {
             foreach (Note note in currentDeck.notes)

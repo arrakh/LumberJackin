@@ -15,22 +15,17 @@ namespace NoteView
         [SerializeField] private GameObject noteFieldPrefab_Image;
         [SerializeField] private GameObject noteFieldPrefab_Sound;
         [SerializeField] private GameObject noteFieldPrefab_Cloze;
-        [SerializeField] private Button button;
 
         //private void Start()
         //{
         //    GenerateNoteFields();
         //}
 
-        public void Initialize(Deck deckReference, Note noteToView, UnityAction onClickEvent)
+        public void Initialize(Deck deckReference, Note noteToView)
         {
             //Set references
             deck = deckReference;
             note = noteToView;
-
-            //Add button OnClick event; 
-            button.onClick.RemoveAllListeners();
-            if(onClickEvent != null) button.onClick.AddListener(onClickEvent);
 
             //Generate Fields
             GenerateNoteFields();
