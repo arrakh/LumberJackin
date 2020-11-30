@@ -13,10 +13,10 @@ namespace NoteView
 
         private void OnEnable()
         {
-            GenerateNotes();
+            StartCoroutine(GenerateNotes());
         }
 
-        public void GenerateNotes()
+        public IEnumerator GenerateNotes()
         {
             //Clear children
             noteHolder.transform.Clear();
@@ -26,7 +26,9 @@ namespace NoteView
             {
                 NoteView nv = Instantiate(noteViewPrefab, noteHolder.transform, false).GetComponent<NoteView>();
                 nv.Initialize(deckToView, note);
+                yield return new WaitForFixedUpdate();
             }
+
         }
     }
 }

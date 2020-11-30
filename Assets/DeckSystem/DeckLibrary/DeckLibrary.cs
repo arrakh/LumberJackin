@@ -16,10 +16,10 @@ namespace NoteView
 
         private void OnEnable()
         {
-            GenerateButtons();
+            StartCoroutine(GenerateButtons());
         }
 
-        public void GenerateButtons()
+        public IEnumerator GenerateButtons()
         {
             //Clear Buttons
             buttonHolder.transform.Clear();
@@ -33,7 +33,8 @@ namespace NoteView
                     ShowNoteLibrary(deck);
                     DeckLibraryGroup.SetActive(false);
                 });
-            }   
+            }
+            yield return null; 
         }
 
         public void ShowNoteLibrary(Deck deck)
