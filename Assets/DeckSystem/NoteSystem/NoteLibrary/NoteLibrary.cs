@@ -24,7 +24,7 @@ namespace NoteView
             //For each notes, instantiate note view prefab
             foreach (Note note in deckToView.notes)
             {
-                NoteView nv = Instantiate(noteViewPrefab, noteHolder.transform, false).GetComponent<NoteView>();
+                NoteViewScript nv = Instantiate(noteViewPrefab, noteHolder.transform, false).GetComponent<NoteViewScript>();
                 nv.Initialize(deckToView, note);
                 yield return new WaitForFixedUpdate();
             }

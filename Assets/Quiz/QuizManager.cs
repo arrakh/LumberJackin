@@ -1,4 +1,6 @@
 ﻿using NaughtyAttributes;
+using PromptWindow;
+using NoteView;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,10 +10,9 @@ namespace Quiz
 {
     public class QuizManager : MonoBehaviour
     {
-        //TO DO: Refactor this whole sh*t based on the new Deck and Note objects, sigh.
         public Deck currentDeck;
 
-
+        //Refactor to use Note and Deck instead
         public Dictionary<string, string> quizSet = new Dictionary<string, string>();
         public Action OnComplete;
         public float difficultyModifier = 1f;
@@ -21,9 +22,12 @@ namespace Quiz
         private string lastQuiz;
         private GameObject currentQuizObj;
 
+        [SerializeField] private PlayerProfile playerProfile;
         [SerializeField] private List<GameObject> quizType;
         [SerializeField] private GameObject quizPanel;
-        [SerializeField] private NoteView.NoteView noteView;
+        [SerializeField] private GameObject promptHolder;
+        [SerializeField] private GameObject notePreviewPromptPrefab;
+        [SerializeField] private GameObject noteViewPrefab;
         [SerializeField] private float delayBtwQuiz = 2.0f;
 
         //Temporary debug before a proper deck importer / scheduler
@@ -56,18 +60,8 @@ namespace Quiz
         private void Start()
         {
 
-            //Temporary debug before a proper deck importer / scheduler
-            if (useDebugSet)
-            {
-                //Add list to quizSet Dictionary
-                foreach (DebugQuiz quiz in debugSetToUse.contents)
-                {   
-                    quizSet.Add(quiz.question, quiz.answer);
-                }
-            }
-
-            //TO DO: Lazy sync on a deck collection instead
-            currentDeck = AnkiParser.GetDeckFromJson(json.text);
+            //Load current Deck based on Player Profile
+            currentDeck = playerProfile.decks[playerProfile.activeDeckIndex];
 
             foreach (Note note in currentDeck.notes)
             {
@@ -162,9 +156,10 @@ namespace Quiz
 
         public void ShowNoteView()
         {
-            noteView.gameObject.SetActive(true);
-            noteView.Initialize(currentDeck, OhGodPleaseDeleteThisStupidCodeLater(lastQuiz));
-
+            SingleButtonWindow sbw = Instantiate(notePreviewPromptPrefab, promptHolder.transform, false).GetComponent<SingleButtonWindow>();
+            GameObject noteGO = sbw.Initialize(noteViewPrefab, "OK", delegate { SpawnNewQuiz(); });
+            NoteViewScript nv = noteGO.GetComponent<NoteViewScript>();
+            nv.Initialize(currentDeck, currentDeck.notes[0]);
         }
 
         public void OnCompleteQuiz()
