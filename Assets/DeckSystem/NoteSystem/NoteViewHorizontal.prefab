@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreLayout: 0
-  m_MinWidth: 300
+  m_MinWidth: 400
   m_MinHeight: -1
   m_PreferredWidth: -1
   m_PreferredHeight: -1
@@ -69,7 +69,7 @@ PrefabInstance:
     - target: {fileID: 211979973341921817, guid: b8788b6cb64593b4f9110e78b44c2a9f,
         type: 3}
       propertyPath: m_Size
-      value: 0.9999924
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 993748896059961707, guid: b8788b6cb64593b4f9110e78b44c2a9f,
         type: 3}
@@ -406,6 +406,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5667332516601672729, guid: b8788b6cb64593b4f9110e78b44c2a9f,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5779610614429866610, guid: b8788b6cb64593b4f9110e78b44c2a9f,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -465,11 +470,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6096710207813542020, guid: b8788b6cb64593b4f9110e78b44c2a9f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6713846101321618019, guid: b8788b6cb64593b4f9110e78b44c2a9f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0011901855
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6724521896289812612, guid: b8788b6cb64593b4f9110e78b44c2a9f,
         type: 3}
