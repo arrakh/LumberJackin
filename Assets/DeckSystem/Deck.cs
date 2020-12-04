@@ -18,6 +18,7 @@ public class Deck
     //Deck Vars
     public string deckName;
     public string deckMediaPath;
+    public Quiz.QuizSetting quizSetting;
     public List<string> fieldNames      = new List<string>();
     public List<Note> notes             = new List<Note>();
     public List<FieldType> fieldTypes   = new List<FieldType>();

@@ -22,4 +22,10 @@ public class PlayerProfile : ScriptableObject
             decks.Add(deck);
         }
     }
+
+    [Button]
+    public void ClearDecks()
+    {
+        decks.Clear();
+    }
 }

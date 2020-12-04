@@ -5,6 +5,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Quiz
 {
@@ -15,12 +16,16 @@ namespace Quiz
         //Refactor to use Note and Deck instead
         public Dictionary<string, string> quizSet = new Dictionary<string, string>();
         public Action OnComplete;
-        public float difficultyModifier = 1f;
         public float currentPoints = 0f;
 
-        private Queue<string> quizQueue;
-        private string lastQuiz;
+        //private Queue<string> quizQueue;
+        //private string lastQuiz;
+
+        private Queue<Note> noteQueue;
+        private List<Note> noteSet = new List<Note>();
+
         private GameObject currentQuizObj;
+        private QuizSetting quizSetting;
 
         [SerializeField] private PlayerProfile playerProfile;
         [SerializeField] private List<GameObject> quizType;
@@ -62,18 +67,19 @@ namespace Quiz
 
             //Load current Deck based on Player Profile
             currentDeck = playerProfile.decks[playerProfile.activeDeckIndex];
+            quizSetting = currentDeck.quizSetting;
 
-            foreach (Note note in currentDeck.notes)
+            for (int i = 0; i < quizSetting.maxCardPerTask; i++)
             {
-                if (!quizSet.ContainsKey(note.Fields[0]))
+                Note noteToAdd;
+                do
                 {
-                    quizSet.Add(note.Fields[0], note.Fields[4]);
-                }
+                    noteToAdd = currentDeck.notes[UnityEngine.Random.Range(0, currentDeck.notes.Count - 1)];
+                } while (noteSet.Contains(noteToAdd));
+                noteSet.Add(noteToAdd);
             }
 
-            //TO DO: queue cards based on desired amount of cards to review + new cards
-            List<string> temp = new List<string>(quizSet.Keys);
-            quizQueue = temp.Shuffle().ToQueue();
+            noteQueue = noteSet.ToQueue();
 
             //Spawn new quiz type based on available quiz types
             SpawnNewQuiz();
@@ -94,24 +100,26 @@ namespace Quiz
             //Destroy current quiz
             Destroy(currentQuizObj);
 
+            //Dequeue quiz
+            noteQueue.Dequeue();
+
             //Check if quiz queue is empty
-            if(quizQueue.Count != 0)
+            if(noteQueue.Count != 0)
             {
                 currentQuizObj = Instantiate(quizObject, quizPanel.transform, false);
                 Base qb = currentQuizObj.GetComponent<Base>();
 
                 //Quiz Base Variable Init
                 qb.OnAnswered += OnQuizAnswered;
-                qb.difficultyModifier = difficultyModifier;
-                qb.quizSetRef = quizSet;
+                qb.noteSetRef = noteSet;
+                //qb.quizSetRef = quizSet;
 
-                //QUESTION: Why dequeue it now? just dequeue OnQuizAnswered. Will probably be taken care of when we eventually switch to Deck&Note system though
-                //take queue out and store both question and answer
-                qb.question = quizQueue.Dequeue();
-                qb.answer = quizSet[qb.question];
+                //Peek queue and set Base's question & answer
+                Note note = noteQueue.Peek();
+                qb.question = note.Fields[currentDeck.quizSetting.questionIndex];
+                qb.answer = note.Fields[currentDeck.quizSetting.answerIndex];
 
-                //Store last quiz to be evaluated after quiz is answered
-                lastQuiz = qb.question;
+                qb.setting = quizSetting;
 
                 //Start Quiz
                 qb.OnStart();
@@ -129,6 +137,7 @@ namespace Quiz
             //Add points to current points
             currentPoints += points;
 
+
             //Stuff to do when answer is correct
             if (isCorrect)
             {
@@ -140,13 +149,10 @@ namespace Quiz
             {
                 Invoke("ShowNoteView", delayBtwQuiz / 2);
                 //Add wrong answer to end of queue
-                quizQueue.Enqueue(lastQuiz);
+                noteQueue.Enqueue(noteQueue.Peek());
             }
 
-            
-
             //TO DO: Send this to a "game scene" that will be spawned on start later
-
             //TEMP, DELETE LATER
             string animToTrigger = isCorrect ? "Attack" : "Hurt";
             tempDude.SetTrigger(animToTrigger);
@@ -159,28 +165,13 @@ namespace Quiz
             SingleButtonWindow sbw = Instantiate(notePreviewPromptPrefab, promptHolder.transform, false).GetComponent<SingleButtonWindow>();
             GameObject noteGO = sbw.Initialize(noteViewPrefab, "OK", delegate { SpawnNewQuiz(); });
             NoteViewScript nv = noteGO.GetComponent<NoteViewScript>();
-            nv.Initialize(currentDeck, currentDeck.notes[0]);
+            nv.Initialize(currentDeck, noteQueue.Peek());
         }
 
         public void OnCompleteQuiz()
         {
             OnComplete?.Invoke();
-        }
-
-        //PLEASE REFACTOR PLEASE OH GOD
-        private Note OhGodPleaseDeleteThisStupidCodeLater(string fieldToCheck)
-        {
-            foreach (Note note in currentDeck.notes)
-            {
-                if (note.Fields.Contains(fieldToCheck)) return note;
-            }
-            return null;
-        }
-
-        [Button]
-        public void Test()
-        {
-            AnkiParser.GetDeckFromJson(json.text);
+            SceneManager.LoadScene("S_Menu");
         }
 
     }

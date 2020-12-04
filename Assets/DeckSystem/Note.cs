@@ -6,7 +6,7 @@ using UnityEngine;
 [Serializable]
 public class Note
 {
-    private int delay;
+    private int delay = 0;
 
     public List<string> Fields = new List<string>();
 
