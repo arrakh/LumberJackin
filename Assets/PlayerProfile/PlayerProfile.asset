@@ -302,3 +302,13 @@ MonoBehaviour:
     fieldTypes: 00000000000000000200000000000000000000000000000003000000
   deckFolders:
   - Russian_Cyrillic
+  materials:
+  - {fileID: 11400000, guid: e5b22c87fb7609e4a85f92b2d2b73bc4, type: 2}
+  - {fileID: 11400000, guid: ac1b5883b80a3a248be6c9669ba50dfb, type: 2}
+  - {fileID: 11400000, guid: 23e3fde5d1f5ffa4e8ae63760d4a944b, type: 2}
+  - {fileID: 11400000, guid: 403ec187f06c9244ea8b7db475021fee, type: 2}
+  - {fileID: 11400000, guid: 98f4c3376db9a92419dc7418edf0429e, type: 2}
+  - {fileID: 11400000, guid: d578e043acd3cf04c90bd5b172065468, type: 2}
+  tools:
+  - {fileID: 11400000, guid: 9a68d864e4cdece4f90dfe9d7bd75232, type: 2}
+  - {fileID: 11400000, guid: b593c616e7941114198410df941c15bf, type: 2}

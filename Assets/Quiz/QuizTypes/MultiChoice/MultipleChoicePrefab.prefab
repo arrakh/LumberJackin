@@ -220,8 +220,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Question
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 635b74773abf97447b4a7b0ba306338d, type: 2}
-  m_sharedMaterial: {fileID: 966808411232698054, guid: 635b74773abf97447b4a7b0ba306338d,
+  m_fontAsset: {fileID: 11400000, guid: ff794503810da2943b3312f003227d0c, type: 2}
+  m_sharedMaterial: {fileID: -3093565692010044215, guid: ff794503810da2943b3312f003227d0c,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -448,7 +448,13 @@ MonoBehaviour:
   points: 1
   question: 
   answer: 
+  setting:
+    difficultyModifier: 1
+    questionIndex: 0
+    answerIndex: 0
+    maxCardPerTask: 10
   difficultyModifier: 1
+  noteSetRef: []
   answerTextHolder: {fileID: 1773182957714946477}
   choicePanel: {fileID: 1773182957988013769}
   choiceButtonPrefab: {fileID: 8195475367845285988, guid: 991a8a3ea04663142ac2d687504bd31b,
@@ -594,7 +600,7 @@ MonoBehaviour:
   fitType: 4
   rows: 0
   columns: 2
-  cellSize: {x: 169.5, y: NaN}
+  cellSize: {x: 208, y: NaN}
   spacing: {x: 5, y: 5}
   fitX: 1
   fitY: 1

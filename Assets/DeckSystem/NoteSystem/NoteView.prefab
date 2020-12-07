@@ -138,6 +138,11 @@ MonoBehaviour:
   deck:
     deckName: 
     deckMediaPath: 
+    quizSetting:
+      difficultyModifier: 1
+      questionIndex: 0
+      answerIndex: 0
+      maxCardPerTask: 10
     fieldNames: []
     notes: []
     fieldTypes: 
@@ -724,7 +729,7 @@ PrefabInstance:
     - target: {fileID: 431961796927571797, guid: ef64da8a48df23045ae481804f32e2dc,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 152.5
+      value: 195.5
       objectReference: {fileID: 0}
     - target: {fileID: 431961796927571797, guid: ef64da8a48df23045ae481804f32e2dc,
         type: 3}
@@ -734,7 +739,7 @@ PrefabInstance:
     - target: {fileID: 431961796927571797, guid: ef64da8a48df23045ae481804f32e2dc,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 305
+      value: 391
       objectReference: {fileID: 0}
     - target: {fileID: 431961796927571797, guid: ef64da8a48df23045ae481804f32e2dc,
         type: 3}
@@ -874,7 +879,7 @@ PrefabInstance:
     - target: {fileID: 6593077374147960190, guid: ef64da8a48df23045ae481804f32e2dc,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6593077374147960190, guid: ef64da8a48df23045ae481804f32e2dc,
         type: 3}

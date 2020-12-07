@@ -31,9 +31,13 @@ namespace Quiz
         [SerializeField] private List<GameObject> quizType;
         [SerializeField] private GameObject quizPanel;
         [SerializeField] private GameObject promptHolder;
-        [SerializeField] private GameObject notePreviewPromptPrefab;
+        [SerializeField] private GameObject promptPrefab;
         [SerializeField] private GameObject noteViewPrefab;
         [SerializeField] private float delayBtwQuiz = 2.0f;
+
+        [SerializeField] private GameObject promptHolder_TEMP;
+        [SerializeField] private GameObject materialScrollView_TEMP;
+        [SerializeField] private GameObject blackAlpha_TEMP;
 
         //Temporary debug before a proper deck importer / scheduler
         [SerializeField] private bool useDebugSet;
@@ -104,7 +108,7 @@ namespace Quiz
             noteQueue.Dequeue();
 
             //Check if quiz queue is empty
-            if(noteQueue.Count != 0)
+            if(noteQueue.Count > 0)
             {
                 currentQuizObj = Instantiate(quizObject, quizPanel.transform, false);
                 Base qb = currentQuizObj.GetComponent<Base>();
@@ -126,7 +130,10 @@ namespace Quiz
             }
             else
             {
-                OnCompleteQuiz();
+                Instantiate(promptPrefab, promptHolder_TEMP.transform, false)
+                    .GetComponent<SingleButtonWindow>()
+                    .Initialize(materialScrollView_TEMP, "Yay!", OnCompleteQuiz);
+                blackAlpha_TEMP.SetActive(true);
             }
         }
 
@@ -156,13 +163,11 @@ namespace Quiz
             //TEMP, DELETE LATER
             string animToTrigger = isCorrect ? "Attack" : "Hurt";
             tempDude.SetTrigger(animToTrigger);
-
-            OnCompleteQuiz();
         }
 
         public void ShowNoteView()
         {
-            SingleButtonWindow sbw = Instantiate(notePreviewPromptPrefab, promptHolder.transform, false).GetComponent<SingleButtonWindow>();
+            SingleButtonWindow sbw = Instantiate(promptPrefab, promptHolder.transform, false).GetComponent<SingleButtonWindow>();
             GameObject noteGO = sbw.Initialize(noteViewPrefab, "OK", delegate { SpawnNewQuiz(); });
             NoteViewScript nv = noteGO.GetComponent<NoteViewScript>();
             nv.Initialize(currentDeck, noteQueue.Peek());
