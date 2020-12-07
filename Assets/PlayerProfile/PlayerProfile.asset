@@ -302,6 +302,11 @@ MonoBehaviour:
     fieldTypes: 00000000000000000200000000000000000000000000000003000000
   deckFolders:
   - Russian_Cyrillic
+  - English-share
+  - Russian_Baasic_Words
+  - Russian_Core_100
+  - Alex's_English_words
+  - Russian_Word_List
   materials:
   - {fileID: 11400000, guid: e5b22c87fb7609e4a85f92b2d2b73bc4, type: 2}
   - {fileID: 11400000, guid: ac1b5883b80a3a248be6c9669ba50dfb, type: 2}
