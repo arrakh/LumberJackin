@@ -16,4 +16,21 @@ MonoBehaviour:
   displayName: 
   description: 
   resourceIcon: {fileID: 0}
-  level: 0
+  level: 1
+  upgrades:
+  - level: 1
+    requirements:
+    - _material: {fileID: 11400000, guid: ac1b5883b80a3a248be6c9669ba50dfb, type: 2}
+      reqAmount: 1
+    - _material: {fileID: 11400000, guid: 98f4c3376db9a92419dc7418edf0429e, type: 2}
+      reqAmount: 1
+  - level: 2
+    requirements:
+    - _material: {fileID: 11400000, guid: ac1b5883b80a3a248be6c9669ba50dfb, type: 2}
+      reqAmount: 2
+    - _material: {fileID: 11400000, guid: e5b22c87fb7609e4a85f92b2d2b73bc4, type: 2}
+      reqAmount: 2
+  - level: 0
+    requirements: []
+  - level: 0
+    requirements: []

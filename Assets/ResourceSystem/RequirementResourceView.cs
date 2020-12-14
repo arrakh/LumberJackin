@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,16 +15,30 @@ namespace ResourceSystem
     {
         public Material _material;
         public int reqAmount;
+
+
+        public bool IsRequirementFulfilled()
+        {
+            return _material.amount >= reqAmount;
+        }
     }
     
     public class RequirementResourceView : MonoBehaviour
     {
-        public List<MaterialRequirement> requireMaterials;
+        public Tool toolToView;
         public GameObject contentHolder;
+        public TextMeshProUGUI currentLevelText;
         public GameObject materialViewPrefab;
 
         private void Start()
         {
+            UpdateLevelText(toolToView.level);
+            toolToView.OnLevelChange += UpdateLevelText;
+        }
+        
+        public void UpdateLevelText(int level)
+        {
+            currentLevelText.text = level.ToString();
             GenerateResourceView();
         }
 
@@ -31,7 +46,7 @@ namespace ResourceSystem
         {
             contentHolder.transform.Clear();
 
-            foreach (MaterialRequirement material in requireMaterials)
+            foreach (MaterialRequirement material in toolToView.GetToolUpgrade(toolToView.level+1).requirements)
             {
                 MaterialView mv = Instantiate(materialViewPrefab, contentHolder.transform, false).GetComponent<MaterialView>();
                 mv.materialText.text = material.reqAmount.ToString();

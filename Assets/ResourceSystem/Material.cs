@@ -7,7 +7,7 @@ namespace ResourceSystem
     [CreateAssetMenu(fileName ="Material", menuName = "Resource System/Material Item")]
     public class Material : BaseResource
     {
-        [SerializeField] private int amount;
+        [SerializeField] public int amount;
 
         public override int GetResourceValue()
         {
