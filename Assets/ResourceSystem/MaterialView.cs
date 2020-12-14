@@ -8,8 +8,8 @@ namespace ResourceSystem
 {
     public class MaterialView : MonoBehaviour
     {
-        [SerializeField] private Image materialIcon;
-        [SerializeField] private TextMeshProUGUI materialText;
+        [SerializeField] public Image materialIcon;
+        [SerializeField] public TextMeshProUGUI materialText;
 
         public void Initialize(Material materialToView)
         {
