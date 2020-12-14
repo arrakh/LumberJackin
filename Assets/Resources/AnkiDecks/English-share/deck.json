@@ -168,7 +168,7 @@
             "data": "",
             "fields": [
                 "anything",
-                "<div>что-нибудь, ничего;</div><br />\n<div style=\"font-size:16px\"><b>Употребляется:</b><br />• в отрицательных предложениях,<br />\n• общих вопросах<br />\n• и условных предложениях.\n</div>"
+                "нибудь"
             ],
             "flags": 0,
             "guid": "nz[fklN^g`",
@@ -183,7 +183,7 @@
             "data": "",
             "fields": [
                 "to count",
-                "1) считать;<div>2) положиться</div>"
+                "считать"
             ],
             "flags": 0,
             "guid": "hts9]eAsLK",
@@ -273,7 +273,7 @@
             "data": "",
             "fields": [
                 "to arrive",
-                "прибывать, наступать (о времени года)"
+                "прибывать, наступать"
             ],
             "flags": 0,
             "guid": "n!m&gwE=;_",
@@ -363,7 +363,7 @@
             "data": "",
             "fields": [
                 "to miss",
-                "1) скучать;<div>2) упускать, пропускать</div>"
+                "скучать; упускать; пропускать"
             ],
             "flags": 0,
             "guid": "zqI~z*i(}+",
@@ -378,7 +378,7 @@
             "data": "",
             "fields": [
                 "to receive",
-                "получать (не <i>to get</i>)"
+                "получать"
             ],
             "flags": 0,
             "guid": "kanK@A#d$w",
@@ -423,7 +423,7 @@
             "data": "",
             "fields": [
                 "to serve",
-                "1) подавать;<div>2) служить</div>"
+                "подавать"
             ],
             "flags": 0,
             "guid": "fc6&4QnBcS",
@@ -468,7 +468,7 @@
             "data": "",
             "fields": [
                 "too",
-                "1) слишком;<div>2) тоже</div>"
+                "слишком; тоже"
             ],
             "flags": 0,
             "guid": "g`sO>Sw^E|",
@@ -577,7 +577,7 @@
             "data": "",
             "fields": [
                 "decision",
-                "1) решение&nbsp;(не&nbsp;<i>solution</i>);<div>2) выбор (не <i>choise</i>, <i>selection</i>, <i>option</i>, <i>alternative</i>, <i>assortment</i>)</div>"
+                "1) решение"
             ],
             "flags": 0,
             "guid": "i^VtuaK,Fh",
@@ -686,7 +686,7 @@
             "data": "",
             "fields": [
                 "something",
-                "<div>что-нибудь</div><br />\n<div style=\"font-size:16px\"><b>Употребляется:</b><br />\n• в утвердительных предложениях, <br />\n• специальных вопросах, <br />\n• и общих вопросах, в которых выражены просьба, какое-либо предложение.</div>"
+                "что-нибудь"
             ],
             "flags": 0,
             "guid": "JcV$F!%I`7",
@@ -776,7 +776,7 @@
             "data": "",
             "fields": [
                 "doing",
-                "1) дела, акт, действие;<div>2) делающий</div>"
+                "дела, акт, действие"
             ],
             "flags": 0,
             "guid": "Kh],y^&Pqt",
@@ -881,7 +881,7 @@
             "data": "",
             "fields": [
                 "piece",
-                "1) кусок, штука;<div>2) пьеса, произведение</div>"
+                "кусок, штука; пьеса, произведение"
             ],
             "flags": 0,
             "guid": ":jpaLxgK[",
@@ -896,7 +896,7 @@
             "data": "",
             "fields": [
                 "couple",
-                "пара, двое, два (не <i>pair</i>)"
+                "пара, двое, два"
             ],
             "flags": 0,
             "guid": "NSBbz]~HZ/",
@@ -943,7 +943,7 @@
             "data": "",
             "fields": [
                 "appearance",
-                "1) появление, возникновение (не <i>emerge</i>);<div>2) внешний вид, внешность;</div><div>3) выступление</div>"
+                "появление, возникновение  внешний вид, внешность;"
             ],
             "flags": 0,
             "guid": "Kz7d[]4j3A",
@@ -958,7 +958,7 @@
             "data": "",
             "fields": [
                 "affair",
-                "<div>1) событие (не <i>event</i>);</div><div>2) дело (не <i>matter</i>, <i>act</i>, <i>case</i>, <i>business</i>);</div><div>3) происшествие (не <i>incident</i>, <i>accident</i>, <i>event</i>);</div><div>4) инцидент (не <i>incident</i>)</div>"
+                "событие"
             ],
             "flags": 0,
             "guid": "OtrIG=7H*W",
@@ -1047,7 +1047,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<div>dedication</div>",
+                "dedication",
                 "преданность"
             ],
             "flags": 0,
@@ -2695,8 +2695,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<div>proof</div>",
-                "<div>доказательство</div>"
+                "proof",
+                "доказательство"
             ],
             "flags": 0,
             "guid": "FCvclDdmMZ",
@@ -3234,7 +3234,7 @@
             "data": "",
             "fields": [
                 "fireworks",
-                "1) вспыльчивость;<div>2) фейерверк</div>"
+                "вспыльчивость; фейерверк"
             ],
             "flags": 0,
             "guid": "edvu0Y3}Vu",
@@ -3618,8 +3618,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<div>regime</div>",
-                "<div>режим</div>"
+                "regime",
+                "режим"
             ],
             "flags": 0,
             "guid": "vR;E{lweIU",
@@ -3669,8 +3669,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<div>individualism</div>",
-                "<div>индивидуализм</div>"
+                "individualism",
+                "индивидуализм"
             ],
             "flags": 0,
             "guid": "MA(vVEdteh",
@@ -3908,7 +3908,7 @@
             "data": "",
             "fields": [
                 "social",
-                "1) общественный, социальный;<div>2) коммуникабельный, общительный</div>"
+                "общественный, социальный;коммуникабельный, общительный"
             ],
             "flags": 0,
             "guid": "xcWAdm|@)1",
@@ -3993,7 +3993,7 @@
             "data": "",
             "fields": [
                 "issue",
-                "1) проблема, вопрос;<div>2) выпуск</div>"
+                "проблема, вопрос; выпуск"
             ],
             "flags": 0,
             "guid": "sK[)w%:#!p",
@@ -4044,7 +4044,7 @@
             "data": "",
             "fields": [
                 "researcher",
-                "исследователь<div><br /></div>"
+                "исследователь"
             ],
             "flags": 0,
             "guid": "cK!0MwtsJ>",
@@ -4395,7 +4395,7 @@
             "data": "",
             "fields": [
                 "genial",
-                "1) весёлый, общительный;<div>2) добрый, доброжелательный</div>"
+                "весёлый, общительный; добрый, доброжелательный"
             ],
             "flags": 0,
             "guid": "s8ayS@Hq2Y",
@@ -4993,7 +4993,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> world",
+                "world",
                 "мир"
             ],
             "flags": 0,
@@ -5006,7 +5006,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> mind",
+                "mind",
                 "ум"
             ],
             "flags": 0,
@@ -5019,7 +5019,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(adj.)</span> philosophical",
+                "philosophical",
                 "философский"
             ],
             "flags": 0,
@@ -5032,7 +5032,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> soul",
+                "soul",
                 "душа"
             ],
             "flags": 0,
@@ -5045,7 +5045,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> idea",
+                "idea",
                 "идея"
             ],
             "flags": 0,
@@ -5058,7 +5058,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> being",
+                "being",
                 "существование; существо"
             ],
             "flags": 0,
@@ -5071,7 +5071,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> thought",
+                "thought",
                 "мысль"
             ],
             "flags": 0,
@@ -5084,7 +5084,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> conception",
+                "conception",
                 "концепция"
             ],
             "flags": 0,
@@ -5097,7 +5097,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> nature",
+                "nature",
                 "природа"
             ],
             "flags": 0,
@@ -5110,7 +5110,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> anthropology",
+                "anthropology",
                 "антропология"
             ],
             "flags": 0,
@@ -5123,7 +5123,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> way",
+                "way",
                 "способ"
             ],
             "flags": 0,
@@ -5136,7 +5136,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> object",
+                "object",
                 "объект"
             ],
             "flags": 0,
@@ -5149,7 +5149,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> kind",
+                "kind",
                 "вид; сорт"
             ],
             "flags": 0,
@@ -5162,7 +5162,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> knowledge",
+                "knowledge",
                 "знание"
             ],
             "flags": 0,
@@ -5175,7 +5175,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> philosophy",
+                "philosophy",
                 "философия"
             ],
             "flags": 0,
@@ -5188,7 +5188,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> form",
+                "form",
                 "форма"
             ],
             "flags": 0,
@@ -5201,7 +5201,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> thing",
+                "thing",
                 "вещь"
             ],
             "flags": 0,
@@ -5214,7 +5214,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(adj.)</span> natural",
+                "natural",
                 "естественный"
             ],
             "flags": 0,
@@ -5227,7 +5227,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> philosopher",
+                "philosopher",
                 "философ"
             ],
             "flags": 0,
@@ -5240,7 +5240,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(adj.)</span> other",
+                "other",
                 "другой"
             ],
             "flags": 0,
@@ -5253,7 +5253,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(adv.)</span> also",
+                "also",
                 "тоже; также; к тому же"
             ],
             "flags": 0,
@@ -5266,7 +5266,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> term",
+                "term",
                 "термин"
             ],
             "flags": 0,
@@ -5279,7 +5279,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(noun)</span> life",
+                "ife",
                 "жизнь"
             ],
             "flags": 0,
@@ -5292,7 +5292,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(verb)</span> to understand",
+                "to understand",
                 "понимать"
             ],
             "flags": 0,
@@ -5305,7 +5305,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(verb)</span> to think",
+                "to think",
                 "думать"
             ],
             "flags": 0,
@@ -24584,7 +24584,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(adv.)</span> correspondingly",
+                "orrespondingly",
                 "соответственно"
             ],
             "flags": 0,
@@ -24636,7 +24636,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<span style=\"color: #aaa;\">(adv.)</span> strictly",
+                "strictly",
                 "строго"
             ],
             "flags": 0,
