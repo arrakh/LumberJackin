@@ -15,5 +15,5 @@ MonoBehaviour:
   id: stick
   displayName: Stick
   description: 
-  resourceIcon: {fileID: 0}
-  amount: 0
+  resourceIcon: {fileID: 21300000, guid: de1a9af00f361a742a148aec122d33d2, type: 3}
+  amount: 43

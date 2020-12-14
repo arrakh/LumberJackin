@@ -161,7 +161,7 @@ namespace Quiz
 
             //TO DO: Send this to a "game scene" that will be spawned on start later
             //TEMP, DELETE LATER
-            string animToTrigger = isCorrect ? "Attack" : "Hurt";
+            string animToTrigger = isCorrect ? "Swing" : "Hit";
             tempDude.SetTrigger(animToTrigger);
         }
 
