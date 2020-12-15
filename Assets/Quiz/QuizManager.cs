@@ -71,6 +71,7 @@ namespace Quiz
 
             //Load current Deck based on Player Profile
             currentDeck = playerProfile.decks[playerProfile.activeDeckIndex];
+            currentDeck.notes.Shuffle();
             quizSetting = currentDeck.quizSetting;
 
             for (int i = 0; i < quizSetting.maxCardPerTask; i++)

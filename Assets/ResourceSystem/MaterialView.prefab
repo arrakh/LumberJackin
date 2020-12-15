@@ -313,6 +313,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   materialIcon: {fileID: 4272000261020263180}
   materialText: {fileID: 8341826109856394495}
+  toView: {fileID: 0}
+  useToView: 0
+  disableOnZero: 1
 --- !u!1 &5400688340701242655
 GameObject:
   m_ObjectHideFlags: 0

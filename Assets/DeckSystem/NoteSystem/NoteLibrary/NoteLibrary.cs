@@ -15,7 +15,8 @@ namespace NoteView
         private void OnEnable()
         {
             noteView.deck = deckToView;
-            SetNoteView(0);
+            index = 0;
+            SetNoteView(index);
         }
 
         public void CycleIndex(int offset)
