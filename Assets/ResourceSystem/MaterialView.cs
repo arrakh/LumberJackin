@@ -11,8 +11,9 @@ namespace ResourceSystem
         [SerializeField] public Image materialIcon;
         [SerializeField] public TextMeshProUGUI materialText;
         [SerializeField] private Material toView;
-        [SerializeField] private bool useToView = false;
+        [SerializeField] private bool useToView;
         [SerializeField] private bool disableOnZero = true;
+        [SerializeField] private bool staticAmount;
 
         private void Start()
         {
@@ -21,13 +22,24 @@ namespace ResourceSystem
 
         public void Initialize(Material materialToView)
         {
-            if (materialToView.GetResourceValue() <= 0 && disableOnZero)
+            if (materialToView.amount <= 0 && disableOnZero)
             {
                 this.gameObject.SetActive(false); 
                 return;
             }
+
             materialIcon.sprite = materialToView.ResourceIcon;
-            materialText.text = materialToView.GetResourceValue().ToString();
+
+            if (!staticAmount)
+            {
+                materialToView.OnAmountChanged += UpdateAmount;
+                UpdateAmount(materialToView.amount);
+            }
+        }
+
+        private void UpdateAmount(int amount)
+        {
+            materialText.text = amount.ToString();
         }
     }
 }

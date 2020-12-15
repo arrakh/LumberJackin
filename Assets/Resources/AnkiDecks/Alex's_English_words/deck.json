@@ -128,7 +128,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "n.&nbsp;estimate",
+                "estimate",
                 "оценка"
             ],
             "flags": 0,
@@ -141,7 +141,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "n.&nbsp;quantities",
+                "quantities",
                 "количество"
             ],
             "flags": 0,
@@ -154,7 +154,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;obtain",
+                "obtain",
                 "получать"
             ],
             "flags": 0,
@@ -167,7 +167,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;accompany",
+                "accompany",
                 "сопровождать"
             ],
             "flags": 0,
@@ -180,7 +180,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;affix",
+                "affix",
                 "прикреплять"
             ],
             "flags": 0,
@@ -193,7 +193,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "adv. surreptitiously",
+                "surreptitiously",
                 "тайком"
             ],
             "flags": 0,
@@ -206,7 +206,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "n. chaperon",
+                "chaperon",
                 "компаньонка"
             ],
             "flags": 0,
@@ -219,7 +219,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;immerse",
+                "immerse",
                 "погружать"
             ],
             "flags": 0,
@@ -232,7 +232,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;pan",
+                "pan",
                 "промывать"
             ],
             "flags": 0,
@@ -245,8 +245,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;paddle",
-                "плыть на байдарке, плескаться<div>We go paddling.</div>"
+                "paddle",
+                "плыть на байдарке, плескаться"
             ],
             "flags": 0,
             "guid": "hNZ/WucGf@",
@@ -258,7 +258,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "adv.&nbsp;undoubtedly",
+                "undoubtedly",
                 "несомненно"
             ],
             "flags": 0,
@@ -271,7 +271,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "adj.&nbsp;unforgettable",
+                "unforgettable",
                 "незабываемый"
             ],
             "flags": 0,
@@ -284,7 +284,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;beam",
+                "beam",
                 "светить"
             ],
             "flags": 0,
@@ -297,7 +297,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;refine",
+                "refine",
                 "совершенствовать"
             ],
             "flags": 0,
@@ -310,7 +310,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;shape",
+                "shape",
                 "формировать"
             ],
             "flags": 0,
@@ -323,7 +323,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "n.&nbsp;edge",
+                "edge",
                 "край"
             ],
             "flags": 0,
@@ -336,7 +336,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "adj.&nbsp;rural",
+                "rural",
                 "сельский"
             ],
             "flags": 0,
@@ -349,7 +349,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "n. gap",
+                "gap",
                 "зазор, щель, пробел"
             ],
             "flags": 0,
@@ -362,7 +362,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v. float",
+                "float",
                 "плавать"
             ],
             "flags": 0,
@@ -375,7 +375,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;steer",
+                "steer",
                 "управлять, направлять, руководить"
             ],
             "flags": 0,
@@ -388,7 +388,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "adj.&nbsp;steady",
+                "steady",
                 "устойчивый"
             ],
             "flags": 0,
@@ -401,7 +401,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "adj.&nbsp;inflatable",
+                "inflatable",
                 "надувной"
             ],
             "flags": 0,
@@ -414,8 +414,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;withstand",
-                "выдерживать<div>It is engineered to withstand the harsh environmental conditions.</div>"
+                "withstand",
+                "выдерживать"
             ],
             "flags": 0,
             "guid": "I1OH7:BQ5}",
@@ -427,7 +427,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "adj. subsequent",
+                "subsequent",
                 "последующий"
             ],
             "flags": 0,
@@ -440,7 +440,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "adj. convicted",
+                "convicted",
                 "осужденный"
             ],
             "flags": 0,
@@ -453,7 +453,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;rob",
+                "rob",
                 "грабить"
             ],
             "flags": 0,
@@ -466,7 +466,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;steal",
+                "steal",
                 "воровать"
             ],
             "flags": 0,
@@ -479,7 +479,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "v.&nbsp;implement",
+                "implement",
                 "осуществлять"
             ],
             "flags": 0,
@@ -492,7 +492,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "n.&nbsp;intake",
+                "intake",
                 "потребление, впуск"
             ],
             "flags": 0,
@@ -505,7 +505,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "n.&nbsp;threshold",
+                "threshold",
                 "порог, предел"
             ],
             "flags": 0,
@@ -518,7 +518,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "n.&nbsp;curb",
+                "curb",
                 "обочина"
             ],
             "flags": 0,
@@ -531,7 +531,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "n.&nbsp;dawn",
+                "dawn",
                 "рассвет"
             ],
             "flags": 0,
@@ -544,7 +544,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "n.&nbsp;dusk",
+                "dusk",
                 "сумерки"
             ],
             "flags": 0,

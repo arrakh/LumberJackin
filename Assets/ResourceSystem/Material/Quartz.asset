@@ -16,4 +16,4 @@ MonoBehaviour:
   displayName: Quartz
   description: 
   resourceIcon: {fileID: 0}
-  amount: 0
+  _amount: 0
