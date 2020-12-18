@@ -26,9 +26,11 @@ namespace Quiz
 
         private GameObject currentQuizObj;
         private QuizSetting quizSetting;
+        private GameView currentGameView;
 
         [SerializeField] private PlayerProfile playerProfile;
         [SerializeField] private List<GameObject> quizType;
+        [SerializeField] private GameObject gameView;
         [SerializeField] private GameObject quizPanel;
         [SerializeField] private GameObject promptHolder;
         [SerializeField] private GameObject promptPrefab;
@@ -43,9 +45,6 @@ namespace Quiz
         [SerializeField] private bool useDebugSet;
         [SerializeField] DebugSet debugSetToUse;
         [SerializeField] TextAsset json;
-
-        //Temp for anim testing
-        [SerializeField] Animator tempDude;
 
         #region Singleton Instance
         private static QuizManager _instance;
@@ -68,6 +67,8 @@ namespace Quiz
 
         private void Start()
         {
+
+            currentGameView = Instantiate(gameView).GetComponent<GameView>();
 
             //Load current Deck based on Player Profile
             currentDeck = playerProfile.decks[playerProfile.activeDeckIndex];
@@ -160,10 +161,8 @@ namespace Quiz
                 noteQueue.Enqueue(noteQueue.Peek());
             }
 
-            //TO DO: Send this to a "game scene" that will be spawned on start later
-            //TEMP, DELETE LATER
-            string animToTrigger = isCorrect ? "Swing" : "Hit";
-            tempDude.SetTrigger(animToTrigger);
+            //Trigger Answer func on GameView
+            currentGameView.OnAnswer(isCorrect);
         }
 
         public void ShowNoteView()
