@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 186079236157156480, guid: f1d02eaf2832d5045b8a948e8e236904,
+        type: 3}
+      propertyPath: m_Name
+      value: hammer
+      objectReference: {fileID: 0}
     - target: {fileID: 3294101239132666804, guid: f1d02eaf2832d5045b8a948e8e236904,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -101,7 +106,18 @@ PrefabInstance:
     - target: {fileID: 3294101239230582059, guid: f1d02eaf2832d5045b8a948e8e236904,
         type: 3}
       propertyPath: m_Name
-      value: CutTree
+      value: GatherRock
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643542906743492870, guid: f1d02eaf2832d5045b8a948e8e236904,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d0d653157b368084aafe6cf6e6daaf86,
+        type: 3}
+    - target: {fileID: 3643542906743492870, guid: f1d02eaf2832d5045b8a948e8e236904,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1d02eaf2832d5045b8a948e8e236904, type: 3}
