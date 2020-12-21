@@ -724,10 +724,9 @@ MonoBehaviour:
     fieldTypes: 
   currentPoints: 0
   playerProfile: {fileID: 11400000, guid: a221028ec1e1953409fbf2b1cb6ebba4, type: 2}
+  taskSetting: {fileID: 11400000, guid: 57b635e7428a4724680cc595da1320d2, type: 2}
   quizType:
   - {fileID: 1773182957817302802, guid: 754547ef47861174a98a128f91692a28, type: 3}
-  gameView: {fileID: 5783391951623731378, guid: aeebd7f1701f12e448c263a1dec7bfa3,
-    type: 3}
   quizPanel: {fileID: 616866211}
   promptHolder: {fileID: 1157873691}
   promptPrefab: {fileID: 4268605818148309401, guid: cf502b5b011916c4e83d748949ded6d8,

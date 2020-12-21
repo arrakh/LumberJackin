@@ -27,10 +27,11 @@ namespace NoteView
             {
                 index = 0;
             } 
-            else if (index >= deckToView.notes.Count - 1)
+            else if (index >= deckToView.notes.Count)
             {
-                index = deckToView.notes.Count;
+                index = deckToView.notes.Count - 1;
             }
+            Debug.Log(index);
 
             SetNoteView(index);
         }

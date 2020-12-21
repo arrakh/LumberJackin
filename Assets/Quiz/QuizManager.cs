@@ -27,10 +27,11 @@ namespace Quiz
         private GameObject currentQuizObj;
         private QuizSetting quizSetting;
         private GameView currentGameView;
+        private List<TaskReward> currentRewards;
 
         [SerializeField] private PlayerProfile playerProfile;
+        [SerializeField] private TaskSetting taskSetting;
         [SerializeField] private List<GameObject> quizType;
-        [SerializeField] private GameObject gameView;
         [SerializeField] private GameObject quizPanel;
         [SerializeField] private GameObject promptHolder;
         [SerializeField] private GameObject promptPrefab;
@@ -68,7 +69,8 @@ namespace Quiz
         private void Start()
         {
 
-            currentGameView = Instantiate(gameView).GetComponent<GameView>();
+            currentGameView = Instantiate(taskSetting.GetActiveTask().gameViewPrefab).GetComponent<GameView>();
+            currentRewards = taskSetting.GetActiveTask().rewards;
 
             //Load current Deck based on Player Profile
             currentDeck = playerProfile.decks[playerProfile.activeDeckIndex];
@@ -176,6 +178,14 @@ namespace Quiz
         public void OnCompleteQuiz()
         {
             OnComplete?.Invoke();
+
+            var multiplier = taskSetting.GetActiveTask().usingTool.level;
+            foreach (TaskReward reward in currentRewards)
+            {
+                int rewardAmount = UnityEngine.Random.Range(reward.minRandomRange, reward.maxRandomRange);
+                reward.materialReward.amount += rewardAmount * multiplier;
+            }
+
             SceneManager.LoadScene("S_Menu");
         }
 
