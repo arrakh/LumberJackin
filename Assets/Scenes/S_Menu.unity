@@ -1057,7 +1057,7 @@ MonoBehaviour:
   fitType: 4
   rows: 1
   columns: 4
-  cellSize: {x: 191.24998, y: 167.70418}
+  cellSize: {x: 191.25, y: 167.9264}
   spacing: {x: 5, y: 5}
   fitX: 1
   fitY: 1
@@ -2565,7 +2565,7 @@ PrefabInstance:
     - target: {fileID: 5363790654721856074, guid: 0543027f9a08ad04b95bf128dba72646,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 14.999939
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5497324669041058952, guid: 0543027f9a08ad04b95bf128dba72646,
         type: 3}
