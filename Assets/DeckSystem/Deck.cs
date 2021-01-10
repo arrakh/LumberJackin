@@ -40,12 +40,12 @@ public class Deck
     {
         if (note.StartsWith(imagePrefix))
         {
-            formattedNote = note.Replace(imagePrefix, string.Empty).Replace(imagePostfix, string.Empty);
+            formattedNote = note.Replace(imagePrefix, string.Empty).Replace(imagePostfix, string.Empty).RemoveExtension();
             return FieldType.Image;
         }
         else if (note.StartsWith(soundPrefix))
         {
-            formattedNote = note.Replace(soundPrefix, string.Empty).Replace(soundPostfix, string.Empty);
+            formattedNote = note.Replace(soundPrefix, string.Empty).Replace(soundPostfix, string.Empty).RemoveExtension();
             return FieldType.Sound;
         } 
         //else if (note.Contains(clozeFormat))
@@ -59,4 +59,5 @@ public class Deck
             return FieldType.Text;
         }
     }
+
 }

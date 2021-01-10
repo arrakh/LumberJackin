@@ -38,13 +38,13 @@ namespace NoteView
 
             for (int i = 0; i < deck.fieldNames.Count; i++)
             {
-                NoteField nf = Instantiate(getFieldPrefab(deck.fieldTypes[i]), contentHolder.transform, false).GetComponent<NoteField>();
-                nf.Initialize(deck.fieldNames[i], note.Fields[i]);
+                NoteField nf = Instantiate(GetFieldPrefab(deck.fieldTypes[i]), contentHolder.transform, false).GetComponent<NoteField>();
+                nf.Initialize(deck.fieldNames[i], GetFieldObject(deck.fieldTypes[i], note.Fields[i]));
             }
 
         }
 
-        GameObject getFieldPrefab(FieldType type)
+        GameObject GetFieldPrefab(FieldType type)
         {
             switch (type)
             {
@@ -59,6 +59,24 @@ namespace NoteView
                 default:
                     return noteFieldPrefab_Text;
             }
+        }
+
+        object GetFieldObject(FieldType type, string value)
+        {
+            switch (type)
+            {
+                case FieldType.Text:
+                    return value;
+                case FieldType.Cloze:
+                    return value;
+                case FieldType.Image:
+                    Debug.Log(value);
+                    return Resources.Load<Sprite>(deck.deckMediaPath + "/" + value);
+                case FieldType.Sound:
+                    Debug.Log(value);
+                    return Resources.Load<AudioClip>(deck.deckMediaPath + "/" + value);
+            }
+            return null;
         }
     }
 

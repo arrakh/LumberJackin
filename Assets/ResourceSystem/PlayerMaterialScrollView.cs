@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ResourceSystem
 {
-    public class MaterialScrollView : MonoBehaviour
+    public class PlayerMaterialScrollView : MonoBehaviour
     {
         public PlayerProfile playerProfile;
         public GameObject contentHolder;

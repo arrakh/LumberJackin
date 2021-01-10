@@ -16,7 +16,6 @@ namespace Quiz
         //Refactor to use Note and Deck instead
         public Dictionary<string, string> quizSet = new Dictionary<string, string>();
         public Action OnComplete;
-        public float currentPoints = 0f;
 
         //private Queue<string> quizQueue;
         //private string lastQuiz;
@@ -33,6 +32,7 @@ namespace Quiz
         [SerializeField] private TaskSetting taskSetting;
         [SerializeField] private List<GameObject> quizType;
         [SerializeField] private GameObject quizPanel;
+        [SerializeField] private GameObject resultPanel;
         [SerializeField] private GameObject promptHolder;
         [SerializeField] private GameObject promptPrefab;
         [SerializeField] private GameObject noteViewPrefab;
@@ -46,6 +46,11 @@ namespace Quiz
         [SerializeField] private bool useDebugSet;
         [SerializeField] DebugSet debugSetToUse;
         [SerializeField] TextAsset json;
+        
+        //Score stuff
+        private float currentPoints = 0f;
+        private int totalCorrect;
+        private int totalWrong;
 
         #region Singleton Instance
         private static QuizManager _instance;
@@ -134,9 +139,7 @@ namespace Quiz
             }
             else
             {
-                Instantiate(promptPrefab, promptHolder_TEMP.transform, false)
-                    .GetComponent<SingleButtonWindow>()
-                    .Initialize(materialScrollView_TEMP, "Yay!", OnCompleteQuiz);
+                OnCompleteQuiz();
                 blackAlpha_TEMP.SetActive(true);
             }
         }
@@ -152,12 +155,16 @@ namespace Quiz
             //Stuff to do when answer is correct
             if (isCorrect)
             {
+                totalCorrect++;
+
                 //Spawn quiz after a delay, will spawn randomly by default
                 Invoke("SpawnNewQuiz", delayBtwQuiz);
             }
             //Stuff to do when answer is wrong
             else
             {
+                totalWrong++;
+
                 Invoke("ShowNoteView", delayBtwQuiz / 2);
                 //Add wrong answer to end of queue
                 noteQueue.Enqueue(noteQueue.Peek());
@@ -179,14 +186,23 @@ namespace Quiz
         {
             OnComplete?.Invoke();
 
+            //Seriously what the fuck is this code even
+            List<KeyValuePair<ResourceSystem.Material, int>> mats = new List<KeyValuePair<ResourceSystem.Material, int>>();
+
             var multiplier = taskSetting.GetActiveTask().usingTool.level;
             foreach (TaskReward reward in currentRewards)
             {
-                int rewardAmount = UnityEngine.Random.Range(reward.minRandomRange, reward.maxRandomRange);
-                reward.materialReward.amount += rewardAmount * multiplier;
+                int rewardAmount = UnityEngine.Random.Range(reward.minRandomRange, reward.maxRandomRange) * multiplier;
+                reward.materialReward.amount += rewardAmount;
+
+                //No, seriously. What the actual fuck. Why.
+                mats.Add(new KeyValuePair<ResourceSystem.Material, int>(reward.materialReward, rewardAmount));
             }
 
-            SceneManager.LoadScene("S_Menu");
+            resultPanel.SetActive(true);
+            ResultScreen rs = resultPanel.GetComponent<ResultScreen>();
+            rs.Initialize(Mathf.FloorToInt(currentPoints), quizSetting.maxCardPerTask, totalCorrect, totalWrong, mats);
+
         }
 
     }
