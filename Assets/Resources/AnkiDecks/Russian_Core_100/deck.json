@@ -1,0 +1,2942 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "5dfaebe1-384d-11eb-addf-8878730f6ebd",
+    "deck_config_uuid": "369a271d-384d-11eb-bdd6-8878730f6ebd",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "369a271d-384d-11eb-bdd6-8878730f6ebd",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "Please see the <a href='https://ankiweb.net/shared/info/'>shared deck page</a> for more info.",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "100595.mp3",
+        "100607.mp3",
+        "10083_96square.jpg",
+        "1008489.mp3",
+        "100960.mp3",
+        "100961.mp3",
+        "101028.mp3",
+        "101030.mp3",
+        "101031.mp3",
+        "101032.mp3",
+        "101033.mp3",
+        "101034.mp3",
+        "101035.mp3",
+        "101036.mp3",
+        "101045.mp3",
+        "101059.mp3",
+        "101061.mp3",
+        "101062.mp3",
+        "101071.mp3",
+        "101073.mp3",
+        "101206.mp3",
+        "10126_96square.jpg",
+        "101391.mp3",
+        "10146_96square.jpg",
+        "101522.mp3",
+        "101618.mp3",
+        "101623.mp3",
+        "101626.mp3",
+        "101627.mp3",
+        "101628.mp3",
+        "101629.mp3",
+        "101632.mp3",
+        "101635.mp3",
+        "101751.mp3",
+        "101810.mp3",
+        "101990.mp3",
+        "102154.mp3",
+        "102162.mp3",
+        "102164.mp3",
+        "102239.mp3",
+        "10304_96square.jpg",
+        "14992_96square.jpg",
+        "15190_96square.jpg",
+        "15526_96square.jpg",
+        "15728_96square.jpg",
+        "16933_96square.jpg",
+        "17227_96square.jpg",
+        "17247_96square.jpg",
+        "17257_96square.jpg",
+        "17269_96square.jpg",
+        "17270_96square.jpg",
+        "17412_96square.jpg",
+        "19050_96square.jpg",
+        "20235_96square.jpg",
+        "21620.mp3",
+        "21625.mp3",
+        "21627.mp3",
+        "21629.mp3",
+        "21631.mp3",
+        "21643_96square.jpg",
+        "21648_96square.jpg",
+        "21754.mp3",
+        "21768_96square.jpg",
+        "21795_96square.jpg",
+        "21796_96square.jpg",
+        "21798_96square.jpg",
+        "21799_96square.jpg",
+        "21800_96square.jpg",
+        "21801_96square.jpg",
+        "21802_96square.jpg",
+        "21803_96square.jpg",
+        "21805_96square.jpg",
+        "21830.mp3",
+        "21835.mp3",
+        "21848.mp3",
+        "21934.mp3",
+        "21948.mp3",
+        "21963_96square.jpg",
+        "21964_96square.jpg",
+        "21965_96square.jpg",
+        "21966_96square.jpg",
+        "21967_96square.jpg",
+        "21968_96square.jpg",
+        "22014_96square.jpg",
+        "22015_96square.jpg",
+        "22016_96square.jpg",
+        "22019_96square.jpg",
+        "22020_96square.jpg",
+        "22021_96square.jpg",
+        "22022_96square.jpg",
+        "22023_96square.jpg",
+        "22024_96square.jpg",
+        "22025_96square.jpg",
+        "22026_96square.jpg",
+        "22027_96square.jpg",
+        "22028_96square.jpg",
+        "22029_96square.jpg",
+        "22030_96square.jpg",
+        "22031_96square.jpg",
+        "22032_96square.jpg",
+        "22033_96square.jpg",
+        "22034_96square.jpg",
+        "22035_96square.jpg",
+        "22036_96square.jpg",
+        "22037_96square.jpg",
+        "22038.mp3",
+        "22038_96square.jpg",
+        "22039_96square.jpg",
+        "22041_96square.jpg",
+        "22043_96square.jpg",
+        "22044_96square.jpg",
+        "22047_96square.jpg",
+        "22101_96square.jpg",
+        "22103_96square.jpg",
+        "22104_96square.jpg",
+        "22105.mp3",
+        "22142.mp3",
+        "22290_96square.jpg",
+        "22608.mp3",
+        "22619.mp3",
+        "22741.mp3",
+        "22869.mp3",
+        "22879.mp3",
+        "22927.mp3",
+        "23090.mp3",
+        "23108.mp3",
+        "23111.mp3",
+        "23112.mp3",
+        "23113.mp3",
+        "23114.mp3",
+        "23115.mp3",
+        "23116.mp3",
+        "23117.mp3",
+        "23118.mp3",
+        "23119.mp3",
+        "293475.mp3",
+        "293479.mp3",
+        "293826.mp3",
+        "306031.mp3",
+        "325916.mp3",
+        "326070.mp3",
+        "326118.mp3",
+        "326142.mp3",
+        "326253.mp3",
+        "339954.mp3",
+        "339956.mp3",
+        "399297.mp3",
+        "399412.mp3",
+        "550480.mp3",
+        "550557.mp3",
+        "574674.mp3",
+        "574903.mp3",
+        "574921.mp3",
+        "574923.mp3",
+        "574925.mp3",
+        "574937.mp3",
+        "575022.mp3",
+        "575044.mp3",
+        "683369.mp3",
+        "7366.mp3",
+        "7369.mp3",
+        "7441.mp3",
+        "7449.mp3",
+        "788365.mp3",
+        "8065_96square.jpg",
+        "8081_96square.jpg",
+        "8167_96square.jpg",
+        "817875.mp3",
+        "8197_96square.jpg",
+        "8317_96square.jpg",
+        "8374_96square.jpg",
+        "8438_96square.jpg",
+        "8487_96square.jpg",
+        "8542_96square.jpg",
+        "8664_96square.jpg",
+        "8700_96square.jpg",
+        "8717_96square.jpg",
+        "8742_96square.jpg",
+        "8833_96square.jpg",
+        "8873_96square.jpg",
+        "9008_96square.jpg",
+        "9077_96square.jpg",
+        "9088_96square.jpg",
+        "9140_96square.jpg",
+        "9189_96square.jpg",
+        "9229_96square.jpg",
+        "9323_96square.jpg",
+        "9424_96square.jpg",
+        "9432_96square.jpg",
+        "9466_96square.jpg",
+        "9473_96square.jpg",
+        "9477_96square.jpg",
+        "9499_96square.jpg",
+        "9527_96square.jpg",
+        "9562_96square.jpg",
+        "960549.mp3",
+        "9622_96square.jpg",
+        "9628_96square.jpg",
+        "9658_96square.jpg",
+        "9718_96square.jpg"
+    ],
+    "name": "Russian Core 100",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic-2e165",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "неделя<br><br>nedelya[sound:22741.mp3]",
+                "<img src='22019_96square.jpg'><br><br>week"
+            ],
+            "flags": 0,
+            "guid": "k+qLpEtrN%",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "год<br><br>god[sound:101028.mp3]",
+                "<img src='22020_96square.jpg'><br><br>year"
+            ],
+            "flags": 0,
+            "guid": "e&gVw2sHEy",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "сегодня<br><br>segodnya[sound:102154.mp3]",
+                "<img src='22014_96square.jpg'><br><br>today"
+            ],
+            "flags": 0,
+            "guid": "cL3]u9(n,",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "завтра<br><br>zavtra[sound:102162.mp3]",
+                "<img src='22015_96square.jpg'><br><br>tomorrow"
+            ],
+            "flags": 0,
+            "guid": "c2spR6/6EQ",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "вчера<br><br>vchera[sound:102164.mp3]",
+                "<img src='22016_96square.jpg'><br><br>yesterday"
+            ],
+            "flags": 0,
+            "guid": "o`}dO#wLLq",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "календарь<br><br>kalendar'[sound:550557.mp3]",
+                "<img src='21796_96square.jpg'><br><br>calendar"
+            ],
+            "flags": 0,
+            "guid": "dAAEnCm?y.",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "секунда<br><br>sekunda[sound:22038.mp3]",
+                "<img src='22047_96square.jpg'><br><br>second"
+            ],
+            "flags": 0,
+            "guid": "e4VL_o5J{6",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "час<br><br>chas[sound:101059.mp3]",
+                "<img src='22041_96square.jpg'><br><br>hour"
+            ],
+            "flags": 0,
+            "guid": "K`iHQ.2@(5",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "минута<br><br>minuta[sound:101045.mp3]",
+                "<img src='22043_96square.jpg'><br><br>minute"
+            ],
+            "flags": 0,
+            "guid": "bv9ID;{jLO",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "часы<br><br>chasy[sound:550480.mp3]",
+                "<img src='22044_96square.jpg'><br><br>o'clock"
+            ],
+            "flags": 0,
+            "guid": "Hj6ekfMS])",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "часы<br><br>chasy[sound:550480.mp3]",
+                "<img src='20235_96square.jpg'><br><br>clock"
+            ],
+            "flags": 0,
+            "guid": "vI}r7q:<ed",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "мочь<br><br>moch'[sound:101618.mp3]",
+                "<img src='9008_96square.jpg'><br><br>can"
+            ],
+            "flags": 0,
+            "guid": "fB/..8jB@j",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "использовать<br><br>ispol'zovat'[sound:339956.mp3]",
+                "<img src='17270_96square.jpg'><br><br>use"
+            ],
+            "flags": 0,
+            "guid": "p?rWCQS=m8",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "делать<br><br>delat'[sound:21830.mp3]",
+                "<img src='9432_96square.jpg'><br><br>do"
+            ],
+            "flags": 0,
+            "guid": "vJC^P4x,bd",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "идти<br><br>idti[sound:21835.mp3]",
+                "<img src='9499_96square.jpg'><br><br>go"
+            ],
+            "flags": 0,
+            "guid": "e^8xNgfdUr",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "приходить<br><br>prikhodit'[sound:399412.mp3]",
+                "<img src='9189_96square.jpg'><br><br>come"
+            ],
+            "flags": 0,
+            "guid": "tj3D~Q-r1i",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "смеяться<br><br>smeyat'sya[sound:326253.mp3]",
+                "<img src='9527_96square.jpg'><br><br>laugh"
+            ],
+            "flags": 0,
+            "guid": "lfW*%5H[&1",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "делать<br><br>delat'[sound:21830.mp3]",
+                "<img src='8742_96square.jpg'><br><br>make"
+            ],
+            "flags": 0,
+            "guid": "uE`*xmSMi@",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "смотреть<br><br>smotret'[sound:21848.mp3]",
+                "<img src='17269_96square.jpg'><br><br>see"
+            ],
+            "flags": 0,
+            "guid": "IiOrSh}0%Z",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "далёкий<br><br>dalyokiy[sound:101751.mp3]",
+                "<img src='8065_96square.jpg'><br><br>far"
+            ],
+            "flags": 0,
+            "guid": "jJ!lq;.aGn",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "маленький<br><br>malen'kiy[sound:101990.mp3]",
+                "<img src='21795_96square.jpg'><br><br>small"
+            ],
+            "flags": 0,
+            "guid": "K]}kw5ZL;g",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "хороший<br><br>khoroshyy[sound:574903.mp3]",
+                "<img src='16933_96square.jpg'><br><br>good"
+            ],
+            "flags": 0,
+            "guid": "yU0&J_g#is",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "красивый<br><br>krasiviy[sound:21934.mp3]",
+                "<img src='9658_96square.jpg'><br><br>beautiful"
+            ],
+            "flags": 0,
+            "guid": "vPe{,d{n6x",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "гадкий<br><br>gadkiy[sound:21948.mp3]",
+                "<img src='8197_96square.jpg'><br><br>ugly"
+            ],
+            "flags": 0,
+            "guid": "Lv+Hd=!P4g",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "трудный<br><br>trudnyy[sound:574921.mp3]",
+                "<img src='17227_96square.jpg'><br><br>difficult"
+            ],
+            "flags": 0,
+            "guid": "L=Ds[5kN8G",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "лёгкий<br><br>lyogkiy[sound:574923.mp3]",
+                "<img src='8717_96square.jpg'><br><br>easy"
+            ],
+            "flags": 0,
+            "guid": "C;#f(qPiq:",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "плохой<br><br>plokhoy[sound:574925.mp3]",
+                "<img src='8487_96square.jpg'><br><br>bad"
+            ],
+            "flags": 0,
+            "guid": "pYLLw.{)lw",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "близкий<br><br>blizkiy[sound:574937.mp3]",
+                "<img src='9622_96square.jpg'><br><br>near"
+            ],
+            "flags": 0,
+            "guid": "ykV.+&9j/;",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Приятно познакомиться.<br><br>Priyatno poznakomit'sya.[sound:22869.mp3]",
+                "<img src='21965_96square.jpg'><br><br>Nice to meet you."
+            ],
+            "flags": 0,
+            "guid": "q?{d9bU$VE",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Здравствуйте.<br><br>Zdravstvuyte.[sound:21620.mp3]",
+                "<img src='21643_96square.jpg'><br><br>Hello."
+            ],
+            "flags": 0,
+            "guid": "qyDYG.*OKR",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Доброе утро.<br><br>Dobroe utro.[sound:21625.mp3]",
+                "<img src='17247_96square.jpg'><br><br>Good morning."
+            ],
+            "flags": 0,
+            "guid": "pEKiILumk@",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Добрый день.<br><br>Dobryy den'.[sound:21627.mp3]",
+                "<img src='21648_96square.jpg'><br><br>Good afternoon."
+            ],
+            "flags": 0,
+            "guid": "g{]>FhWE8W",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Добрый вечер.<br><br>Dobryy vecher.[sound:21629.mp3]",
+                "<img src='21963_96square.jpg'><br><br>Good evening."
+            ],
+            "flags": 0,
+            "guid": "KO:[aes>;(",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Спокойной ночи.<br><br>Spokoynoy nochi.[sound:788365.mp3]",
+                "<img src='21964_96square.jpg'><br><br>Good night."
+            ],
+            "flags": 0,
+            "guid": "N%`99^r2r,",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Как дела?<br><br>Kak dela?[sound:22879.mp3]",
+                "<img src='10083_96square.jpg'><br><br>How are you?"
+            ],
+            "flags": 0,
+            "guid": "w5>mzT#>vJ",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Спасибо.<br><br>Spasibo.[sound:21631.mp3]",
+                "<img src='14992_96square.jpg'><br><br>Thank you!"
+            ],
+            "flags": 0,
+            "guid": "crfa9ZEBls",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Нет.<br><br>Net.[sound:21754.mp3]",
+                "<img src='21966_96square.jpg'><br><br>No."
+            ],
+            "flags": 0,
+            "guid": "M~$y)UsI+h",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Вкусно!<br><br>Vkusno![sound:960549.mp3]",
+                "<img src='10146_96square.jpg'><br><br>Delicious!"
+            ],
+            "flags": 0,
+            "guid": "sEo%4uzps~",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Меня зовут...<br><br>Menya zovut...[sound:399297.mp3]",
+                "<img src='21967_96square.jpg'><br><br>I'm...(name)."
+            ],
+            "flags": 0,
+            "guid": "h,cu_lDA=S",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "До свидания.<br><br>Do svidaniya.[sound:22927.mp3]",
+                "<img src='21968_96square.jpg'><br><br>Goodbye."
+            ],
+            "flags": 0,
+            "guid": "n-as:wL>UC",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Да.<br><br>Da.[sound:817875.mp3]",
+                "<img src='17257_96square.jpg'><br><br>Yes."
+            ],
+            "flags": 0,
+            "guid": "K(~z^:XJyr",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "понедельник<br><br>ponedel'nik[sound:101030.mp3]",
+                "<img src='22038_96square.jpg'><br><br>Monday"
+            ],
+            "flags": 0,
+            "guid": "s#T/Cjr<8:",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "вторник<br><br>vtornik[sound:101032.mp3]",
+                "<img src='22039_96square.jpg'><br><br>Tuesday"
+            ],
+            "flags": 0,
+            "guid": "JwkUwjs,g1",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "среда<br><br>sreda[sound:101031.mp3]",
+                "<img src='22037_96square.jpg'><br><br>Wednesday"
+            ],
+            "flags": 0,
+            "guid": "BPP*7gG3eQ",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "четверг<br><br>chetverg[sound:101035.mp3]",
+                "<img src='22033_96square.jpg'><br><br>Thursday"
+            ],
+            "flags": 0,
+            "guid": "Bipz&{XajH",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "пятница<br><br>pyatnitsa[sound:101033.mp3]",
+                "<img src='22035_96square.jpg'><br><br>Friday"
+            ],
+            "flags": 0,
+            "guid": "e8)#vRUc~?",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "суббота<br><br>subbota[sound:101034.mp3]",
+                "<img src='22036_96square.jpg'><br><br>Saturday"
+            ],
+            "flags": 0,
+            "guid": "gA~Y%6u?Vo",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "воскресенье<br><br>voskresen'ye[sound:101036.mp3]",
+                "<img src='22034_96square.jpg'><br><br>Sunday"
+            ],
+            "flags": 0,
+            "guid": "O;KA}pRcjr",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "май<br><br>may[sound:23090.mp3]",
+                "<img src='22029_96square.jpg'><br><br>May"
+            ],
+            "flags": 0,
+            "guid": "zM-S}t2SK!",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "январь<br><br>yanvar'[sound:575022.mp3]",
+                "<img src='22025_96square.jpg'><br><br>January"
+            ],
+            "flags": 0,
+            "guid": "wQ!S(syBhk",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "февраль<br><br>fevral'[sound:23111.mp3]",
+                "<img src='22024_96square.jpg'><br><br>February"
+            ],
+            "flags": 0,
+            "guid": "mj{iU`,zvM",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "март<br><br>mart[sound:23108.mp3]",
+                "<img src='22028_96square.jpg'><br><br>March"
+            ],
+            "flags": 0,
+            "guid": "DbG,/#.QhG",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "апрель<br><br>aprel'[sound:23112.mp3]",
+                "<img src='22021_96square.jpg'><br><br>April"
+            ],
+            "flags": 0,
+            "guid": "u18keW0ryh",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "июнь<br><br>iyun'[sound:23113.mp3]",
+                "<img src='22027_96square.jpg'><br><br>June"
+            ],
+            "flags": 0,
+            "guid": "fez&kA>X${",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "июль<br><br>iyul'[sound:23114.mp3]",
+                "<img src='22026_96square.jpg'><br><br>July"
+            ],
+            "flags": 0,
+            "guid": "l4@}Z^B?~d",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "август<br><br>avgust[sound:23115.mp3]",
+                "<img src='22022_96square.jpg'><br><br>August"
+            ],
+            "flags": 0,
+            "guid": "FKZJ4%-~:&",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "сентябрь<br><br>sentyabr'[sound:23116.mp3]",
+                "<img src='22032_96square.jpg'><br><br>September"
+            ],
+            "flags": 0,
+            "guid": "r0{<0BwP-k",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "октябрь<br><br>oktyabr'[sound:23117.mp3]",
+                "<img src='22031_96square.jpg'><br><br>October"
+            ],
+            "flags": 0,
+            "guid": "eB3U4/qAj8",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ноябрь<br><br>noyabr'[sound:23118.mp3]",
+                "<img src='22030_96square.jpg'><br><br>November"
+            ],
+            "flags": 0,
+            "guid": "bT6}[D/$k(",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "декабрь<br><br>dekabr'[sound:23119.mp3]",
+                "<img src='22023_96square.jpg'><br><br>December"
+            ],
+            "flags": 0,
+            "guid": "kIZ3)jJt*9",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ноль<br><br>nol'[sound:100595.mp3]",
+                "<img src='10304_96square.jpg'><br><br>zero"
+            ],
+            "flags": 0,
+            "guid": "y|xXOA8XrE",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "один<br><br>odin[sound:22105.mp3]",
+                "<img src='8873_96square.jpg'><br><br>one"
+            ],
+            "flags": 0,
+            "guid": "MNIKmpw#aJ",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "два<br><br>dva[sound:101627.mp3]",
+                "<img src='9077_96square.jpg'><br><br>two"
+            ],
+            "flags": 0,
+            "guid": "o4}}u3J3tc",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "три<br><br>tri[sound:101623.mp3]",
+                "<img src='9718_96square.jpg'><br><br>three"
+            ],
+            "flags": 0,
+            "guid": "L>VW@1]w=F",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "четыре<br><br>chetyre[sound:101635.mp3]",
+                "<img src='9466_96square.jpg'><br><br>four"
+            ],
+            "flags": 0,
+            "guid": "NZ#DpCH@H,",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "пять<br><br>pyat'[sound:101628.mp3]",
+                "<img src='8167_96square.jpg'><br><br>five"
+            ],
+            "flags": 0,
+            "guid": "JD^Z`w:)Ky",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "шесть<br><br>shest'[sound:101629.mp3]",
+                "<img src='9140_96square.jpg'><br><br>six"
+            ],
+            "flags": 0,
+            "guid": "IOWY!OG|xo",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "семь<br><br>sem'[sound:575044.mp3]",
+                "<img src='9424_96square.jpg'><br><br>seven"
+            ],
+            "flags": 0,
+            "guid": "km5Hk|}FDg",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "восемь<br><br>vosem'[sound:22142.mp3]",
+                "<img src='9473_96square.jpg'><br><br>eight"
+            ],
+            "flags": 0,
+            "guid": "B*I:tBA6ty",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "девять<br><br>devyat'[sound:101626.mp3]",
+                "<img src='8833_96square.jpg'><br><br>nine"
+            ],
+            "flags": 0,
+            "guid": "j!r().gL,q",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "десять<br><br>desyat'[sound:101632.mp3]",
+                "<img src='9088_96square.jpg'><br><br>ten"
+            ],
+            "flags": 0,
+            "guid": "NS?o*-jK7#",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "кофе<br><br>kofe[sound:101061.mp3]",
+                "<img src='22103_96square.jpg'><br><br>coffee"
+            ],
+            "flags": 0,
+            "guid": "Dv(L<Iy3)2",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "пиво<br><br>pivo[sound:101062.mp3]",
+                "<img src='8700_96square.jpg'><br><br>beer"
+            ],
+            "flags": 0,
+            "guid": "NaGcG,[>)Q",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "чай<br><br>chay[sound:101071.mp3]",
+                "<img src='22101_96square.jpg'><br><br>tea"
+            ],
+            "flags": 0,
+            "guid": "v}]y._n$-X",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "вино<br><br>vino[sound:101073.mp3]",
+                "<img src='22104_96square.jpg'><br><br>wine"
+            ],
+            "flags": 0,
+            "guid": "Nuc;uGLcM9",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "вода<br><br>voda[sound:293826.mp3]",
+                "<img src='9628_96square.jpg'><br><br>water"
+            ],
+            "flags": 0,
+            "guid": "dt=4%=mkKQ",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "говядина<br><br>govyadina[sound:100960.mp3]",
+                "<img src='8664_96square.jpg'><br><br>beef"
+            ],
+            "flags": 0,
+            "guid": "h($^bi}uYk",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "свинина<br><br>svinina[sound:100961.mp3]",
+                "<img src='8081_96square.jpg'><br><br>pork"
+            ],
+            "flags": 0,
+            "guid": "rT6-1/,]?b",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "курица<br><br>kuritsa[sound:326142.mp3]",
+                "<img src='10126_96square.jpg'><br><br>chicken"
+            ],
+            "flags": 0,
+            "guid": "g5U7w6S^bl",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ягнятина<br><br>yagnyatina[sound:1008489.mp3]",
+                "<img src='15190_96square.jpg'><br><br>lamb"
+            ],
+            "flags": 0,
+            "guid": "nUk:Yh2F}q",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "рыба<br><br>ryba[sound:101206.mp3]",
+                "<img src='15728_96square.jpg'><br><br>fish"
+            ],
+            "flags": 0,
+            "guid": "KTUU3ELISY",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ступня<br><br>stupnya[sound:7369.mp3]",
+                "<img src='8374_96square.jpg'><br><br>foot"
+            ],
+            "flags": 0,
+            "guid": "u&S$;BNveD",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "нога<br><br>noga[sound:101522.mp3]",
+                "<img src='8542_96square.jpg'><br><br>leg"
+            ],
+            "flags": 0,
+            "guid": "m!3#ZhJ<$p",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "голова<br><br>golova[sound:100607.mp3]",
+                "<img src='21800_96square.jpg'><br><br>head"
+            ],
+            "flags": 0,
+            "guid": "AIZ;GQ:h9L",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "рука<br><br>ruka[sound:325916.mp3]",
+                "<img src='9562_96square.jpg'><br><br>arm"
+            ],
+            "flags": 0,
+            "guid": "y[d+LE(@PQ",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "рука<br><br>ruka[sound:7366.mp3]",
+                "<img src='8317_96square.jpg'><br><br>hand"
+            ],
+            "flags": 0,
+            "guid": "h*(?lc(20/",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "палец<br><br>palets[sound:102239.mp3]",
+                "<img src='9323_96square.jpg'><br><br>finger<br><br>(This deck was prepared by <a href=\"http://www.101languages.net\">101languages.net</a> :)"
+            ],
+            "flags": 0,
+            "guid": "bA8#pX[_[X",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "тело<br><br>telo[sound:22608.mp3]",
+                "<img src='21798_96square.jpg'><br><br>body"
+            ],
+            "flags": 0,
+            "guid": "z1+u!RHD~A",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "желудок<br><br>zheludok[sound:22619.mp3]",
+                "<img src='8438_96square.jpg'><br><br>stomach"
+            ],
+            "flags": 0,
+            "guid": "n9&L0OB?5H",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "спина<br><br>spina[sound:293479.mp3]",
+                "<img src='21801_96square.jpg'><br><br>back"
+            ],
+            "flags": 0,
+            "guid": "t!N^j$MneK",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "грудная клетка<br><br>grudnaya kletka[sound:293475.mp3]",
+                "<img src='21799_96square.jpg'><br><br>chest"
+            ],
+            "flags": 0,
+            "guid": "o|Kd1*Io|C",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "медсестра<br><br>medsestra[sound:101391.mp3]",
+                "<img src='21768_96square.jpg'><br><br>nurse"
+            ],
+            "flags": 0,
+            "guid": "ED/865l^Lt",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "сотрудник<br><br>sotrudnik[sound:574674.mp3]",
+                "<img src='15526_96square.jpg'><br><br>employee"
+            ],
+            "flags": 0,
+            "guid": "ulp<k~,?@",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "полицейский<br><br>politseyskiy[sound:683369.mp3]",
+                "<img src='22290_96square.jpg'><br><br>police officer"
+            ],
+            "flags": 0,
+            "guid": "tjzc#s2>d5",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "повар<br><br>povar[sound:326118.mp3]",
+                "<img src='21802_96square.jpg'><br><br>cook"
+            ],
+            "flags": 0,
+            "guid": "m8nWcz+I,~",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "инженер<br><br>inzhener[sound:101810.mp3]",
+                "<img src='19050_96square.jpg'><br><br>engineer"
+            ],
+            "flags": 0,
+            "guid": "m!c5k.M^)V",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "врач<br><br>vrach[sound:7441.mp3]",
+                "<img src='21803_96square.jpg'><br><br>doctor"
+            ],
+            "flags": 0,
+            "guid": "b$zx?|4Rls",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "менеджер<br><br>menedzher[sound:326070.mp3]",
+                "<img src='17412_96square.jpg'><br><br>manager"
+            ],
+            "flags": 0,
+            "guid": "LnxU|V5<u(",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "учительница<br><br>uchitel'nitsa[sound:306031.mp3]",
+                "<img src='9229_96square.jpg'><br><br>teacher"
+            ],
+            "flags": 0,
+            "guid": "vlklIjYX4<",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "программист<br><br>programmist[sound:339954.mp3]",
+                "<img src='21805_96square.jpg'><br><br>programmer"
+            ],
+            "flags": 0,
+            "guid": "Oiu8eX{ryG",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "продавец<br><br>prodavets[sound:7449.mp3]",
+                "<img src='9477_96square.jpg'><br><br>salesman"
+            ],
+            "flags": 0,
+            "guid": "lR^v^@O}@1",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22019_96square.jpg'><br><br>week",
+                "неделя<br><br>nedelya[sound:22741.mp3]"
+            ],
+            "flags": 0,
+            "guid": "B{sd8&eKfm",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22020_96square.jpg'><br><br>year",
+                "год<br><br>god[sound:101028.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Bk)8dTt$$8",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22014_96square.jpg'><br><br>today<br><br>(This material is courtesy of <a href=\"http://www.russianpod101.com/member/go.php?r=38706\">russianpod101.com</a>)",
+                "сегодня<br><br>segodnya[sound:102154.mp3]"
+            ],
+            "flags": 0,
+            "guid": "bTp%.Unga,",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22015_96square.jpg'><br><br>tomorrow",
+                "завтра<br><br>zavtra[sound:102162.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Ad(j.w:1$Z",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22016_96square.jpg'><br><br>yesterday",
+                "вчера<br><br>vchera[sound:102164.mp3]"
+            ],
+            "flags": 0,
+            "guid": "OVY<c!8VEw",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21796_96square.jpg'><br><br>calendar",
+                "календарь<br><br>kalendar'[sound:550557.mp3]"
+            ],
+            "flags": 0,
+            "guid": "P*J&=2j_d0",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22047_96square.jpg'><br><br>second",
+                "секунда<br><br>sekunda[sound:22038.mp3]"
+            ],
+            "flags": 0,
+            "guid": "d~k;T=z@{;",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22041_96square.jpg'><br><br>hour",
+                "час<br><br>chas[sound:101059.mp3]"
+            ],
+            "flags": 0,
+            "guid": "wo]F{P/*S=",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22043_96square.jpg'><br><br>minute",
+                "минута<br><br>minuta[sound:101045.mp3]"
+            ],
+            "flags": 0,
+            "guid": "JvftzI/Wio",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22044_96square.jpg'><br><br>o'clock<br><br>(<a href=\"http://www.russianpod101.com/member/go.php?r=38706&l=uggc%3A%2F%2Fjjj.ehffvnacbq101.pbz%2Fehffvna-jbeq-yvfgf%2F\">View this word list online</a>)",
+                "часы<br><br>chasy[sound:550480.mp3]"
+            ],
+            "flags": 0,
+            "guid": "eQ:{&)l;D8",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='20235_96square.jpg'><br><br>clock",
+                "часы<br><br>chasy[sound:550480.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Oqq91G#LmQ",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9008_96square.jpg'><br><br>can",
+                "мочь<br><br>moch'[sound:101618.mp3]"
+            ],
+            "flags": 0,
+            "guid": "j%#[PlXcl[",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='17270_96square.jpg'><br><br>use",
+                "использовать<br><br>ispol'zovat'[sound:339956.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Jvr(%diocQ",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9432_96square.jpg'><br><br>do",
+                "делать<br><br>delat'[sound:21830.mp3]"
+            ],
+            "flags": 0,
+            "guid": "/ezd`;8e_",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9499_96square.jpg'><br><br>go",
+                "идти<br><br>idti[sound:21835.mp3]"
+            ],
+            "flags": 0,
+            "guid": "nX8M5L1(O8",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9189_96square.jpg'><br><br>come",
+                "приходить<br><br>prikhodit'[sound:399412.mp3]"
+            ],
+            "flags": 0,
+            "guid": "GY?,<;8Q5H",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9527_96square.jpg'><br><br>laugh",
+                "смеяться<br><br>smeyat'sya[sound:326253.mp3]"
+            ],
+            "flags": 0,
+            "guid": "qw~Ox<ss,Y",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8742_96square.jpg'><br><br>make",
+                "делать<br><br>delat'[sound:21830.mp3]"
+            ],
+            "flags": 0,
+            "guid": "O.5o45L[U3",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='17269_96square.jpg'><br><br>see",
+                "смотреть<br><br>smotret'[sound:21848.mp3]"
+            ],
+            "flags": 0,
+            "guid": "A2k$([KkUy",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8065_96square.jpg'><br><br>far",
+                "далёкий<br><br>dalyokiy[sound:101751.mp3]"
+            ],
+            "flags": 0,
+            "guid": "O,,2g|63,&",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21795_96square.jpg'><br><br>small",
+                "маленький<br><br>malen'kiy[sound:101990.mp3]"
+            ],
+            "flags": 0,
+            "guid": "cC.$DQIoye",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='16933_96square.jpg'><br><br>good",
+                "хороший<br><br>khoroshyy[sound:574903.mp3]"
+            ],
+            "flags": 0,
+            "guid": "s%iNQnpdt@",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9658_96square.jpg'><br><br>beautiful",
+                "красивый<br><br>krasiviy[sound:21934.mp3]"
+            ],
+            "flags": 0,
+            "guid": "mSTZwp~S|L",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8197_96square.jpg'><br><br>ugly",
+                "гадкий<br><br>gadkiy[sound:21948.mp3]"
+            ],
+            "flags": 0,
+            "guid": "t[-g(KL8?n",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='17227_96square.jpg'><br><br>difficult",
+                "трудный<br><br>trudnyy[sound:574921.mp3]"
+            ],
+            "flags": 0,
+            "guid": "d$U7Fy/2Fo",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8717_96square.jpg'><br><br>easy",
+                "лёгкий<br><br>lyogkiy[sound:574923.mp3]"
+            ],
+            "flags": 0,
+            "guid": "J!2?oJQEi-",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8487_96square.jpg'><br><br>bad",
+                "плохой<br><br>plokhoy[sound:574925.mp3]"
+            ],
+            "flags": 0,
+            "guid": "KE.808{%j|",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9622_96square.jpg'><br><br>near",
+                "близкий<br><br>blizkiy[sound:574937.mp3]"
+            ],
+            "flags": 0,
+            "guid": "xO(2#}==)#",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21965_96square.jpg'><br><br>Nice to meet you.",
+                "Приятно познакомиться.<br><br>Priyatno poznakomit'sya.[sound:22869.mp3]"
+            ],
+            "flags": 0,
+            "guid": "B99+7guS=5",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21643_96square.jpg'><br><br>Hello.",
+                "Здравствуйте.<br><br>Zdravstvuyte.[sound:21620.mp3]"
+            ],
+            "flags": 0,
+            "guid": "MqFD}n]S*T",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='17247_96square.jpg'><br><br>Good morning.",
+                "Доброе утро.<br><br>Dobroe utro.[sound:21625.mp3]"
+            ],
+            "flags": 0,
+            "guid": "g[G:UR81xV",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21648_96square.jpg'><br><br>Good afternoon.",
+                "Добрый день.<br><br>Dobryy den'.[sound:21627.mp3]"
+            ],
+            "flags": 0,
+            "guid": "qrU_]L((*s",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21963_96square.jpg'><br><br>Good evening.",
+                "Добрый вечер.<br><br>Dobryy vecher.[sound:21629.mp3]"
+            ],
+            "flags": 0,
+            "guid": "O8|jLgsNLw",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21964_96square.jpg'><br><br>Good night.",
+                "Спокойной ночи.<br><br>Spokoynoy nochi.[sound:788365.mp3]"
+            ],
+            "flags": 0,
+            "guid": "gRuRM_p:1o",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='10083_96square.jpg'><br><br>How are you?",
+                "Как дела?<br><br>Kak dela?[sound:22879.mp3]"
+            ],
+            "flags": 0,
+            "guid": "hodi`GGU~&",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='14992_96square.jpg'><br><br>Thank you!",
+                "Спасибо.<br><br>Spasibo.[sound:21631.mp3]"
+            ],
+            "flags": 0,
+            "guid": "HkbXJM^=G(",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21966_96square.jpg'><br><br>No.",
+                "Нет.<br><br>Net.[sound:21754.mp3]"
+            ],
+            "flags": 0,
+            "guid": "D$<[Rb^G._",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='10146_96square.jpg'><br><br>Delicious!",
+                "Вкусно!<br><br>Vkusno![sound:960549.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Jk&%~Em]AR",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21967_96square.jpg'><br><br>I'm...(name).",
+                "Меня зовут...<br><br>Menya zovut...[sound:399297.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Hs?EsLFEPb",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21968_96square.jpg'><br><br>Goodbye.",
+                "До свидания.<br><br>Do svidaniya.[sound:22927.mp3]"
+            ],
+            "flags": 0,
+            "guid": "vmx4V&MOD`",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='17257_96square.jpg'><br><br>Yes.",
+                "Да.<br><br>Da.[sound:817875.mp3]"
+            ],
+            "flags": 0,
+            "guid": "pUbW&(%8,/",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22038_96square.jpg'><br><br>Monday",
+                "понедельник<br><br>ponedel'nik[sound:101030.mp3]"
+            ],
+            "flags": 0,
+            "guid": "BS<Abft>@E",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22039_96square.jpg'><br><br>Tuesday",
+                "вторник<br><br>vtornik[sound:101032.mp3]"
+            ],
+            "flags": 0,
+            "guid": "n.6GTUF*YC",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22037_96square.jpg'><br><br>Wednesday",
+                "среда<br><br>sreda[sound:101031.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Idd~5^OpuT",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22033_96square.jpg'><br><br>Thursday",
+                "четверг<br><br>chetverg[sound:101035.mp3]"
+            ],
+            "flags": 0,
+            "guid": "ib9>gE-+(X",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22035_96square.jpg'><br><br>Friday",
+                "пятница<br><br>pyatnitsa[sound:101033.mp3]"
+            ],
+            "flags": 0,
+            "guid": "z-Z;Y$<%c_",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22036_96square.jpg'><br><br>Saturday",
+                "суббота<br><br>subbota[sound:101034.mp3]"
+            ],
+            "flags": 0,
+            "guid": "ne68)L)YGu",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22034_96square.jpg'><br><br>Sunday",
+                "воскресенье<br><br>voskresen'ye[sound:101036.mp3]"
+            ],
+            "flags": 0,
+            "guid": "K$*clC{XP$",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22029_96square.jpg'><br><br>May",
+                "май<br><br>may[sound:23090.mp3]"
+            ],
+            "flags": 0,
+            "guid": "y!([9,#5w",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22025_96square.jpg'><br><br>January",
+                "январь<br><br>yanvar'[sound:575022.mp3]"
+            ],
+            "flags": 0,
+            "guid": "o?As*GJH{r",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22024_96square.jpg'><br><br>February<br><br>(<a href=\"http://www.101languages.net/russian/russianpod101-coupon-code/\">View the latest special offer for RussianPod101.com</a>)",
+                "февраль<br><br>fevral'[sound:23111.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Ql=yb%).;P",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22028_96square.jpg'><br><br>March",
+                "март<br><br>mart[sound:23108.mp3]"
+            ],
+            "flags": 0,
+            "guid": "ME`mx6I*_m",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22021_96square.jpg'><br><br>April",
+                "апрель<br><br>aprel'[sound:23112.mp3]"
+            ],
+            "flags": 0,
+            "guid": "vY_vGsFeq",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22027_96square.jpg'><br><br>June",
+                "июнь<br><br>iyun'[sound:23113.mp3]"
+            ],
+            "flags": 0,
+            "guid": "c:bN7]<sok",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22026_96square.jpg'><br><br>July",
+                "июль<br><br>iyul'[sound:23114.mp3]"
+            ],
+            "flags": 0,
+            "guid": "g6k9sH1rT&",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22022_96square.jpg'><br><br>August",
+                "август<br><br>avgust[sound:23115.mp3]"
+            ],
+            "flags": 0,
+            "guid": "v],?O=DBLm",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22032_96square.jpg'><br><br>September",
+                "сентябрь<br><br>sentyabr'[sound:23116.mp3]"
+            ],
+            "flags": 0,
+            "guid": "P{x+0y2[=W",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22031_96square.jpg'><br><br>October",
+                "октябрь<br><br>oktyabr'[sound:23117.mp3]"
+            ],
+            "flags": 0,
+            "guid": "JdHd?DC21T",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22030_96square.jpg'><br><br>November",
+                "ноябрь<br><br>noyabr'[sound:23118.mp3]"
+            ],
+            "flags": 0,
+            "guid": "d8uW$m2[xd",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22023_96square.jpg'><br><br>December",
+                "декабрь<br><br>dekabr'[sound:23119.mp3]"
+            ],
+            "flags": 0,
+            "guid": "v@hAD_/q:^",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='10304_96square.jpg'><br><br>zero",
+                "ноль<br><br>nol'[sound:100595.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Air?.E*8_(",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8873_96square.jpg'><br><br>one",
+                "один<br><br>odin[sound:22105.mp3]"
+            ],
+            "flags": 0,
+            "guid": "tfU[n(.!Q)",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9077_96square.jpg'><br><br>two",
+                "два<br><br>dva[sound:101627.mp3]"
+            ],
+            "flags": 0,
+            "guid": "si)/PtoahU",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9718_96square.jpg'><br><br>three",
+                "три<br><br>tri[sound:101623.mp3]"
+            ],
+            "flags": 0,
+            "guid": "q`VbR-6TcX",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9466_96square.jpg'><br><br>four",
+                "четыре<br><br>chetyre[sound:101635.mp3]"
+            ],
+            "flags": 0,
+            "guid": "x7%AWR/S,W",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8167_96square.jpg'><br><br>five",
+                "пять<br><br>pyat'[sound:101628.mp3]"
+            ],
+            "flags": 0,
+            "guid": "HwNMg&<lB.",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9140_96square.jpg'><br><br>six",
+                "шесть<br><br>shest'[sound:101629.mp3]"
+            ],
+            "flags": 0,
+            "guid": "D<C9[7Grl2",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9424_96square.jpg'><br><br>seven",
+                "семь<br><br>sem'[sound:575044.mp3]"
+            ],
+            "flags": 0,
+            "guid": "cGaLR1jd-w",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9473_96square.jpg'><br><br>eight",
+                "восемь<br><br>vosem'[sound:22142.mp3]"
+            ],
+            "flags": 0,
+            "guid": "JdRFi~us!O",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8833_96square.jpg'><br><br>nine",
+                "девять<br><br>devyat'[sound:101626.mp3]"
+            ],
+            "flags": 0,
+            "guid": "w+YlBO!]]g",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9088_96square.jpg'><br><br>ten",
+                "десять<br><br>desyat'[sound:101632.mp3]"
+            ],
+            "flags": 0,
+            "guid": "lR`->&zm?x",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22103_96square.jpg'><br><br>coffee",
+                "кофе<br><br>kofe[sound:101061.mp3]"
+            ],
+            "flags": 0,
+            "guid": "x5$g;?XxVx",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8700_96square.jpg'><br><br>beer",
+                "пиво<br><br>pivo[sound:101062.mp3]"
+            ],
+            "flags": 0,
+            "guid": "J]BIb^UI05",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22101_96square.jpg'><br><br>tea",
+                "чай<br><br>chay[sound:101071.mp3]"
+            ],
+            "flags": 0,
+            "guid": "bwM`k^<w^3",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22104_96square.jpg'><br><br>wine",
+                "вино<br><br>vino[sound:101073.mp3]"
+            ],
+            "flags": 0,
+            "guid": "b{J!L;bA`t",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9628_96square.jpg'><br><br>water",
+                "вода<br><br>voda[sound:293826.mp3]"
+            ],
+            "flags": 0,
+            "guid": "D%[F4{ts77",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8664_96square.jpg'><br><br>beef",
+                "говядина<br><br>govyadina[sound:100960.mp3]"
+            ],
+            "flags": 0,
+            "guid": "ptTCg<v#H[",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8081_96square.jpg'><br><br>pork",
+                "свинина<br><br>svinina[sound:100961.mp3]"
+            ],
+            "flags": 0,
+            "guid": "G6c%F}F/D)",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='10126_96square.jpg'><br><br>chicken",
+                "курица<br><br>kuritsa[sound:326142.mp3]"
+            ],
+            "flags": 0,
+            "guid": "J[TC:%&Ei_",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='15190_96square.jpg'><br><br>lamb",
+                "ягнятина<br><br>yagnyatina[sound:1008489.mp3]"
+            ],
+            "flags": 0,
+            "guid": "zH5{nHC.Ro",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='15728_96square.jpg'><br><br>fish",
+                "рыба<br><br>ryba[sound:101206.mp3]"
+            ],
+            "flags": 0,
+            "guid": "b$aTf<?<;a",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8374_96square.jpg'><br><br>foot",
+                "ступня<br><br>stupnya[sound:7369.mp3]"
+            ],
+            "flags": 0,
+            "guid": "E*$Kx~<j8K",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8542_96square.jpg'><br><br>leg",
+                "нога<br><br>noga[sound:101522.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Oq>bLSpm1h",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21800_96square.jpg'><br><br>head",
+                "голова<br><br>golova[sound:100607.mp3]"
+            ],
+            "flags": 0,
+            "guid": "K1U,ICwyl(",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9562_96square.jpg'><br><br>arm",
+                "рука<br><br>ruka[sound:325916.mp3]"
+            ],
+            "flags": 0,
+            "guid": "oYcPa2kByq",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8317_96square.jpg'><br><br>hand",
+                "рука<br><br>ruka[sound:7366.mp3]"
+            ],
+            "flags": 0,
+            "guid": "wEg}/#R&Jj",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9323_96square.jpg'><br><br>finger",
+                "палец<br><br>palets[sound:102239.mp3]"
+            ],
+            "flags": 0,
+            "guid": "x85j4E5g6k",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21798_96square.jpg'><br><br>body",
+                "тело<br><br>telo[sound:22608.mp3]"
+            ],
+            "flags": 0,
+            "guid": "mHC~n!WkVE",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='8438_96square.jpg'><br><br>stomach",
+                "желудок<br><br>zheludok[sound:22619.mp3]"
+            ],
+            "flags": 0,
+            "guid": "qZ3OZmgwWo",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21801_96square.jpg'><br><br>back",
+                "спина<br><br>spina[sound:293479.mp3]"
+            ],
+            "flags": 0,
+            "guid": "xTPxLGlHp+",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21799_96square.jpg'><br><br>chest",
+                "грудная клетка<br><br>grudnaya kletka[sound:293475.mp3]"
+            ],
+            "flags": 0,
+            "guid": "odg6J,M8+1",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21768_96square.jpg'><br><br>nurse",
+                "медсестра<br><br>medsestra[sound:101391.mp3]"
+            ],
+            "flags": 0,
+            "guid": "j>,QGmeMoH",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='15526_96square.jpg'><br><br>employee",
+                "сотрудник<br><br>sotrudnik[sound:574674.mp3]"
+            ],
+            "flags": 0,
+            "guid": "wt,83%i.Ms",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='22290_96square.jpg'><br><br>police officer",
+                "полицейский<br><br>politseyskiy[sound:683369.mp3]"
+            ],
+            "flags": 0,
+            "guid": "n8,?vcH3zQ",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21802_96square.jpg'><br><br>cook",
+                "повар<br><br>povar[sound:326118.mp3]"
+            ],
+            "flags": 0,
+            "guid": "e@)a!>9V>)",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='19050_96square.jpg'><br><br>engineer",
+                "инженер<br><br>inzhener[sound:101810.mp3]"
+            ],
+            "flags": 0,
+            "guid": "g9(kZDjQHq",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21803_96square.jpg'><br><br>doctor",
+                "врач<br><br>vrach[sound:7441.mp3]"
+            ],
+            "flags": 0,
+            "guid": "i_Fe*SARY4",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='17412_96square.jpg'><br><br>manager",
+                "менеджер<br><br>menedzher[sound:326070.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Ox</tG>z#z",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9229_96square.jpg'><br><br>teacher",
+                "учительница<br><br>uchitel'nitsa[sound:306031.mp3]"
+            ],
+            "flags": 0,
+            "guid": "hicSVR`*U&",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='21805_96square.jpg'><br><br>programmer",
+                "программист<br><br>programmist[sound:339954.mp3]"
+            ],
+            "flags": 0,
+            "guid": "dKc~bfZl=7",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='9477_96square.jpg'><br><br>salesman",
+                "продавец<br><br>prodavets[sound:7449.mp3]"
+            ],
+            "flags": 0,
+            "guid": "C2YGUpNn;A",
+            "newlyAdded": false,
+            "note_model_uuid": "5dfb39ca-384d-11eb-a104-8878730f6ebd",
+            "tags": []
+        }
+    ]
+}

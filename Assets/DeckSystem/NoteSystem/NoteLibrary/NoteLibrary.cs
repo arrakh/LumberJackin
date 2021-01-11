@@ -6,30 +6,41 @@ namespace NoteView
 {
     public class NoteLibrary : MonoBehaviour
     {
-        [SerializeField] private GameObject noteViewPrefab;
-        [SerializeField] private GameObject noteHolder;
+        [SerializeField] private NoteViewScript noteView;
 
         public Deck deckToView;
 
+        private int index = 0;
+
         private void OnEnable()
         {
-            StartCoroutine(GenerateNotes());
+            noteView.deck = deckToView;
+            index = 0;
+            SetNoteView(index);
         }
 
-        public IEnumerator GenerateNotes()
+        public void CycleIndex(int offset)
         {
-            //Clear children
-            noteHolder.transform.Clear();
+            index += offset;
 
-            //For each notes, instantiate note view prefab
-            foreach (Note note in deckToView.notes)
+            if ( index < 0 )
             {
-                NoteView nv = Instantiate(noteViewPrefab, noteHolder.transform, false).GetComponent<NoteView>();
-                nv.Initialize(deckToView, note);
-                yield return new WaitForFixedUpdate();
+                index = 0;
+            } 
+            else if (index >= deckToView.notes.Count)
+            {
+                index = deckToView.notes.Count - 1;
             }
+            Debug.Log(index);
 
+            SetNoteView(index);
         }
+
+        public void SetNoteView(int index)
+        {
+            noteView.Initialize(deckToView, deckToView.notes[index]);
+        }
+
     }
 }
 

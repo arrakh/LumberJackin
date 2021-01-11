@@ -11,7 +11,8 @@ namespace NoteView
         public override void Initialize(string fieldName, object fieldContent)
         {
             base.Initialize(fieldName, fieldContent);
-            //image = (Image)fieldContent;
+            Debug.Log(fieldContent == null);
+            image.sprite = (Sprite)fieldContent;
         }
     }
 }

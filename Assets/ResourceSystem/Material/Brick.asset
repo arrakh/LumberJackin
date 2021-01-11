@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7f57e6d755aef478ac172e271c606b, type: 3}
   m_Name: Brick
   m_EditorClassIdentifier: 
-  id: 
-  displayName: 
+  id: brick
+  displayName: Brick
   description: 
-  resourceIcon: {fileID: 0}
-  amount: 0
+  resourceIcon: {fileID: 21300000, guid: 6c9fa2b08c7d54941a16595473690ffb, type: 3}
+  _amount: 2

@@ -391,7 +391,7 @@
                 "<img src=\"eaea9cc0fe34e217887993610392a53c.png\" />",
                 "жэ",
                 "/ʐ/",
-                "g in genre, s in pleasure, j in Jean-Jacques or zh in Dr Zhivago (voiced retroflex fricative)",
+                "g in genre",
                 "[sound:sound08.mp3]"
             ],
             "flags": 0,
@@ -643,7 +643,7 @@
                 "<img src=\"24fc78630782ff2a51b2a2ddfe8355c1.png\" />",
                 "ха",
                 "/x/",
-                "Ba<i>ch</i> (German) (voiceless velar fricative)",
+                "Ba",
                 "[sound:sound23.mp3]"
             ],
             "flags": 0,
@@ -697,7 +697,7 @@
                 "<img src=\"358c748b5d3fcd1c785b48b24f703dda.png\" />",
                 "ша",
                 "/ʂ/",
-                "similar to the sh in shut (voiceless retroflex fricative)",
+                "similar to the sh in shut",
                 "[sound:sound26.mp3]"
             ],
             "flags": 0,
@@ -715,7 +715,7 @@
                 "<img src=\"18a510294c0d69e0b56bea2b3e1b1d20.png\" />",
                 "ща",
                 "/ɕː/",
-                "similar to the \"sh\" in sheer (but with a slightly more \"y\" sound) (voiceless alveolo-palatal fricative)",
+                "similar to the sh",
                 "[sound:sound27.mp3]"
             ],
             "flags": 0,
@@ -733,7 +733,7 @@
                 "<img src=\"f9720eb74fbb9537f57af8c9f432d963.png\" />",
                 "твёрдый знак (hard sign)",
                 "hard",
-                "hard sign (shows that preceding consonant is NOT palatalized)",
+                "hard sign",
                 "[sound:sound28.mp3]"
             ],
             "flags": 0,
@@ -751,7 +751,7 @@
                 "<img src=\"9f5a05131835dba6f03182f34c5b0b5a.png\" />",
                 "ы",
                 "[ɨ]",
-                "Pronounced like the letter E with the u and y sound. \"uh-E-y\" (close central unrounded vowel)",
+                "Pronounced like the letter E with the u and y sound",
                 "[sound:sound29.mp3]"
             ],
             "flags": 0,
@@ -769,7 +769,7 @@
                 "<img src=\"dfd47bdcf3f30b0d94dc8b58dea79dc5.png\" />",
                 "мягкий знак (soft sign)",
                 "/ ʲ/",
-                "a sign which, placed after a consonant, acts as a \"silent front vowel\", slightly palatalises the preceding consonant",
+                "a sign which, placed after a consonant",
                 "[sound:sound30.mp3]"
             ],
             "flags": 0,
@@ -841,7 +841,7 @@
                 "<img src=\"09067dc45914a109d204da034ba1771e.png\" />",
                 "эр",
                 "/r/ or /rʲ/",
-                "rolled r, like spanish pe<i>rr</i>o",
+                "rolled r",
                 "[sound:sound18.mp3]"
             ],
             "flags": 0,

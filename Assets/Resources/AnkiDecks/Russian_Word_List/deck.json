@@ -1,0 +1,5150 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "369a271c-384d-11eb-8197-8878730f6ebd",
+    "deck_config_uuid": "369a271d-384d-11eb-bdd6-8878730f6ebd",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "369a271d-384d-11eb-bdd6-8878730f6ebd",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "Please see the <a href='https://ankiweb.net/shared/info/1340263148'>shared deck page</a> for more info.",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "paste-13327283519489.jpg",
+        "paste-14375255539713.jpg",
+        "paste-14439680049153.jpg",
+        "paste-14598593839105.jpg",
+        "paste-14667313315841.jpg",
+        "paste-14796162334721.jpg",
+        "paste-14920716386305.jpg",
+        "paste-14998025797633.jpg",
+        "paste-15062450307073.jpg",
+        "paste-15113989914625.jpg",
+        "paste-15169824489473.jpg",
+        "paste-15229954031617.jpg",
+        "paste-15285788606465.jpg",
+        "paste-15414637625345.jpg",
+        "paste-15487652069377.jpg",
+        "paste-15539191676929.jpg",
+        "paste-15607911153665.jpg",
+        "paste-15689515532289.jpg",
+        "paste-15762529976321.jpg",
+        "paste-15818364551169.jpg",
+        "paste-15878494093313.jpg",
+        "paste-15938623635457.jpg",
+        "paste-16028817948673.jpg",
+        "paste-16080357556225.jpg",
+        "paste-16149077032961.jpg",
+        "paste-16226386444289.jpg",
+        "paste-16286515986433.jpg",
+        "paste-16346645528577.jpg",
+        "paste-16441134809089.jpg",
+        "paste-17141214478337.jpg",
+        "paste-17197049053185.jpg",
+        "paste-17261473562625.jpg",
+        "paste-17330193039361.jpg",
+        "paste-17407502450689.jpg",
+        "paste-17463337025537.jpg",
+        "paste-17519171600385.jpg",
+        "paste-17575006175233.jpg",
+        "paste-17635135717377.jpg",
+        "paste-17690970292225.jpg",
+        "paste-17746804867073.jpg",
+        "paste-17824114278401.jpg",
+        "paste-17914308591617.jpg",
+        "paste-17983028068353.jpg",
+        "paste-18060337479681.jpg",
+        "paste-18116172054529.jpg",
+        "paste-18176301596673.jpg",
+        "paste-18232136171521.jpg",
+        "paste-18292265713665.jpg",
+        "paste-18343805321217.jpg",
+        "paste-19099719565313.jpg",
+        "paste-19254338387969.jpg",
+        "paste-19305877995521.jpg",
+        "paste-19439021981697.jpg",
+        "paste-19512036425729.jpg",
+        "paste-19580755902465.jpg",
+        "paste-19649475379201.jpg",
+        "paste-19705309954049.jpg",
+        "paste-19765439496193.jpg",
+        "paste-19825569038337.jpg",
+        "paste-19885698580481.jpg",
+        "paste-19945828122625.jpg",
+        "paste-20005957664769.jpg",
+        "paste-23699629539329.jpg",
+        "paste-23849953394689.jpg",
+        "paste-23927262806017.jpg",
+        "paste-23983097380865.jpg",
+        "paste-24116241367041.jpg",
+        "paste-24193550778369.jpg",
+        "paste-24266565222401.jpg",
+        "paste-24322399797249.jpg",
+        "paste-26259430047745.jpg",
+        "paste-26336739459073.jpg",
+        "paste-26392574033921.jpg",
+        "paste-26469883445249.jpg",
+        "paste-26530012987393.jpg",
+        "paste-26594437496833.jpg",
+        "paste-26650272071681.jpg",
+        "paste-26706106646529.jpg",
+        "paste-28656021798913.jpg",
+        "paste-28724741275649.jpg",
+        "paste-28776280883201.jpg",
+        "paste-28905129902081.jpg",
+        "paste-28973849378817.jpg",
+        "paste-29038273888257.jpg",
+        "paste-29124173234177.jpg",
+        "paste-32500017528833.jpg",
+        "paste-32551557136385.jpg",
+        "paste-32607391711233.jpg",
+        "paste-32753420599297.jpg",
+        "paste-32981053865985.jpg",
+        "paste-3478923509761.jpg",
+        "paste-34982508625921.jpg",
+        "paste-35261681500161.jpg",
+        "paste-35506494636033.jpg",
+        "paste-35768487641089.jpg",
+        "paste-36112085024769.jpg",
+        "paste-36378372997121.jpg",
+        "paste-3650722201601.jpg",
+        "paste-36653250904065.jpg",
+        "paste-36979668418561.jpg",
+        "paste-37327560769537.jpg",
+        "paste-3745211482113.jpg",
+        "paste-37890201485313.jpg",
+        "paste-38139309588481.jpg",
+        "paste-3822520893441.jpg",
+        "paste-38422777430017.jpg",
+        "paste-38792144617473.jpg",
+        "paste-3904125272065.jpg",
+        "paste-39075612459009.jpg",
+        "paste-39371965202433.jpg",
+        "paste-39608188403713.jpg",
+        "paste-39844411604993.jpg",
+        "paste-40166534152193.jpg",
+        "paste-40424232189953.jpg",
+        "paste-40656160423937.jpg",
+        "paste-40888088657921.jpg",
+        "paste-41235981008897.jpg",
+        "paste-4140348473345.jpg",
+        "paste-41467909242881.jpg",
+        "paste-41751377084417.jpg",
+        "paste-41983305318401.jpg",
+        "paste-42266773159937.jpg",
+        "paste-4230542786561.jpg",
+        "paste-4290672328705.jpg",
+        "paste-4355096838145.jpg",
+        "paste-4359391805441.jpg",
+        "paste-44375602102273.jpg",
+        "paste-4449586118657.jpg",
+        "paste-4501125726209.jpg",
+        "paste-45341969743873.jpg",
+        "paste-45393509351425.jpg",
+        "paste-45453638893569.jpg",
+        "paste-45526653337601.jpg",
+        "paste-4552665333761.jpg",
+        "paste-45591077847041.jpg",
+        "paste-4569845202945.jpg",
+        "paste-4681514352641.jpg",
+        "paste-4711579123713.jpg",
+        "paste-4750233829377.jpg",
+        "paste-4806068404225.jpg",
+        "paste-4866197946369.jpg",
+        "paste-49297634623489.jpg",
+        "paste-49439368544257.jpg",
+        "paste-49512382988289.jpg",
+        "paste-49667001810945.jpg",
+        "paste-49740016254977.jpg",
+        "paste-49800145797121.jpg",
+        "paste-49860275339265.jpg",
+        "paste-49937584750593.jpg",
+        "paste-50006304227329.jpg",
+        "paste-50092203573249.jpg",
+        "paste-50246822395905.jpg",
+        "paste-50302656970753.jpg",
+        "paste-5033701670913.jpg",
+        "paste-50470160695297.jpg",
+        "paste-50543175139329.jpg",
+        "paste-50624779517953.jpg",
+        "paste-5201205395457.jpg",
+        "paste-5218385264641.jpg",
+        "paste-52587579572225.jpg",
+        "paste-52750788329473.jpg",
+        "paste-52862457479169.jpg",
+        "paste-5360119185409.jpg",
+        "paste-5398773891073.jpg",
+        "paste-5463198400513.jpg",
+        "paste-5493263171585.jpg",
+        "paste-5592047419393.jpg",
+        "paste-5665061863425.jpg",
+        "paste-5699421601793.jpg",
+        "paste-5750961209345.jpg",
+        "paste-58329950846977.jpg",
+        "paste-5879810228225.jpg",
+        "paste-58810987184129.jpg",
+        "paste-58862526791681.jpg",
+        "paste-58948426137601.jpg",
+        "paste-5905580032001.jpg",
+        "paste-59077275156481.jpg",
+        "paste-59137404698625.jpg",
+        "paste-59206124175361.jpg",
+        "paste-59279138619393.jpg",
+        "paste-59339268161537.jpg",
+        "paste-59407987638273.jpg",
+        "paste-59481002082305.jpg",
+        "paste-59541131624449.jpg",
+        "paste-5957119639553.jpg",
+        "paste-59596966199297.jpg",
+        "paste-59657095741441.jpg",
+        "paste-59712930316289.jpg",
+        "paste-59773059858433.jpg",
+        "paste-59828894433281.jpg",
+        "paste-59893318942721.jpg",
+        "paste-59970628354049.jpg",
+        "paste-59983513255937.jpg",
+        "paste-60043642798081.jpg",
+        "paste-6004364279809.jpg",
+        "paste-60099477372929.jpg",
+        "paste-60172491816961.jpg",
+        "paste-60773787238401.jpg",
+        "paste-60838211747841.jpg",
+        "paste-60889751355393.jpg",
+        "paste-60941290962945.jpg",
+        "paste-61035780243457.jpg",
+        "paste-61198989000705.jpg",
+        "paste-6124623364097.jpg",
+        "paste-61259118542849.jpg",
+        "paste-61323543052289.jpg",
+        "paste-6150393167873.jpg",
+        "paste-61546881351681.jpg",
+        "paste-61611305861121.jpg",
+        "paste-61697205207041.jpg",
+        "paste-6223407611905.jpg",
+        "paste-6231997546497.jpg",
+        "paste-62392989908993.jpg",
+        "paste-62453119451137.jpg",
+        "paste-62504659058689.jpg",
+        "paste-62581968470017.jpg",
+        "paste-62659277881345.jpg",
+        "paste-62762357096449.jpg",
+        "paste-6283537154049.jpg",
+        "paste-62839666507777.jpg",
+        "paste-62912680951809.jpg",
+        "paste-62985695395841.jpg",
+        "paste-6313601925121.jpg",
+        "paste-63148904153089.jpg",
+        "paste-63221918597121.jpg",
+        "paste-63290638073857.jpg",
+        "paste-63359357550593.jpg",
+        "paste-6343666696193.jpg",
+        "paste-63462436765697.jpg",
+        "paste-63565515980801.jpg",
+        "paste-63711544868865.jpg",
+        "paste-63814624083969.jpg",
+        "paste-63870458658817.jpg",
+        "paste-63947768070145.jpg",
+        "paste-64072322121729.jpg",
+        "paste-64132451663873.jpg",
+        "paste-64381559767041.jpg",
+        "paste-7052336300033.jpg",
+        "paste-7249904795649.jpg",
+        "paste-7331509174273.jpg",
+        "paste-7383048781825.jpg",
+        "paste-7468948127745.jpg",
+        "paste-7563437408257.jpg",
+        "paste-7670811590657 (1).jpg",
+        "paste-7730941132801.jpg",
+        "paste-7786775707649.jpg",
+        "paste-7894149890049.jpg",
+        "paste-7954279432193.jpg",
+        "paste-8031588843521.jpg",
+        "paste-8130373091329.jpg",
+        "paste-8211977469953.jpg",
+        "paste-8431020802049.jpg",
+        "paste-8581344657409.jpg",
+        "paste-8637179232257.jpg",
+        "paste-8697308774401.jpg",
+        "paste-8753143349249.jpg",
+        "paste-8813272891393.jpg",
+        "paste-8912057139201.jpg",
+        "paste-8937826942977.jpg",
+        "paste-9053791059969.jpg",
+        "paste-9113920602113.jpg",
+        "paste-9169755176961.jpg"
+    ],
+    "name": "1. Beginer",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Вопрос",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Ответ",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Основная",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Ответ}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Карточка 1",
+                    "ord": 0,
+                    "qfmt": "{{Вопрос}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-34982508625921.jpg\" /><div>диван</div>",
+                "couch"
+            ],
+            "flags": 0,
+            "guid": "s5JQKo{2t2",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-35261681500161.jpg\" /><div>ковер<br /><div><br /></div></div>",
+                "carpet"
+            ],
+            "flags": 0,
+            "guid": "r2#Fd`v82P",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-35506494636033.jpg\" /><div>шторы</div>",
+                "curtains"
+            ],
+            "flags": 0,
+            "guid": "oSN-V~B!FA",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-35768487641089.jpg\" /><div>книжный шкаф</div>",
+                "bookcase"
+            ],
+            "flags": 0,
+            "guid": "bM~=CTv%+2",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-36112085024769.jpg\" /><div>кресло</div>",
+                "armchair"
+            ],
+            "flags": 0,
+            "guid": "w!%hMLr|aF",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-36378372997121.jpg\" /><div>компьютер</div>",
+                "computer"
+            ],
+            "flags": 0,
+            "guid": "iA7m)Ob{GA",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-36653250904065.jpg\" /><div>музыкальный центр</div>",
+                "sound system"
+            ],
+            "flags": 0,
+            "guid": "f|9?#?P?du",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-36979668418561.jpg\" /><div>кухня</div>",
+                "kitchen"
+            ],
+            "flags": 0,
+            "guid": "Nf;mq2a9GW",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-37327560769537.jpg\" /><div>холодильник</div>",
+                "fridge"
+            ],
+            "flags": 0,
+            "guid": "P8JM$BUfyn",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-44375602102273.jpg\" /><div>посудомоечная машина</div>",
+                "dishwasher"
+            ],
+            "flags": 0,
+            "guid": "Q*~,UdA57H",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-37890201485313.jpg\" /><div>раковина в ванной</div>",
+                "sink"
+            ],
+            "flags": 0,
+            "guid": "cVIc=S?|J!",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-38139309588481.jpg\" /><div>плита</div>",
+                "stove"
+            ],
+            "flags": 0,
+            "guid": "N!jd/*,coC",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-38422777430017.jpg\" /><div>тумбочка</div>",
+                "cabinet"
+            ],
+            "flags": 0,
+            "guid": "HOCh$y3k6!",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-38792144617473.jpg\" /><div>микроволновка</div>",
+                "microwave"
+            ],
+            "flags": 0,
+            "guid": "gWmUoJEQ}L",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-39075612459009.jpg\" /><div>корзина для мусора</div>",
+                "wastebasket"
+            ],
+            "flags": 0,
+            "guid": "J7j_VI3K-)",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-39371965202433.jpg\" /><div>кастрюля</div>",
+                "pot"
+            ],
+            "flags": 0,
+            "guid": "GfyT>`OVJZ",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-39608188403713.jpg\" /><div>сковорода</div>",
+                "pan"
+            ],
+            "flags": 0,
+            "guid": "N31(=I=5eT",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-39844411604993.jpg\" /><div>чашка</div>",
+                "cup"
+            ],
+            "flags": 0,
+            "guid": "PECM@Jz4CJ",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-40166534152193.jpg\" /><div>стакан бокал</div>",
+                "glass"
+            ],
+            "flags": 0,
+            "guid": "PMss-TtYw&",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-40424232189953.jpg\" /><div>ложка</div>",
+                "spoon"
+            ],
+            "flags": 0,
+            "guid": "x?hPeyMXU)",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-40656160423937.jpg\" /><div>вилка</div>",
+                "fork"
+            ],
+            "flags": 0,
+            "guid": "nwC[fo?m%u",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-40888088657921.jpg\" /><div>тарелка</div>",
+                "plate"
+            ],
+            "flags": 0,
+            "guid": "e`bMX`vSE=",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-41235981008897.jpg\" /><div>нож</div>",
+                "knife"
+            ],
+            "flags": 0,
+            "guid": "C^UaSBA#6k",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-41467909242881.jpg\" /><div>чайник</div>",
+                "kettle"
+            ],
+            "flags": 0,
+            "guid": "LjacR4|4m=",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-41751377084417.jpg\" /><div>ванная комнанта</div>",
+                "bathroom"
+            ],
+            "flags": 0,
+            "guid": "rtr+eRI>h:",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-41983305318401.jpg\" />",
+                "bath"
+            ],
+            "flags": 0,
+            "guid": "MG/9O,[s&e",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-42266773159937.jpg\" /><div>душ</div>",
+                "shower"
+            ],
+            "flags": 0,
+            "guid": "MKWcH&#zb#",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-45341969743873.jpg\" /><div>полка</div>",
+                "shelf"
+            ],
+            "flags": 0,
+            "guid": "No>bIZ5kEl",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-45393509351425.jpg\" /><div>плитки</div>",
+                "tiles"
+            ],
+            "flags": 0,
+            "guid": "mH<A~D0_0x",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-45453638893569.jpg\" /><div>штора душа</div>",
+                "shower curtain"
+            ],
+            "flags": 0,
+            "guid": "x3S)f{a14z",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-45526653337601.jpg\" /><div>стиральная машина</div>",
+                "washing machine"
+            ],
+            "flags": 0,
+            "guid": "o[e.xHK-1P",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-45591077847041.jpg\" /><div>гардероб</div>",
+                "wardrobe"
+            ],
+            "flags": 0,
+            "guid": "k<qs9uJNqR",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "flat",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-49297634623489.jpg\" /><div>просыпается</div>",
+                "wake up"
+            ],
+            "flags": 0,
+            "guid": "n488ljlE~&",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-49439368544257.jpg\" /><div>встаёт</div>",
+                "get up"
+            ],
+            "flags": 0,
+            "guid": "j3zCu/[;,K",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-49512382988289.jpg\" /><div>умывается</div>",
+                "wash"
+            ],
+            "flags": 0,
+            "guid": "wh}}C<b`)T",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-49667001810945.jpg\" /><div>застилает/расстилает постель</div>",
+                "make the bed"
+            ],
+            "flags": 0,
+            "guid": "yN>?T4DF3I",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-49740016254977.jpg\" /><div>одевается</div>",
+                "get dressed"
+            ],
+            "flags": 0,
+            "guid": "c9(oF/Vo(i",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-49800145797121.jpg\" /><div>чищу свои зубы</div>",
+                "brush my teeth"
+            ],
+            "flags": 0,
+            "guid": "rcxZC5hy(%",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-49860275339265.jpg\" /><div>бреется</div>",
+                "shave"
+            ],
+            "flags": 0,
+            "guid": "F$,p!#T-5j",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-49937584750593.jpg\" /><div>расческа</div>",
+                "comb"
+            ],
+            "flags": 0,
+            "guid": "hc6:C`/caC",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-50006304227329.jpg\" /><div>расчесывается</div>",
+                "comb"
+            ],
+            "flags": 0,
+            "guid": "k4-R9d~6z-",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-50092203573249.jpg\" /><div>готовит завтрак</div>",
+                "make breakfast"
+            ],
+            "flags": 0,
+            "guid": "Kb@F<=_!@w",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-50246822395905.jpg\" /><div>завтракает</div>",
+                "have breakfast"
+            ],
+            "flags": 0,
+            "guid": "nhigVb/M*x",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-50302656970753.jpg\" /><div>ходит на работу</div>",
+                "go to work"
+            ],
+            "flags": 0,
+            "guid": "yo0tT,+nFA",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-50470160695297.jpg\" /><div>читает новости</div>",
+                "read a newspaper"
+            ],
+            "flags": 0,
+            "guid": "rj+poXN`,}",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-50543175139329.jpg\" /><div>смотрят телевизор</div>",
+                "watch TV"
+            ],
+            "flags": 0,
+            "guid": "P4lR;~`:8J",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-50624779517953.jpg\" /><div>ходят на прогулку</div>",
+                "go for a walk"
+            ],
+            "flags": 0,
+            "guid": "hkGf_+3eQ*",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-52587579572225.jpg\" /><div>укладывается спать</div>",
+                "go to bed"
+            ],
+            "flags": 0,
+            "guid": "n~<,o0S}WH",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-52750788329473.jpg\" /><div>засыпает</div>",
+                "go to sleep"
+            ],
+            "flags": 0,
+            "guid": "lZc[~IPWyI",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-52862457479169.jpg\" /><div>спит</div>",
+                "sleep"
+            ],
+            "flags": 0,
+            "guid": "tGT5g)Sme4",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "после, затем",
+                "then"
+            ],
+            "flags": 0,
+            "guid": "cm)CY9h-t,",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "завтракает \"чем-то\"",
+                "have \"что-то\" for breakfast"
+            ],
+            "flags": 0,
+            "guid": "k%afbvVhY^",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1. Понедельник<div>2.</div><div>3.</div><div>4.</div><div>5.</div><div>6.</div><div>7.</div>",
+                "Monday"
+            ],
+            "flags": 0,
+            "guid": "udum1*Sg+Q",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1.<div>2. вторник</div><div>3.</div><div>4.</div><div>5.</div><div>6.</div><div>7.</div>",
+                "Tuesday"
+            ],
+            "flags": 0,
+            "guid": "fL5A[iCzM-",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>1.</div><div>2.&nbsp;</div><div>3. среда</div><div>4.</div><div>5.</div><div>6.</div><div>7.</div>",
+                "Wednesday"
+            ],
+            "flags": 0,
+            "guid": "v$ZzXhmkx/",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1.<div>2.</div><div>3.</div><div>4. четверг&nbsp;</div><div>5.</div><div>6.</div><div>7.</div>",
+                "Thursday"
+            ],
+            "flags": 0,
+            "guid": "k[a_P#N7`D",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1.<div>2.</div><div>3.</div><div>4.</div><div>5. пятница &nbsp;</div><div>6.</div><div>7.</div>",
+                "Friday"
+            ],
+            "flags": 0,
+            "guid": "I9R@s@M`D7",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>1.</div><div>2.</div><div>3.</div><div>4.</div><div>5.</div><div>6. суббота</div><div>7.</div>",
+                "Saturday"
+            ],
+            "flags": 0,
+            "guid": "E?#])}o<oa",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>1.</div><div>2.</div><div>3.</div><div>4.</div><div>5.</div><div>6.</div><div>7. воскресенье</div>",
+                "Sunday"
+            ],
+            "flags": 0,
+            "guid": "C)nh7Y}gD$",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-58329950846977.jpg\" /><div>сегодня</div>",
+                "today"
+            ],
+            "flags": 0,
+            "guid": "hm{X3(HvY(",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "до",
+                "before"
+            ],
+            "flags": 0,
+            "guid": "D/U4FM-HzG",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "после",
+                "after"
+            ],
+            "flags": 0,
+            "guid": "jng@Bvbg6#",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "day",
+                "my"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-58810987184129.jpg\" /><div>мыло</div>",
+                "soap"
+            ],
+            "flags": 0,
+            "guid": "ecC`uh%[v)",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-58862526791681.jpg\" /><div>шампунь</div>",
+                "shampoo"
+            ],
+            "flags": 0,
+            "guid": "h+%|;l4CU?",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-58948426137601.jpg\" /><div>зубная паста</div>",
+                "toothpaste"
+            ],
+            "flags": 0,
+            "guid": "tdvjBdh{Lz",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59077275156481.jpg\" /><div>крем</div>",
+                "cream"
+            ],
+            "flags": 0,
+            "guid": "h,=?a3u)}3",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59137404698625.jpg\" /><div>крем для бритья</div>",
+                "shaving gel"
+            ],
+            "flags": 0,
+            "guid": "iu~B`.$DG5",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59206124175361.jpg\" /><div>помада</div>",
+                "a lipstick"
+            ],
+            "flags": 0,
+            "guid": "dk=9iD~{M|",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59279138619393.jpg\" /><div>блеск для губ</div>",
+                "lip gloss"
+            ],
+            "flags": 0,
+            "guid": "uWf8cQ<f-d",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59339268161537.jpg\" /><div>духи</div>",
+                "parfume"
+            ],
+            "flags": 0,
+            "guid": "zX1@]Jx=.v",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59407987638273.jpg\" /><div>дезодорант</div>",
+                "deodorant"
+            ],
+            "flags": 0,
+            "guid": "y)^|s%0&H.",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59481002082305.jpg\" /><div>расческа</div>",
+                "a comb"
+            ],
+            "flags": 0,
+            "guid": "jtrEKl[{c+",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59541131624449.jpg\" /><div>зубная щетка</div>",
+                "a toothbrush"
+            ],
+            "flags": 0,
+            "guid": "BvDlQs_I0p",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59596966199297.jpg\" /><div>щетка для волос</div>",
+                "a hairbrush"
+            ],
+            "flags": 0,
+            "guid": "gyGusI+UM`",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59657095741441.jpg\" />",
+                "cotton"
+            ],
+            "flags": 0,
+            "guid": "wF..ee5@;*",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59712930316289.jpg\" /><div>ножницы</div>",
+                "scissors"
+            ],
+            "flags": 0,
+            "guid": "OJI82i0O@?",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59773059858433.jpg\" />",
+                "toilet paper"
+            ],
+            "flags": 0,
+            "guid": "h,^&k|rV<V",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59828894433281.jpg\" /><div>делать макияж</div>",
+                "do make-up"
+            ],
+            "flags": 0,
+            "guid": "uD/Rnp<X@^",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59893318942721.jpg\" /><div>влажные салфетки</div>",
+                "tissue"
+            ],
+            "flags": 0,
+            "guid": "Jf@5JO<]B%",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-59970628354049.jpg\" /><img src=\"paste-59983513255937.jpg\" /><div>лезвие бритва</div>",
+                "a razor"
+            ],
+            "flags": 0,
+            "guid": "P-VFL?MIzr",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-60043642798081.jpg\" /><div>полотенце</div>",
+                "a towel"
+            ],
+            "flags": 0,
+            "guid": "pc;>{{2cps",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-60099477372929.jpg\" /><div>фен</div>",
+                "a hair dryer"
+            ],
+            "flags": 0,
+            "guid": "mg5%_~d&bv",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-60172491816961.jpg\" /><div>пилочка для ногтей</div>",
+                "a nail file"
+            ],
+            "flags": 0,
+            "guid": "mESQWcaa--",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "используют",
+                "use"
+            ],
+            "flags": 0,
+            "guid": "OPSC4!35]R",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "toiletries"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "материал",
+                "material"
+            ],
+            "flags": 0,
+            "guid": "mrmz(>.{ch",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-60773787238401.jpg\" /><div>стекло</div>",
+                "glass"
+            ],
+            "flags": 0,
+            "guid": "Q&0CpYj%Eq",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-60838211747841.jpg\" /><div>дерево (материал)</div>",
+                "wood"
+            ],
+            "flags": 0,
+            "guid": "q/6&A[Z,rb",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-60889751355393.jpg\" /><div>шелк</div>",
+                "silk"
+            ],
+            "flags": 0,
+            "guid": "F_0T,)un:S",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-60941290962945.jpg\" /><div>бумага</div>",
+                "paper"
+            ],
+            "flags": 0,
+            "guid": "rWw1hv_s|X",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-61035780243457.jpg\" /><div>натуральный материал</div>",
+                "natural material"
+            ],
+            "flags": 0,
+            "guid": "w/`W5oJ:t0",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-61198989000705.jpg\" /><div>металл</div>",
+                "metal"
+            ],
+            "flags": 0,
+            "guid": "jt&a?v6BfW",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-61259118542849.jpg\" /><div>пластик</div>",
+                "plastic"
+            ],
+            "flags": 0,
+            "guid": "dawViy;>@M",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-61323543052289.jpg\" /><div>ткань</div>",
+                "fabric"
+            ],
+            "flags": 0,
+            "guid": "D&oU}<<bp^",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "синтетика",
+                "synthetics"
+            ],
+            "flags": 0,
+            "guid": "w?3pajxT^y",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-61546881351681.jpg\" /><div>хлопок</div>",
+                "cotton"
+            ],
+            "flags": 0,
+            "guid": "f]Qz,UXrJ{",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-61611305861121.jpg\" /><div>кожа</div>",
+                "leather"
+            ],
+            "flags": 0,
+            "guid": "Fa>J:7G?Nl",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-61697205207041.jpg\" /><div>искусственный материал</div>",
+                "an artificial material"
+            ],
+            "flags": 0,
+            "guid": "J*a#fF<Yl,",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "materials"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-62392989908993.jpg\" /><div>школа</div>",
+                "school"
+            ],
+            "flags": 0,
+            "guid": "hRGjb18#0r",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-62453119451137.jpg\" /><div>работа</div>",
+                "work"
+            ],
+            "flags": 0,
+            "guid": "w,E&$~:4-+",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-62504659058689.jpg\" /><div>дом (как место жизни)</div>",
+                "home"
+            ],
+            "flags": 0,
+            "guid": "jQWlg;Xw(w",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-62581968470017.jpg\" /><div>центр города</div>",
+                "downtown"
+            ],
+            "flags": 0,
+            "guid": "rpDcc~]/s0",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-62659277881345.jpg\" /><div>церковь</div>",
+                "church"
+            ],
+            "flags": 0,
+            "guid": "Ac6x[r%5fQ",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-62762357096449.jpg\" /><div>тюрьма</div>",
+                "prison"
+            ],
+            "flags": 0,
+            "guid": "A}XeuO%4yg",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-62839666507777.jpg\" /><div>больница (стационар)</div>",
+                "the hospital"
+            ],
+            "flags": 0,
+            "guid": "F(oe%)SIsX",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-62912680951809.jpg\" /><div>магазин</div>",
+                "the shop"
+            ],
+            "flags": 0,
+            "guid": "PzJ&_`OAZG",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-62985695395841.jpg\" /><div>магазин</div>",
+                "the store"
+            ],
+            "flags": 0,
+            "guid": "xIpn:7?3(F",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-63148904153089.jpg\" /><div>кинотеатр</div>",
+                "the cinema"
+            ],
+            "flags": 0,
+            "guid": "F@5nQ}{%8P",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-63221918597121.jpg\" /><div>фильм кино</div>",
+                "the movies"
+            ],
+            "flags": 0,
+            "guid": "RD)})j_s$",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-63290638073857.jpg\" /><div>театр</div>",
+                "the theatre"
+            ],
+            "flags": 0,
+            "guid": "piZo91puI2",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-63359357550593.jpg\" /><div>город</div>",
+                "the city"
+            ],
+            "flags": 0,
+            "guid": "OCQg^^mQ.=",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-63462436765697.jpg\" /><div>гостинница</div>",
+                "the hotel"
+            ],
+            "flags": 0,
+            "guid": "trAMaxG2uS",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-63565515980801.jpg\" /><div>почтовое отделение</div>",
+                "the post office"
+            ],
+            "flags": 0,
+            "guid": "EZEmJJ[,:$",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-63711544868865.jpg\" /><div>горы</div>",
+                "the mountains"
+            ],
+            "flags": 0,
+            "guid": "Ok~N,W`(zd",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-63814624083969.jpg\" /><div>дом</div>",
+                "the house"
+            ],
+            "flags": 0,
+            "guid": "rstv}sScA}",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-63870458658817.jpg\" /><div>пивная</div>",
+                "the pub"
+            ],
+            "flags": 0,
+            "guid": "i|O]*s:Be7",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-63947768070145.jpg\" /><div>ресторан</div>",
+                "the restaurant"
+            ],
+            "flags": 0,
+            "guid": "Q+:;J[u8Xo",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-64072322121729.jpg\" /><div>аэропорт</div>",
+                "the airport"
+            ],
+            "flags": 0,
+            "guid": "p4]A|P4Cx5",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-64132451663873.jpg\" /><div>библиотека</div>",
+                "the library"
+            ],
+            "flags": 0,
+            "guid": "x={k_Q-G)p",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-64381559767041.jpg\" /><div>городок</div>",
+                "the town"
+            ],
+            "flags": 0,
+            "guid": "I{n?.=%IN;",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "place"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-3478923509761.jpg\" /><div>одежда</div>",
+                "clothes"
+            ],
+            "flags": 0,
+            "guid": "FM7R;ohZ~m",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-3650722201601.jpg\" /><div>платье</div>",
+                "dress"
+            ],
+            "flags": 0,
+            "guid": "en8qLf{-&v",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-13327283519489.jpg\" /><div>свитер</div>",
+                "sweater"
+            ],
+            "flags": 0,
+            "guid": "pH17leZs)k",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-3822520893441.jpg\" /><div>блуза</div>",
+                "blouse"
+            ],
+            "flags": 0,
+            "guid": "bIz;;:QV:!",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-3904125272065.jpg\" /><div>футболка</div>",
+                "T-shirt"
+            ],
+            "flags": 0,
+            "guid": "i3;*F4(vT(",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4230542786561.jpg\" /><div>юбка</div>",
+                "scirt"
+            ],
+            "flags": 0,
+            "guid": "yyXnMQzl%Y",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4290672328705.jpg\" /><div>плащ пальто</div>",
+                "coat"
+            ],
+            "flags": 0,
+            "guid": "xwooi0vMoJ",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4359391805441.jpg\" /><div>дождевик</div>",
+                "raincoat"
+            ],
+            "flags": 0,
+            "guid": "in*$$VpzmX",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4449586118657.jpg\" /><div>жакет</div>",
+                "jacket"
+            ],
+            "flags": 0,
+            "guid": "KL3%:#%Z]R",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4569845202945.jpg\" /><div>джемпер</div>",
+                "jumper"
+            ],
+            "flags": 0,
+            "guid": "w@(35.7RVQ",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4681514352641.jpg\" /><div>ожиреллье цепочка на шею</div>",
+                "necklace"
+            ],
+            "flags": 0,
+            "guid": "BA#Ru`*aXe",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4750233829377.jpg\" /><div>шляпа</div>",
+                "hat"
+            ],
+            "flags": 0,
+            "guid": "eN|2<F(&lv",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4806068404225.jpg\" /><div>кепка</div>",
+                "cap"
+            ],
+            "flags": 0,
+            "guid": "HYtqM71ri#",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4866197946369.jpg\" /><div>пояс</div>",
+                "belt"
+            ],
+            "flags": 0,
+            "guid": "hUd`+%b]^?",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5033701670913.jpg\" /><div>костюм</div>",
+                "suit (сют)"
+            ],
+            "flags": 0,
+            "guid": "K8&z,p9@02",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5218385264641.jpg\" /><div>кольцо</div>",
+                "ring (рин)"
+            ],
+            "flags": 0,
+            "guid": "vhfBTyh@9j",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5360119185409.jpg\" /><div>часы наручные</div>",
+                "watch (воч)"
+            ],
+            "flags": 0,
+            "guid": "gK8Z2lAZ%S",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5463198400513.jpg\" /><div>шорты</div>",
+                "shorts"
+            ],
+            "flags": 0,
+            "guid": "Lh>7?2L/tY",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5699421601793.jpg\" /><div>джинсы</div>",
+                "jeans"
+            ],
+            "flags": 0,
+            "guid": "RhN<TV$TnT",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5879810228225.jpg\" /><div>брюки</div>",
+                "trousers"
+            ],
+            "flags": 0,
+            "guid": "D0hy`m1Rsl",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5957119639553.jpg\" /><div>штаны брюки</div>",
+                "pants (пэнс)"
+            ],
+            "flags": 0,
+            "guid": "jii6x;q#X)",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-6124623364097.jpg\" /><div>пижама</div>",
+                "pajamas"
+            ],
+            "flags": 0,
+            "guid": "OO)wN8:v?Z",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-6223407611905.jpg\" /><div>носки</div>",
+                "socks"
+            ],
+            "flags": 0,
+            "guid": "K>7kjw4%K1",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-6283537154049.jpg\" /><div>обувь</div>",
+                "shoes&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "NdPYS/Tb/f",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-6343666696193.jpg\" /><div>нижнее белье</div>",
+                "underwear"
+            ],
+            "flags": 0,
+            "guid": "E~QIK{e8=n",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "clothes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><img src=\"paste-3745211482113.jpg\" /></div>занятие/урок/группа",
+                "class"
+            ],
+            "flags": 0,
+            "guid": "rfUr[@,!M5",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4140348473345.jpg\" /><div>комната</div>",
+                "room"
+            ],
+            "flags": 0,
+            "guid": "se8l],s?85",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4355096838145.jpg\" /><div>комната для занятий</div>",
+                "classroom"
+            ],
+            "flags": 0,
+            "guid": "J9;cy!F@9i",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4501125726209.jpg\" /><div>стена</div>",
+                "wall"
+            ],
+            "flags": 0,
+            "guid": "K+7Xg=oG{-",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4552665333761.jpg\" /><div>пол</div>",
+                "floor"
+            ],
+            "flags": 0,
+            "guid": "Ij1>g1}FQ.",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4711579123713.jpg\" /><div>потолок</div>",
+                "ceiling"
+            ],
+            "flags": 0,
+            "guid": "HKA42A?pqo",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5201205395457.jpg\" /><div>стул</div>",
+                "chair"
+            ],
+            "flags": 0,
+            "guid": "f7c[(ju#e?",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5398773891073.jpg\" /><div>карандаш</div>",
+                "pencil"
+            ],
+            "flags": 0,
+            "guid": "C?Cz=/soJ5",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5493263171585.jpg\" /><div>ручка</div>",
+                "pen"
+            ],
+            "flags": 0,
+            "guid": "y5*tMW/i;8",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5592047419393.jpg\" /><div>картина</div>",
+                "picture"
+            ],
+            "flags": 0,
+            "guid": "Hj|X9w^Ou7",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5665061863425.jpg\" /><div>словарь</div>",
+                "dictionary"
+            ],
+            "flags": 0,
+            "guid": "dyomg5ag7,",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5750961209345.jpg\" /><div>тетрадь</div>",
+                "exercise book"
+            ],
+            "flags": 0,
+            "guid": "n<`,f?-#to",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-5905580032001.jpg\" /><div>цветочный горшок</div>",
+                "flowerpot"
+            ],
+            "flags": 0,
+            "guid": "><!?D0EW}",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-6004364279809.jpg\" /><div>потолочный светильник</div>",
+                "light"
+            ],
+            "flags": 0,
+            "guid": "N=<VKHfG#w",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-6150393167873.jpg\" /><div>вешалка</div>",
+                "stand"
+            ],
+            "flags": 0,
+            "guid": "jy[UJUa$%9",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-6231997546497.jpg\" /><div>растение</div>",
+                "plant"
+            ],
+            "flags": 0,
+            "guid": "GhP5![((xr",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-6313601925121.jpg\" /><div>кондеционер</div>",
+                "air conditioner"
+            ],
+            "flags": 0,
+            "guid": "/zVruKm=]",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "classroom"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7052336300033.jpg\" /><div>родитель<br /><div><br /></div></div>",
+                "parent"
+            ],
+            "flags": 0,
+            "guid": "h$09cct2+H",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7249904795649.jpg\" /><div>мама</div>",
+                "mother"
+            ],
+            "flags": 0,
+            "guid": "K,r8W6EaOz",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7331509174273.jpg\" /><div>папа</div>",
+                "father"
+            ],
+            "flags": 0,
+            "guid": "eQA_CFS]y0",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7383048781825.jpg\" /><div>ребенок</div>",
+                "child"
+            ],
+            "flags": 0,
+            "guid": "C..eeQB_E8",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7468948127745.jpg\" /><div>сын</div>",
+                "son"
+            ],
+            "flags": 0,
+            "guid": "lc~xdo-@^M",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7563437408257.jpg\" /><div>дочь</div>",
+                "daughter"
+            ],
+            "flags": 0,
+            "guid": "g14H5Ij6tk",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7670811590657 (1).jpg\" /><div>брат</div>",
+                "brother"
+            ],
+            "flags": 0,
+            "guid": "bAff.CD:1#",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7730941132801.jpg\" /><div>сестра</div>",
+                "sister"
+            ],
+            "flags": 0,
+            "guid": "FuMc^]P]V",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7786775707649.jpg\" /><div>мальчик</div>",
+                "boy"
+            ],
+            "flags": 0,
+            "guid": "sU/Hd]t|m3",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7894149890049.jpg\" /><div>девочка</div>",
+                "girl"
+            ],
+            "flags": 0,
+            "guid": "B8b8>,iefb",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-7954279432193.jpg\" /><div>друг</div>",
+                "friend"
+            ],
+            "flags": 0,
+            "guid": "Lm~c]I]BA|",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-8031588843521.jpg\" /><div>мужчина</div>",
+                "man"
+            ],
+            "flags": 0,
+            "guid": "oKsQ%->w/S",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-8130373091329.jpg\" /><div>женщина</div>",
+                "woman"
+            ],
+            "flags": 0,
+            "guid": "uLG5SQNaa&",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-8211977469953.jpg\" /><div>муж</div>",
+                "husband"
+            ],
+            "flags": 0,
+            "guid": "oZ>_P-~+SR",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-8431020802049.jpg\" /><br /><div>жена</div>",
+                "wife"
+            ],
+            "flags": 0,
+            "guid": "iN}qqhJN@[",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-8581344657409.jpg\" /><div>прародители</div>",
+                "grandparents"
+            ],
+            "flags": 0,
+            "guid": "s7yEB!?Nj6",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-8637179232257.jpg\" /><div>бабушка</div>",
+                "grandmother"
+            ],
+            "flags": 0,
+            "guid": "x*7KMQ:8MR",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-8697308774401.jpg\" /><div>дедушка</div>",
+                "grandfather"
+            ],
+            "flags": 0,
+            "guid": "LP!4dJj%SE",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-8753143349249.jpg\" /><div>дядя</div>",
+                "uncle"
+            ],
+            "flags": 0,
+            "guid": "H1()H]^qg?",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-8813272891393.jpg\" /><div>тетя</div>",
+                "aunt (ант)"
+            ],
+            "flags": 0,
+            "guid": "Cl~1O).`T-",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-8912057139201.jpg\" /><img src=\"paste-8937826942977.jpg\" /><div>двоюродный брат/сестра</div>",
+                "cousin"
+            ],
+            "flags": 0,
+            "guid": "DwFzG#cFRR",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-9053791059969.jpg\" /><br /><div>внуки</div>",
+                "grandchildren"
+            ],
+            "flags": 0,
+            "guid": "QM.%U(?dXB",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-9113920602113.jpg\" /><div>внук</div>",
+                "grandson"
+            ],
+            "flags": 0,
+            "guid": "P##2ae0DXY",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-9169755176961.jpg\" /><div>внучка</div>",
+                "granddaughter"
+            ],
+            "flags": 0,
+            "guid": "l%O+?YJ72g",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "famiy"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1",
+                "one"
+            ],
+            "flags": 0,
+            "guid": "e~e>Jls&~4",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2",
+                "two"
+            ],
+            "flags": 0,
+            "guid": "F[AWi,tl+=",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "3",
+                "three"
+            ],
+            "flags": 0,
+            "guid": "hnV~bH(s]8",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "4",
+                "four"
+            ],
+            "flags": 0,
+            "guid": "dMQa&~0}ST",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "5",
+                "five"
+            ],
+            "flags": 0,
+            "guid": "En,ugAmwaI",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "6",
+                "six"
+            ],
+            "flags": 0,
+            "guid": "rXOa-#+(fM",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "7",
+                "seven"
+            ],
+            "flags": 0,
+            "guid": "fc.[=DIT)m",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8",
+                "eight"
+            ],
+            "flags": 0,
+            "guid": "u=oq>+o&8:",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "9",
+                "nine"
+            ],
+            "flags": 0,
+            "guid": "P+A)7F{Oo$",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "10",
+                "ten"
+            ],
+            "flags": 0,
+            "guid": "F_iWLy4)54",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "11",
+                "eleven"
+            ],
+            "flags": 0,
+            "guid": "K^N1W:/eV)",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "12",
+                "twelve"
+            ],
+            "flags": 0,
+            "guid": "I6oI1?lD|%",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "13",
+                "thirteen"
+            ],
+            "flags": 0,
+            "guid": "jqzNlQ(_:1",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "14",
+                "fourteen"
+            ],
+            "flags": 0,
+            "guid": "q8m5G=J@M`",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "15",
+                "fifteen"
+            ],
+            "flags": 0,
+            "guid": "z2Ic-m`Q04",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "16",
+                "sixteen"
+            ],
+            "flags": 0,
+            "guid": "Lj;%uGSh.a",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "17",
+                "seventeen"
+            ],
+            "flags": 0,
+            "guid": "E6QdD@&zoP",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "18",
+                "eighteen"
+            ],
+            "flags": 0,
+            "guid": "nd3K}@x3+Y",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "19",
+                "nineteen"
+            ],
+            "flags": 0,
+            "guid": "C:,!/#!5#w",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "20",
+                "twenty"
+            ],
+            "flags": 0,
+            "guid": "xb<7m.umFz",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "21",
+                "twenty-one"
+            ],
+            "flags": 0,
+            "guid": "v^`WjjZoTH",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "30",
+                "thirty"
+            ],
+            "flags": 0,
+            "guid": "gOrB(jtYrW",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "40",
+                "forty"
+            ],
+            "flags": 0,
+            "guid": "nEvGZq_h`",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "50",
+                "fifty"
+            ],
+            "flags": 0,
+            "guid": "PE7F.A5E24",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "60",
+                "sixty"
+            ],
+            "flags": 0,
+            "guid": "j~~8^}AH`^",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "70",
+                "seventy"
+            ],
+            "flags": 0,
+            "guid": "z&iGc>gfFu",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "80",
+                "eighty"
+            ],
+            "flags": 0,
+            "guid": "b]3{ydhrNQ",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "90",
+                "ninety"
+            ],
+            "flags": 0,
+            "guid": "qP%1kC4>8?",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "100",
+                "one hundred"
+            ],
+            "flags": 0,
+            "guid": "l7RZ6hLYfA",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "number"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-14375255539713.jpg\" /><div>большой</div>",
+                "big"
+            ],
+            "flags": 0,
+            "guid": "KN4:)9FqgH",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-14439680049153.jpg\" /><div>маленький</div>",
+                "small"
+            ],
+            "flags": 0,
+            "guid": "u?YZvW:^+-",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-14598593839105.jpg\" /><br /><div>высокий</div>",
+                "tall"
+            ],
+            "flags": 0,
+            "guid": "Ik<nz)14]D",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-14667313315841.jpg\" /><div>короткий</div>",
+                "short"
+            ],
+            "flags": 0,
+            "guid": "cW&F?fBM3H",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-14796162334721.jpg\" /><div>быстрый</div>",
+                "fast"
+            ],
+            "flags": 0,
+            "guid": "AJs_e7v.O`",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-14920716386305.jpg\" /><div>молодой</div>",
+                "young"
+            ],
+            "flags": 0,
+            "guid": "cS!fWit?HN",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-14998025797633.jpg\" /><div>старый</div>",
+                "old"
+            ],
+            "flags": 0,
+            "guid": "u{Oq7)OjQ5",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15062450307073.jpg\" /><div>сильный</div>",
+                "strong"
+            ],
+            "flags": 0,
+            "guid": "Pu;K:%#)dQ",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15113989914625.jpg\" /><div>слабый</div>",
+                "weak"
+            ],
+            "flags": 0,
+            "guid": "Qe;^S8#3iT",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15169824489473.jpg\" /><div>злой сердитый</div>",
+                "angry"
+            ],
+            "flags": 0,
+            "guid": "vjOq{,g2g8",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15229954031617.jpg\" /><div>грустный</div>",
+                "sad"
+            ],
+            "flags": 0,
+            "guid": "pl5=_J,I6?",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15285788606465.jpg\" /><div>счастливый</div>",
+                "happy"
+            ],
+            "flags": 0,
+            "guid": "n3l]1uY6K|",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15414637625345.jpg\" /><div>хороший хорошо</div>",
+                "good"
+            ],
+            "flags": 0,
+            "guid": "D;NRFygtJ]",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15487652069377.jpg\" /><div>плохой плохо</div>",
+                "bad"
+            ],
+            "flags": 0,
+            "guid": "FE6P>?IAzd",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15539191676929.jpg\" /><div>умный</div>",
+                "clever"
+            ],
+            "flags": 0,
+            "guid": "de0eC0${bs",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15607911153665.jpg\" /><div>тупой</div>",
+                "stupid"
+            ],
+            "flags": 0,
+            "guid": "qGHQA8r`-_",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15689515532289.jpg\" /><div>уродливый некрасивый</div>",
+                "ugly"
+            ],
+            "flags": 0,
+            "guid": "fT/J{NOs*g",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15762529976321.jpg\" /><div>красивый симпатичный</div>",
+                "pretty"
+            ],
+            "flags": 0,
+            "guid": "z0iKl*9Ryw",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15818364551169.jpg\" /><div>красивый симпатичный (мужчина)</div>",
+                "handsome"
+            ],
+            "flags": 0,
+            "guid": "qo>t[N|,(R",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15878494093313.jpg\" /><div>приятный хороший милый</div>",
+                "nice"
+            ],
+            "flags": 0,
+            "guid": "q+~sRgrGzc",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-15938623635457.jpg\" /><div>богатый</div>",
+                "rich"
+            ],
+            "flags": 0,
+            "guid": "w1Ue5P^}Tj",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-16028817948673.jpg\" /><div>бедный</div>",
+                "poor"
+            ],
+            "flags": 0,
+            "guid": "Eot~,!Xg,i",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-16080357556225.jpg\" /><div>милый</div>",
+                "cute"
+            ],
+            "flags": 0,
+            "guid": "NA-618Eq-#",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-16149077032961.jpg\" /><div>уставший</div>",
+                "tired (тайед)"
+            ],
+            "flags": 0,
+            "guid": "J+Vg~c++6#",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-16226386444289.jpg\" /><div>интересный</div>",
+                "interesting"
+            ],
+            "flags": 0,
+            "guid": "Mq`iPI3t9j",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-16286515986433.jpg\" /><div>скучный</div>",
+                "boring (борин)"
+            ],
+            "flags": 0,
+            "guid": "b=M30aT%j*",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-16346645528577.jpg\" /><div>очень хорошо</div>",
+                "very good"
+            ],
+            "flags": 0,
+            "guid": "N_CNVgcbSV",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-16441134809089.jpg\" /><div>очень плохо</div>",
+                "very bad"
+            ],
+            "flags": 0,
+            "guid": "yw{v/n83mV",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "adjectives"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17141214478337.jpg\" /><div>мышь</div>",
+                "mouse"
+            ],
+            "flags": 0,
+            "guid": "B1:hzp1BlM",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17197049053185.jpg\" /><div>мыши</div>",
+                "mice"
+            ],
+            "flags": 0,
+            "guid": "w^DPASUer4",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17261473562625.jpg\" /><br /><div>зуб</div>",
+                "tooth"
+            ],
+            "flags": 0,
+            "guid": "Ox?/c*jU~D",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17330193039361.jpg\" /><div>зубы</div>",
+                "teeth"
+            ],
+            "flags": 0,
+            "guid": "s<S/?Zk.?@",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17407502450689.jpg\" /><div>стопа</div>",
+                "foot"
+            ],
+            "flags": 0,
+            "guid": "z,e:&zLk}V",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17463337025537.jpg\" /><div>стопы</div>",
+                "feet"
+            ],
+            "flags": 0,
+            "guid": "CZFD@qJU,S",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17519171600385.jpg\" /><div>жена</div>",
+                "wife"
+            ],
+            "flags": 0,
+            "guid": "r=cD#NMa-0",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17575006175233.jpg\" /><div>жены</div>",
+                "wives"
+            ],
+            "flags": 0,
+            "guid": "Gn<FY7IO+l",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17635135717377.jpg\" /><div>нож</div>",
+                "knife"
+            ],
+            "flags": 0,
+            "guid": "wUV<Oz!M%j",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17690970292225.jpg\" /><div>ножи</div>",
+                "knives"
+            ],
+            "flags": 0,
+            "guid": "AlX^1GX5}1",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17746804867073.jpg\" /><div>вор</div>",
+                "thief"
+            ],
+            "flags": 0,
+            "guid": "uNt9u3mq&y",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17824114278401.jpg\" /><div>воры</div>",
+                "thieves"
+            ],
+            "flags": 0,
+            "guid": "Az[|rS/(PD",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17914308591617.jpg\" /><div>лист</div>",
+                "leaf"
+            ],
+            "flags": 0,
+            "guid": "Cd2Ajqn9rp",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-17983028068353.jpg\" /><br /><div>листья</div>",
+                "leaves"
+            ],
+            "flags": 0,
+            "guid": "O7;~@/eyl_",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-18060337479681.jpg\" /><div>лось</div>",
+                "deer"
+            ],
+            "flags": 0,
+            "guid": "qQKPg).xQF",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-18116172054529.jpg\" /><div>лоси</div>",
+                "deer"
+            ],
+            "flags": 0,
+            "guid": "FAQ9D4w}DA",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-18176301596673.jpg\" /><div>рыбы</div>",
+                "fish"
+            ],
+            "flags": 0,
+            "guid": "kNQL]RW>1",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-18232136171521.jpg\" /><div>рыба</div>",
+                "fish"
+            ],
+            "flags": 0,
+            "guid": "Hk2mfFj7i&",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-18292265713665.jpg\" /><div>овца</div>",
+                "sheep"
+            ],
+            "flags": 0,
+            "guid": "ewg/;CJ^W@",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-18343805321217.jpg\" /><div>овцы</div>",
+                "sheep"
+            ],
+            "flags": 0,
+            "guid": "Iw*B1s.2n[",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19099719565313.jpg\" /><div>учитель</div>",
+                "teacher"
+            ],
+            "flags": 0,
+            "guid": "x1AV!m,m9-",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19254338387969.jpg\" /><div>медсестра</div>",
+                "nurse"
+            ],
+            "flags": 0,
+            "guid": "B#Z/dkh=Gz",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19305877995521.jpg\" /><div>шеф повар</div>",
+                "chef"
+            ],
+            "flags": 0,
+            "guid": "H4&?D?;gTI",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-23699629539329.jpg\" /><br /><div>администратор рецепционист</div>",
+                "receptionist (рисэпшиэнист)"
+            ],
+            "flags": 0,
+            "guid": "vGX;DYssk]",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19439021981697.jpg\" /><div>инжинер</div>",
+                "engineer"
+            ],
+            "flags": 0,
+            "guid": "tAV([YxRNB",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19512036425729.jpg\" /><div>парикмахер</div>",
+                "hairdresser"
+            ],
+            "flags": 0,
+            "guid": "J&@G`w2D]4",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19580755902465.jpg\" /><div>разнорабочий</div>",
+                "laborer (лэйбэрэ)"
+            ],
+            "flags": 0,
+            "guid": "m6NNVq#fYv",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19649475379201.jpg\" /><div>домохозяйка</div>",
+                "housewife"
+            ],
+            "flags": 0,
+            "guid": "A7>aU)~s/w",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19705309954049.jpg\" /><div>полицейский</div>",
+                "policeman"
+            ],
+            "flags": 0,
+            "guid": "g&C[l;P<Ec",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19765439496193.jpg\" /><div>пожарный</div>",
+                "fireman"
+            ],
+            "flags": 0,
+            "guid": "En*|$Wn/cU",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19825569038337.jpg\" /><div>врач</div>",
+                "doctor (доктэ)"
+            ],
+            "flags": 0,
+            "guid": "@ycSHrM{t",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19885698580481.jpg\" /><div>водитель</div>",
+                "driver"
+            ],
+            "flags": 0,
+            "guid": "tZds1!aq8}",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19945828122625.jpg\" /><div>повар</div>",
+                "cook"
+            ],
+            "flags": 0,
+            "guid": "Kp{l`bOkdS",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-20005957664769.jpg\" /><div>секретарь</div>",
+                "secretary"
+            ],
+            "flags": 0,
+            "guid": "l;sN{n,atO",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-23849953394689.jpg\" /><div>юрист адвокат</div>",
+                "lawyer (лойе)"
+            ],
+            "flags": 0,
+            "guid": "BMTJsPx[tZ",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-23927262806017.jpg\" /><div>фермер</div>",
+                "farmer"
+            ],
+            "flags": 0,
+            "guid": "rG>yS*R:@H",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-23983097380865.jpg\" /><div>клерк</div>",
+                "clerk"
+            ],
+            "flags": 0,
+            "guid": "dZ0,*/DK>U",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-24116241367041.jpg\" /><div>мэнеджер</div>",
+                "manager (мэниджэ)"
+            ],
+            "flags": 0,
+            "guid": "oFHaCm6EHz",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-24193550778369.jpg\" /><div>продавец консультант</div>",
+                "shop assistant"
+            ],
+            "flags": 0,
+            "guid": "Mk{OTqZhjr",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-24266565222401.jpg\" /><div>женщина полицейский</div>",
+                "police woman"
+            ],
+            "flags": 0,
+            "guid": "fPusV&=Fwx",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-24322399797249.jpg\" /><div>пенсионер</div>",
+                "retired (ритайет)"
+            ],
+            "flags": 0,
+            "guid": "bI~txg)fBH",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "occupation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "имя",
+                "name, first name"
+            ],
+            "flags": 0,
+            "guid": "wih/%|8`+j",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "фамилия",
+                "surname, last name"
+            ],
+            "flags": 0,
+            "guid": "QEt5(T(C.4",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "адрес",
+                "address"
+            ],
+            "flags": 0,
+            "guid": "v*]ID4%>=^",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "номер телефона",
+                "phone number"
+            ],
+            "flags": 0,
+            "guid": "kl<;R9A|,C",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "номер комнаты",
+                "room number"
+            ],
+            "flags": 0,
+            "guid": "vVu~PrD,2^",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "номер квартиры",
+                "flat number, apartment number"
+            ],
+            "flags": 0,
+            "guid": "Kw!LrG%)m*",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "род занятий",
+                "occupation"
+            ],
+            "flags": 0,
+            "guid": "i6`qv[L~^R",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "улица",
+                "street"
+            ],
+            "flags": 0,
+            "guid": "Bo,J,e[FSn",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "проспект",
+                "avenue (эвэнью)"
+            ],
+            "flags": 0,
+            "guid": "kt;^q+g#7>",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "words"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-26259430047745.jpg\" /><div>варенье джем</div>",
+                "jam"
+            ],
+            "flags": 0,
+            "guid": "h]ycE]|GQR",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-26336739459073.jpg\" /><div>ветчина</div>",
+                "ham"
+            ],
+            "flags": 0,
+            "guid": "OPoPv%ZV++",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-26392574033921.jpg\" /><div>сыр</div>",
+                "cheese"
+            ],
+            "flags": 0,
+            "guid": "wb#U>|iV}P",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-26469883445249.jpg\" /><div>бекон</div>",
+                "bacon (бэйкэн)"
+            ],
+            "flags": 0,
+            "guid": "hzzfm~7+|;",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-26530012987393.jpg\" /><div>гренка тост</div>",
+                "toast (тоуст)"
+            ],
+            "flags": 0,
+            "guid": "goUeab;xA[",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-26594437496833.jpg\" /><div>вода</div>",
+                "water"
+            ],
+            "flags": 0,
+            "guid": "k/WWE/_mU6",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-26650272071681.jpg\" /><div>сахар</div>",
+                "sugar (шугэ)"
+            ],
+            "flags": 0,
+            "guid": "l6.^Cvv.~%",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-26706106646529.jpg\" /><div>соль</div>",
+                "salt (солт)"
+            ],
+            "flags": 0,
+            "guid": "Aov/^~/;Z3",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-28656021798913.jpg\" /><div>молоко</div>",
+                "milk"
+            ],
+            "flags": 0,
+            "guid": "Oqn;D6Q5hC",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-28724741275649.jpg\" /><div>чай</div>",
+                "tea"
+            ],
+            "flags": 0,
+            "guid": "Pi;VcCI)+C",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-28776280883201.jpg\" /><div>кофе</div>",
+                "coffee (кафи)"
+            ],
+            "flags": 0,
+            "guid": "O(_^6Jm6r|",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-28905129902081.jpg\" /><div>сок</div>",
+                "juice (жус)"
+            ],
+            "flags": 0,
+            "guid": "H:*R2mC@Je",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-28973849378817.jpg\" /><div>булочка</div>",
+                "a roll"
+            ],
+            "flags": 0,
+            "guid": "t|9^ip/-45",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-29038273888257.jpg\" /><div>гамбургер</div>",
+                "a hamburger (хамбэргэр)"
+            ],
+            "flags": 0,
+            "guid": "ocw$JUwI4H",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-29124173234177.jpg\" /><div>яйцо</div>",
+                "an egg"
+            ],
+            "flags": 0,
+            "guid": "nSArr7Z3$Z",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-32500017528833.jpg\" /><div>апельсин</div>",
+                "an&nbsp;orange"
+            ],
+            "flags": 0,
+            "guid": "EIk;~[RAcs",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-32551557136385.jpg\" /><div>банан</div>",
+                "a banana"
+            ],
+            "flags": 0,
+            "guid": "jlI(Uk=r/T",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-32607391711233.jpg\" /><div>яблоко</div>",
+                "an apple"
+            ],
+            "flags": 0,
+            "guid": "MBFc3zr?Uo",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-32753420599297.jpg\" /><br /><div>кукурузные хлопья</div>",
+                "cornflakes (корнфлэйкс)"
+            ],
+            "flags": 0,
+            "guid": "xq:uM3+G-x",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "с",
+                "with"
+            ],
+            "flags": 0,
+            "guid": "rj~!=X0s0T",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "без",
+                "without"
+            ],
+            "flags": 0,
+            "guid": "bxaXA*^Y$`",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-32981053865985.jpg\" /><div>каша из хлопьев / злаков</div>",
+                "cerials (сириалз)"
+            ],
+            "flags": 0,
+            "guid": "r`5/gN!WCE",
+            "newlyAdded": false,
+            "note_model_uuid": "369aea1f-384d-11eb-a54c-8878730f6ebd",
+            "tags": [
+                "food"
+            ]
+        }
+    ]
+}

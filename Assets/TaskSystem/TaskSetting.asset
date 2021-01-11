@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 069c790344689c044aead8981598a3ce, type: 3}
+  m_Name: TaskSetting
+  m_EditorClassIdentifier: 
+  tasks:
+  - taskID: cutTree
+    gameViewPrefab: {fileID: 5783391951623731378, guid: aeebd7f1701f12e448c263a1dec7bfa3,
+      type: 3}
+    isUnlocked: 1
+    usingTool: {fileID: 11400000, guid: 9a68d864e4cdece4f90dfe9d7bd75232, type: 2}
+    rewards:
+    - materialReward: {fileID: 11400000, guid: ac1b5883b80a3a248be6c9669ba50dfb, type: 2}
+      minRandomRange: 20
+      maxRandomRange: 30
+  - taskID: gatherRock
+    gameViewPrefab: {fileID: 5783391951623731378, guid: 9c1040f9bc29f404bb4d33618bb3c1b3,
+      type: 3}
+    isUnlocked: 1
+    usingTool: {fileID: 11400000, guid: b593c616e7941114198410df941c15bf, type: 2}
+    rewards:
+    - materialReward: {fileID: 11400000, guid: 98f4c3376db9a92419dc7418edf0429e, type: 2}
+      minRandomRange: 20
+      maxRandomRange: 30
+  activeIndex: 0

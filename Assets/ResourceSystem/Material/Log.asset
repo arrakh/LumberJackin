@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7f57e6d755aef478ac172e271c606b, type: 3}
   m_Name: Log
   m_EditorClassIdentifier: 
-  id: 
-  displayName: 
+  id: log
+  displayName: Log
   description: 
-  resourceIcon: {fileID: 0}
-  amount: 0
+  resourceIcon: {fileID: 21300000, guid: 8f205fa0c2199e748a1e066e72e4f3ee, type: 3}
+  _amount: 1000

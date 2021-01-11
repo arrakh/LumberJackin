@@ -54,13 +54,24 @@ public static class ListExtensions
         return item;
     }
 
-    public static Queue<T> ToQueue<T>(this IList<T> list)
+    public static Queue<T> ToQueue<T>(this IList<T> list, bool isReverse = false)
     {
         Queue<T> queue = new Queue<T>();
-        foreach (T item in list)
+        if (isReverse)
         {
-            queue.Enqueue(item);
+            foreach (T item in list)
+            {
+                queue.Enqueue(item);
+            }
         }
+        else
+        {
+            for (int i = list.Count - 1; i >= 0; i--)
+            {
+                queue.Enqueue(list[i]);
+            }
+        }
+        
 
         return queue;
     }

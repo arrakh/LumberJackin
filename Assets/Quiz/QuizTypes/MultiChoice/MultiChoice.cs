@@ -29,8 +29,8 @@ namespace Quiz
             //Add answer to choices List
             choicesList.Add(answer);
 
-            //Fill list with random choices based on quiz set ref
-            choicesList = FillList(quizSetRef, choicesToGenerate, choicesList);
+            //Fill list with random choices based on note set ref
+            choicesList = FillList(noteSetRef, choicesToGenerate, choicesList);
 
             //Shuffle list
             choicesList.Shuffle();
@@ -63,17 +63,6 @@ namespace Quiz
 
         private void GenerateChoiceButtons(List<string> choices, GameObject choicePanel, GameObject buttonPrefab)
         {
-            //foreach (string choice in choices)
-            //{
-            //    //Spawn and initialize button based on answer
-            //    ChoiceButtonScript cbs = Instantiate(buttonPrefab, choicePanel.transform, false).GetComponent<ChoiceButtonScript>();
-            //    bool isCorrect = choice == answer ? true : false;
-            //    cbs.Initialize(isCorrect, this, choice);
-
-            //    //Add to button array
-            //    btns.Add(cbs);
-            //}
-
             for (int i = 0; i < choices.Count; i++)
             {
                 //Spawn and initialize button based on answer
@@ -86,13 +75,13 @@ namespace Quiz
             }
         }
 
-        private List<string> FillList(Dictionary<string, string> quizSet, int max, List<string> listToFill)
+        private List<string> FillList(List<Note> noteSetRef, int max, List<string> listToFill)
         {
             //Is list already filled
             if (listToFill.Count < max)
             {
                 //Get new entry on set
-                string newEntry = quizSet.ElementAt(Random.Range(0, quizSet.Count)).Value;
+                string newEntry = noteSetRef[Random.Range(0, noteSetRef.Count)].Fields[setting.answerIndex];
 
                 //Does the new entry not exist on the list?
                 if (!listToFill.Contains(newEntry))
@@ -100,7 +89,7 @@ namespace Quiz
                     listToFill.Add(newEntry);
                 }
 
-                return FillList(quizSet, max, listToFill);
+                return FillList(noteSetRef, max, listToFill);
             }
             else
             {

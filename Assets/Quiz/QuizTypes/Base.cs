@@ -12,10 +12,12 @@ namespace Quiz
         public float points = 1f;
         public string question;
         public string answer;
+        public QuizSetting setting;
 
         //TODO: Create a scriptable object for global variable instead
         public float difficultyModifier = 1f;
-        public Dictionary<string, string> quizSetRef = new Dictionary<string, string>();
+        //public Dictionary<string, string> quizSetRef = new Dictionary<string, string>();
+        public List<Note> noteSetRef;
 
         public virtual void OnStart() { }
         public virtual void OnAnswer(bool isCorrect)

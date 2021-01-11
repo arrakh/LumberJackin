@@ -1,38 +1,56 @@
 ﻿using NaughtyAttributes;
+using PromptWindow;
+using NoteView;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Quiz
 {
     public class QuizManager : MonoBehaviour
     {
-        //TO DO: Refactor this whole sh*t based on the new Deck and Note objects, sigh.
         public Deck currentDeck;
 
-
+        //Refactor to use Note and Deck instead
         public Dictionary<string, string> quizSet = new Dictionary<string, string>();
         public Action OnComplete;
-        public float difficultyModifier = 1f;
-        public float currentPoints = 0f;
 
-        private Queue<string> quizQueue;
-        private string lastQuiz;
+        //private Queue<string> quizQueue;
+        //private string lastQuiz;
+
+        private Queue<Note> noteQueue;
+        private List<Note> noteSet = new List<Note>();
+
         private GameObject currentQuizObj;
+        private QuizSetting quizSetting;
+        private GameView currentGameView;
+        private List<TaskReward> currentRewards;
 
+        [SerializeField] private PlayerProfile playerProfile;
+        [SerializeField] private TaskSetting taskSetting;
         [SerializeField] private List<GameObject> quizType;
         [SerializeField] private GameObject quizPanel;
-        [SerializeField] private NoteView.NoteView noteView;
+        [SerializeField] private GameObject resultPanel;
+        [SerializeField] private GameObject promptHolder;
+        [SerializeField] private GameObject promptPrefab;
+        [SerializeField] private GameObject noteViewPrefab;
         [SerializeField] private float delayBtwQuiz = 2.0f;
+
+        [SerializeField] private GameObject promptHolder_TEMP;
+        [SerializeField] private GameObject materialScrollView_TEMP;
+        [SerializeField] private GameObject blackAlpha_TEMP;
 
         //Temporary debug before a proper deck importer / scheduler
         [SerializeField] private bool useDebugSet;
         [SerializeField] DebugSet debugSetToUse;
         [SerializeField] TextAsset json;
-
-        //Temp for anim testing
-        [SerializeField] Animator tempDude;
+        
+        //Score stuff
+        private float currentPoints = 0f;
+        private int totalCorrect;
+        private int totalWrong;
 
         #region Singleton Instance
         private static QuizManager _instance;
@@ -56,30 +74,25 @@ namespace Quiz
         private void Start()
         {
 
-            //Temporary debug before a proper deck importer / scheduler
-            if (useDebugSet)
-            {
-                //Add list to quizSet Dictionary
-                foreach (DebugQuiz quiz in debugSetToUse.contents)
-                {   
-                    quizSet.Add(quiz.question, quiz.answer);
-                }
-            }
+            currentGameView = Instantiate(taskSetting.GetActiveTask().gameViewPrefab).GetComponent<GameView>();
+            currentRewards = taskSetting.GetActiveTask().rewards;
 
-            //TO DO: Lazy sync on a deck collection instead
-            currentDeck = AnkiParser.GetDeckFromJson(json.text);
+            //Load current Deck based on Player Profile
+            currentDeck = playerProfile.decks[playerProfile.activeDeckIndex];
+            currentDeck.notes.Shuffle();
+            quizSetting = currentDeck.quizSetting;
 
-            foreach (Note note in currentDeck.notes)
+            for (int i = 0; i < quizSetting.maxCardPerTask; i++)
             {
-                if (!quizSet.ContainsKey(note.Fields[0]))
+                Note noteToAdd;
+                do
                 {
-                    quizSet.Add(note.Fields[0], note.Fields[4]);
-                }
+                    noteToAdd = currentDeck.notes[UnityEngine.Random.Range(0, currentDeck.notes.Count - 1)];
+                } while (noteSet.Contains(noteToAdd));
+                noteSet.Add(noteToAdd);
             }
 
-            //TO DO: queue cards based on desired amount of cards to review + new cards
-            List<string> temp = new List<string>(quizSet.Keys);
-            quizQueue = temp.Shuffle().ToQueue();
+            noteQueue = noteSet.ToQueue();
 
             //Spawn new quiz type based on available quiz types
             SpawnNewQuiz();
@@ -100,24 +113,26 @@ namespace Quiz
             //Destroy current quiz
             Destroy(currentQuizObj);
 
+            //Dequeue quiz
+            noteQueue.Dequeue();
+
             //Check if quiz queue is empty
-            if(quizQueue.Count != 0)
+            if(noteQueue.Count > 0)
             {
                 currentQuizObj = Instantiate(quizObject, quizPanel.transform, false);
                 Base qb = currentQuizObj.GetComponent<Base>();
 
                 //Quiz Base Variable Init
                 qb.OnAnswered += OnQuizAnswered;
-                qb.difficultyModifier = difficultyModifier;
-                qb.quizSetRef = quizSet;
+                qb.noteSetRef = noteSet;
+                //qb.quizSetRef = quizSet;
 
-                //QUESTION: Why dequeue it now? just dequeue OnQuizAnswered. Will probably be taken care of when we eventually switch to Deck&Note system though
-                //take queue out and store both question and answer
-                qb.question = quizQueue.Dequeue();
-                qb.answer = quizSet[qb.question];
+                //Peek queue and set Base's question & answer
+                Note note = noteQueue.Peek();
+                qb.question = note.Fields[currentDeck.quizSetting.questionIndex];
+                qb.answer = note.Fields[currentDeck.quizSetting.answerIndex];
 
-                //Store last quiz to be evaluated after quiz is answered
-                lastQuiz = qb.question;
+                qb.setting = quizSetting;
 
                 //Start Quiz
                 qb.OnStart();
@@ -125,6 +140,7 @@ namespace Quiz
             else
             {
                 OnCompleteQuiz();
+                blackAlpha_TEMP.SetActive(true);
             }
         }
 
@@ -135,57 +151,58 @@ namespace Quiz
             //Add points to current points
             currentPoints += points;
 
+
             //Stuff to do when answer is correct
             if (isCorrect)
             {
+                totalCorrect++;
+
                 //Spawn quiz after a delay, will spawn randomly by default
                 Invoke("SpawnNewQuiz", delayBtwQuiz);
             }
             //Stuff to do when answer is wrong
             else
             {
+                totalWrong++;
+
                 Invoke("ShowNoteView", delayBtwQuiz / 2);
                 //Add wrong answer to end of queue
-                quizQueue.Enqueue(lastQuiz);
+                noteQueue.Enqueue(noteQueue.Peek());
             }
 
-            
-
-            //TO DO: Send this to a "game scene" that will be spawned on start later
-
-            //TEMP, DELETE LATER
-            string animToTrigger = isCorrect ? "Attack" : "Hurt";
-            tempDude.SetTrigger(animToTrigger);
-
-            OnCompleteQuiz();
+            //Trigger Answer func on GameView
+            currentGameView.OnAnswer(isCorrect);
         }
 
         public void ShowNoteView()
         {
-            noteView.gameObject.SetActive(true);
-            noteView.Initialize(currentDeck, OhGodPleaseDeleteThisStupidCodeLater(lastQuiz));
-
+            SingleButtonWindow sbw = Instantiate(promptPrefab, promptHolder.transform, false).GetComponent<SingleButtonWindow>();
+            GameObject noteGO = sbw.Initialize(noteViewPrefab, "OK", delegate { SpawnNewQuiz(); });
+            NoteViewScript nv = noteGO.GetComponent<NoteViewScript>();
+            nv.Initialize(currentDeck, noteQueue.Peek());
         }
 
         public void OnCompleteQuiz()
         {
             OnComplete?.Invoke();
-        }
 
-        //PLEASE REFACTOR PLEASE OH GOD
-        private Note OhGodPleaseDeleteThisStupidCodeLater(string fieldToCheck)
-        {
-            foreach (Note note in currentDeck.notes)
+            //Seriously what the fuck is this code even
+            List<KeyValuePair<ResourceSystem.Material, int>> mats = new List<KeyValuePair<ResourceSystem.Material, int>>();
+
+            var multiplier = taskSetting.GetActiveTask().usingTool.level;
+            foreach (TaskReward reward in currentRewards)
             {
-                if (note.Fields.Contains(fieldToCheck)) return note;
-            }
-            return null;
-        }
+                int rewardAmount = UnityEngine.Random.Range(reward.minRandomRange, reward.maxRandomRange) * multiplier;
+                reward.materialReward.amount += rewardAmount;
 
-        [Button]
-        public void Test()
-        {
-            AnkiParser.GetDeckFromJson(json.text);
+                //No, seriously. What the actual fuck. Why.
+                mats.Add(new KeyValuePair<ResourceSystem.Material, int>(reward.materialReward, rewardAmount));
+            }
+
+            resultPanel.SetActive(true);
+            ResultScreen rs = resultPanel.GetComponent<ResultScreen>();
+            rs.Initialize(Mathf.FloorToInt(currentPoints), quizSetting.maxCardPerTask, totalCorrect, totalWrong, mats);
+
         }
 
     }

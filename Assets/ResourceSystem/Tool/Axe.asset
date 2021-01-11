@@ -15,5 +15,28 @@ MonoBehaviour:
   id: 
   displayName: 
   description: 
-  resourceIcon: {fileID: 0}
-  level: 0
+  resourceIcon: {fileID: 21300000, guid: 80ae672559419d24d9e1504d0c6226dd, type: 3}
+  level: 2
+  upgrades:
+  - level: 2
+    requirements:
+    - _material: {fileID: 11400000, guid: ac1b5883b80a3a248be6c9669ba50dfb, type: 2}
+      reqAmount: 250
+    - _material: {fileID: 11400000, guid: 98f4c3376db9a92419dc7418edf0429e, type: 2}
+      reqAmount: 50
+  - level: 3
+    requirements:
+    - _material: {fileID: 11400000, guid: ac1b5883b80a3a248be6c9669ba50dfb, type: 2}
+      reqAmount: 750
+    - _material: {fileID: 11400000, guid: 98f4c3376db9a92419dc7418edf0429e, type: 2}
+      reqAmount: 200
+    - _material: {fileID: 11400000, guid: 27f6f1480c0ecd0429b1ae7d11f937a7, type: 2}
+      reqAmount: 1000
+  - level: 4
+    requirements:
+    - _material: {fileID: 11400000, guid: ac1b5883b80a3a248be6c9669ba50dfb, type: 2}
+      reqAmount: 1500
+    - _material: {fileID: 11400000, guid: 98f4c3376db9a92419dc7418edf0429e, type: 2}
+      reqAmount: 500
+  - level: 0
+    requirements: []

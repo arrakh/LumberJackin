@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7f57e6d755aef478ac172e271c606b, type: 3}
   m_Name: Plank
   m_EditorClassIdentifier: 
-  id: 
-  displayName: 
+  id: plank
+  displayName: Plank
   description: 
-  resourceIcon: {fileID: 0}
-  amount: 0
+  resourceIcon: {fileID: 21300000, guid: 1afeffeaf07c31e4d8f0646a2ce061a7, type: 3}
+  _amount: 10
