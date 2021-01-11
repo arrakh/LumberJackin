@@ -15,5 +15,5 @@ MonoBehaviour:
   id: quartz
   displayName: Quartz
   description: 
-  resourceIcon: {fileID: 0}
-  _amount: 0
+  resourceIcon: {fileID: 21300000, guid: c20e672e5b4edff4498957c088ac7dc6, type: 3}
+  _amount: 15

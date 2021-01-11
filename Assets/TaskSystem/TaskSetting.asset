@@ -31,4 +31,28 @@ MonoBehaviour:
     - materialReward: {fileID: 11400000, guid: 98f4c3376db9a92419dc7418edf0429e, type: 2}
       minRandomRange: 20
       maxRandomRange: 30
-  activeIndex: 0
+  - taskID: processLog
+    gameViewPrefab: {fileID: 5783391951623731378, guid: 6b1af743a5c20914092ad6c7b94f0b02,
+      type: 3}
+    isUnlocked: 1
+    usingTool: {fileID: 11400000, guid: b593c616e7941114198410df941c15bf, type: 2}
+    rewards:
+    - materialReward: {fileID: 11400000, guid: 23e3fde5d1f5ffa4e8ae63760d4a944b, type: 2}
+      minRandomRange: 15
+      maxRandomRange: 20
+    - materialReward: {fileID: 11400000, guid: d578e043acd3cf04c90bd5b172065468, type: 2}
+      minRandomRange: 5
+      maxRandomRange: 15
+  - taskID: ProcessRock
+    gameViewPrefab: {fileID: 5783391951623731378, guid: bd560b7bea5b3554e9039eeb44f96073,
+      type: 3}
+    isUnlocked: 1
+    usingTool: {fileID: 11400000, guid: b593c616e7941114198410df941c15bf, type: 2}
+    rewards:
+    - materialReward: {fileID: 11400000, guid: e5b22c87fb7609e4a85f92b2d2b73bc4, type: 2}
+      minRandomRange: 15
+      maxRandomRange: 20
+    - materialReward: {fileID: 11400000, guid: 403ec187f06c9244ea8b7db475021fee, type: 2}
+      minRandomRange: 5
+      maxRandomRange: 15
+  activeIndex: 1

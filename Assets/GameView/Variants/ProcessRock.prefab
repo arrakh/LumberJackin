@@ -141,7 +141,7 @@ PrefabInstance:
     - target: {fileID: 3294101239230582059, guid: f1d02eaf2832d5045b8a948e8e236904,
         type: 3}
       propertyPath: m_Name
-      value: GatherRock
+      value: ProcessRock
       objectReference: {fileID: 0}
     - target: {fileID: 3643542906743492870, guid: f1d02eaf2832d5045b8a948e8e236904,
         type: 3}
