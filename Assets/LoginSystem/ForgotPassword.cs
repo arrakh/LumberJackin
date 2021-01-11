@@ -31,7 +31,7 @@ public class ForgotPassword : MonoBehaviour
             }
             else
             {
-                message.text = "Masukkan Kode Baru Anda";
+                message.text = "Masukkan Password Baru Anda";
 
                 ganti_pass.gameObject.SetActive(true);
                 ganti.gameObject.SetActive(true);

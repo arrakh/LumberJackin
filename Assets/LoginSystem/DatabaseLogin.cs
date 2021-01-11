@@ -42,6 +42,7 @@ public class DatabaseLogin : MonoBehaviour
         WWW www = new WWW("http://localhost/LumberJackin/Register.php", form);
         yield return www;
 
+        SceneManager.LoadScene("Login");
         Debug.Log(www.text);
     }
 
