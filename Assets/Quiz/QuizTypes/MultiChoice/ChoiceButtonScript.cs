@@ -38,6 +38,8 @@ namespace Quiz
             //Add OnAnswer delegate on button click
             btn.onClick.AddListener(delegate { baseQuiz.OnAnswer(isCorrectButton); });
 
+            
+
             //Add tween spawn animation
             StartCoroutine(SpawnAnim());
         }
