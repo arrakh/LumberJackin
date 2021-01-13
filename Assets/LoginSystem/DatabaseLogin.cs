@@ -2,16 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 using UnityEngine.UI;
 
 public class DatabaseLogin : MonoBehaviour
 {
-    public InputField username, pass, email;
-    public Text errorM;
+    public TMP_InputField username, pass, email;
+    public TMP_Text errorM;
 
     public void LoginScene()
     {
         SceneManager.LoadScene("Login");
+    }
+
+    public void RegisScene()
+    {
+        SceneManager.LoadScene("Regis");
     }
 
     public void CallRegister()
@@ -25,7 +31,6 @@ public class DatabaseLogin : MonoBehaviour
         {
             errorM.text = "Gunakan Email yang Valid";
         }
-
         else
         {
             StartCoroutine(Register());
@@ -42,6 +47,7 @@ public class DatabaseLogin : MonoBehaviour
         WWW www = new WWW("http://localhost/LumberJackin/Register.php", form);
         yield return www;
 
+        SceneManager.LoadScene("Login");
         Debug.Log(www.text);
     }
 
@@ -75,7 +81,7 @@ public class DatabaseLogin : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene("S_Task");
+                SceneManager.LoadScene("S_Menu");
             }
         }
 

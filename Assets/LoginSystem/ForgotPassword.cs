@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 
 public class ForgotPassword : MonoBehaviour
 {
-    public InputField kode_verif, ganti_pass;
+    public TMP_InputField kode_verif, ganti_pass;
     public Button cek, ganti;
-    public Text message;
+    public TMP_Text message;
     
     public void LupaPass()
     {
@@ -31,7 +32,7 @@ public class ForgotPassword : MonoBehaviour
             }
             else
             {
-                message.text = "Masukkan Kode Baru Anda";
+                message.text = "Masukkan Password Baru Anda";
 
                 ganti_pass.gameObject.SetActive(true);
                 ganti.gameObject.SetActive(true);

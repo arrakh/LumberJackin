@@ -10,6 +10,7 @@ namespace ResourceSystem
         private Material _material;
         private Tool _tool;
         [SerializeField] private List<RequirementResourceView> _resourceViews;
+        public AudioSource audUpgrade;
 
         public void Upgrade(Tool tool, int level)
         {
@@ -20,6 +21,7 @@ namespace ResourceSystem
                 if (toolUpgrade.CanUpgrade())
                 {
                     tool.Upgrade(toolUpgrade);
+                    audUpgrade.Play();
                 }
             }
         }
