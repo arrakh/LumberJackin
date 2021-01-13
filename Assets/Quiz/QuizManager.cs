@@ -129,8 +129,8 @@ namespace Quiz
 
                 //Peek queue and set Base's question & answer
                 Note note = noteQueue.Peek();
-                qb.question = note.Fields[currentDeck.quizSetting.questionIndex];
-                qb.answer = note.Fields[currentDeck.quizSetting.answerIndex];
+                qb.question = note.Fields[quizSetting.questionIndex];
+                qb.answer = note.Fields[quizSetting.answerIndex];
 
                 qb.setting = quizSetting;
 

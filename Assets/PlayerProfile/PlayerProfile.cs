@@ -6,11 +6,11 @@ using NaughtyAttributes;
 [CreateAssetMenu(menuName = "Player Profile")]
 public class PlayerProfile : ScriptableObject
 {
-    public int                              activeDeckIndex;
-    public List<Deck>                       decks;
-    public List<string>                     deckFolders;
-    public List<ResourceSystem.Material>    materials;
-    public List<ResourceSystem.Tool>        tools;
+    public int activeDeckIndex;
+    public List<Deck> decks;
+    public List<string> deckFolders;
+    public List<ResourceSystem.Material> materials;
+    public List<ResourceSystem.Tool> tools;
 
     [Button]
     public void GenerateDecksFromPaths()
@@ -30,5 +30,7 @@ public class PlayerProfile : ScriptableObject
     {
         decks.Clear();
     }
+
+    public Deck GetActiveDeck() => decks[activeDeckIndex];
     
 }
