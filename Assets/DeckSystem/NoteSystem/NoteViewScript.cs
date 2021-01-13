@@ -70,10 +70,10 @@ namespace NoteView
                 case FieldType.Cloze:
                     return value;
                 case FieldType.Image:
-                    Debug.Log(value);
+                    //Debug.Log(value);
                     return Resources.Load<Sprite>(deck.deckMediaPath + "/" + value);
                 case FieldType.Sound:
-                    Debug.Log(value);
+                    //Debug.Log(value);
                     return Resources.Load<AudioClip>(deck.deckMediaPath + "/" + value);
             }
             return null;

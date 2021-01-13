@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeDeckIndex: 0
   decks:
-  - deckName: Russian Cyrillic
+  - deckName: Russian Alphabet
     deckMediaPath: AnkiDecks/Russian_Cyrillic/media
     quizSetting:
       difficultyModifier: 1
       questionIndex: 0
-      answerIndex: 0
+      answerIndex: 5
       maxCardPerTask: 10
     fieldNames:
     - Capital
@@ -31,277 +31,277 @@ MonoBehaviour:
     - Audio
     notes:
     - Fields:
-      - "\u0410"
-      - "\u0430"
-      - 70f5ae565586fc7fe79bf33bbfd67127.png
-      - a
-      - '[a]'
-      - a in father
-      - sound01.mp3
-    - Fields:
-      - "\u0411"
-      - "\u0431"
-      - 2f86cd9e25cc3a61a68923a41345f9c9.png
-      - "\u0431\u044D"
-      - "/b/ or /b\u02B2/"
-      - b in bit
-      - sound02.mp3
-    - Fields:
-      - "\u0412"
-      - "\u0432"
-      - 3ffbeb4ab2a5da16fa21b6282fdbc526.png
-      - "\u0432\u044D"
-      - "/v/ or /v\u02B2/"
-      - v in vine
-      - sound03.mp3
-    - Fields:
-      - "\u0413"
-      - "\u0433"
-      - 71d8410187a5e9174a08ea488626244b.png
-      - "\u0433\u044D"
-      - /g/
-      - g in go
-      - sound04.mp3
-    - Fields:
-      - "\u0414"
-      - "\u0434"
-      - eba063f9005e06d2f474c9311b0c71cd.png
-      - "\u0434\u044D"
-      - "/d/ or /d\u02B2/"
-      - d in do
-      - sound05.mp3
-    - Fields:
-      - "\u0415"
-      - "\u0435"
-      - adae4bbc13af2102244489bbb77e7c13.png
-      - "\u0435"
-      - "/je/ or / \u02B2e/"
-      - ye in yet
-      - sound06.mp3
-    - Fields:
-      - "\u0401"
-      - "\u0451"
-      - edb493aeff4b3927e4028f2f59a23fbc.png
-      - "\u0451"
-      - "/jo/ or / \u02B2o/"
-      - yo in yolk
-      - sound07.mp3
-    - Fields:
-      - "\u0416"
-      - "\u0436"
-      - eaea9cc0fe34e217887993610392a53c.png
-      - "\u0436\u044D"
-      - "/\u0290/"
-      - g in genre
-      - sound08.mp3
-    - Fields:
-      - "\u0417"
-      - "\u0437"
-      - 650cec751f51e0e38a2ce053a7b61f8c.png
-      - "\u0437\u044D"
-      - "/z/ or /z\u02B2/"
-      - z in zoo
-      - sound09.mp3
-    - Fields:
-      - "\u0418"
-      - "\u0438"
-      - c957e3e24b2e01c9fedbc2cbee9f6605.png
-      - "\u0438"
-      - "/i/ or / \u02B2i/"
-      - e in me
-      - sound10.mp3
-    - Fields:
-      - "\u0419"
-      - "\u0439"
-      - e7954bc0f52303bca59bebaf2523c39b.png
-      - "\u0438 \u043A\u0440\u0430\u0442\u043A\u043E\u0435"
-      - /j/
-      - y in yes
-      - sound11.mp3
-    - Fields:
-      - "\u041A"
-      - "\u043A"
-      - bcd30add05f0efa20c9bed548c6d82d8.png
-      - "\u043A\u0430"
-      - "/k/ or /k\u02B2/"
-      - k in kitten
-      - sound12.mp3
-    - Fields:
-      - "\u041B"
-      - "\u043B"
-      - f5e511e68af14b914375c32abc132f68.png
-      - "\u044D\u043B <i>or</i> \u044D\u043B\u044C"
-      - "/l/ or /l\u02B2/"
-      - l in lamp
-      - sound13.mp3
-    - Fields:
-      - "\u041C"
-      - "\u043C"
-      - 84738c1c3d7e4deea974eeaeee6c75af.png
-      - "\u044D\u043C"
-      - "/m/ or /m\u02B2/"
-      - m in map
-      - sound14.mp3
-    - Fields:
       - "\u041D"
       - "\u043D"
-      - 852b4ad77a4046df0481f1446b0caa62.png
+      - 852b4ad77a4046df0481f1446b0caa62
       - "\u044D\u043D"
       - "/n/ or /n\u02B2/"
       - n in not
-      - sound15.mp3
+      - sound15
     - Fields:
-      - "\u041E"
-      - "\u043E"
-      - c568fc92f7afddd087cbc14d808df195.png
-      - "\u043E"
-      - /o/
-      - o in more
-      - sound16.mp3
-    - Fields:
-      - "\u041F"
-      - "\u043F"
-      - d57f127c607410288ad327ca59023b1d.png
-      - "\u043F\u044D"
-      - "/p/ or /p\u02B2/"
-      - p in pet
-      - sound17.mp3
-    - Fields:
-      - "\u0421"
-      - "\u0441"
-      - 367317e987a5e16343f2aa812fc222ea.png
-      - "\u044D\u0441"
-      - "/s/ or /s\u02B2/"
-      - s in see
-      - sound19.mp3
-    - Fields:
-      - "\u0422"
-      - "\u0442"
-      - b15c6bd3d66591aadb04e67fe4aa2554.png
-      - "\u0442\u044D"
-      - "/t/ or /t\u02B2/"
-      - t in tip
-      - sound20.mp3
-    - Fields:
-      - "\u0423"
-      - "\u0443"
-      - 55031e7cbfcbb76f72d44804cb4317c1.png
-      - "\u0443"
-      - /u/
-      - oo in boot
-      - sound21.mp3
-    - Fields:
-      - "\u0424"
-      - "\u0444"
-      - b9d081ff759c9768111a6a89213b30d7.png
-      - "\u044D\u0444"
-      - "/f/ or /f\u02B2/"
-      - f in face
-      - sound22.mp3
-    - Fields:
-      - "\u0425"
-      - "\u0445"
-      - 24fc78630782ff2a51b2a2ddfe8355c1.png
-      - "\u0445\u0430"
-      - /x/
-      - Ba
-      - sound23.mp3
-    - Fields:
-      - "\u0426"
-      - "\u0446"
-      - 8f822e32e9606a7bbb3498e50f94b9c8.png
-      - "\u0446\u044D"
-      - "/t\u0361s/"
-      - ts in sits
-      - sound24.mp3
-    - Fields:
-      - "\u0427"
-      - "\u0447"
-      - c05ee53af252dc7fd7db60654331cfc9.png
-      - "\u0447\u0435"
-      - "/t\u0361\u0255/"
-      - ch in chip
-      - sound25.mp3
-    - Fields:
-      - "\u0428"
-      - "\u0448"
-      - 358c748b5d3fcd1c785b48b24f703dda.png
-      - "\u0448\u0430"
-      - "/\u0282/"
-      - similar to the sh in shut
-      - sound26.mp3
-    - Fields:
-      - "\u0429"
-      - "\u0449"
-      - 18a510294c0d69e0b56bea2b3e1b1d20.png
-      - "\u0449\u0430"
-      - "/\u0255\u02D0/"
-      - similar to the sh
-      - sound27.mp3
+      - "\u0415"
+      - "\u0435"
+      - adae4bbc13af2102244489bbb77e7c13
+      - "\u0435"
+      - "/je/ or / \u02B2e/"
+      - ye in yet
+      - sound06
     - Fields:
       - "\u042A"
       - "\u044A"
-      - f9720eb74fbb9537f57af8c9f432d963.png
+      - f9720eb74fbb9537f57af8c9f432d963
       - "\u0442\u0432\u0451\u0440\u0434\u044B\u0439 \u0437\u043D\u0430\u043A (hard
         sign)"
       - hard
       - hard sign
-      - sound28.mp3
+      - sound28
     - Fields:
-      - "\u042B"
-      - "\u044B"
-      - 9f5a05131835dba6f03182f34c5b0b5a.png
-      - "\u044B"
-      - "[\u0268]"
-      - Pronounced like the letter E with the u and y sound
-      - sound29.mp3
+      - "\u0429"
+      - "\u0449"
+      - 18a510294c0d69e0b56bea2b3e1b1d20
+      - "\u0449\u0430"
+      - "/\u0255\u02D0/"
+      - similar to the sh
+      - sound27
     - Fields:
-      - "\u042C"
-      - "\u044C"
-      - dfd47bdcf3f30b0d94dc8b58dea79dc5.png
-      - "\u043C\u044F\u0433\u043A\u0438\u0439 \u0437\u043D\u0430\u043A (soft sign)"
-      - "/ \u02B2/"
-      - a sign which, placed after a consonant
-      - sound30.mp3
+      - "\u0422"
+      - "\u0442"
+      - b15c6bd3d66591aadb04e67fe4aa2554
+      - "\u0442\u044D"
+      - "/t/ or /t\u02B2/"
+      - t in tip
+      - sound20
     - Fields:
       - "\u042D"
       - "\u044D"
-      - dbc0a4875089de122e4f5bdfd25110da.png
+      - dbc0a4875089de122e4f5bdfd25110da
       - "\u044D"
       - /e/
       - e in met
-      - sound31.mp3
+      - sound31
     - Fields:
-      - "\u042E"
-      - "\u044E"
-      - cf1cef01c6d0143e5a3f3a2ce1c888a1.png
-      - "\u044E"
-      - "/ju/ or / \u02B2u/"
-      - u in use
-      - sound32.mp3
+      - "\u0418"
+      - "\u0438"
+      - c957e3e24b2e01c9fedbc2cbee9f6605
+      - "\u0438"
+      - "/i/ or / \u02B2i/"
+      - e in me
+      - sound10
+    - Fields:
+      - "\u041E"
+      - "\u043E"
+      - c568fc92f7afddd087cbc14d808df195
+      - "\u043E"
+      - /o/
+      - o in more
+      - sound16
+    - Fields:
+      - "\u042B"
+      - "\u044B"
+      - 9f5a05131835dba6f03182f34c5b0b5a
+      - "\u044B"
+      - "[\u0268]"
+      - Pronounced like the letter E with the u and y sound
+      - sound29
+    - Fields:
+      - "\u0411"
+      - "\u0431"
+      - 2f86cd9e25cc3a61a68923a41345f9c9
+      - "\u0431\u044D"
+      - "/b/ or /b\u02B2/"
+      - b in bit
+      - sound02
+    - Fields:
+      - "\u0419"
+      - "\u0439"
+      - e7954bc0f52303bca59bebaf2523c39b
+      - "\u0438 \u043A\u0440\u0430\u0442\u043A\u043E\u0435"
+      - /j/
+      - y in yes
+      - sound11
+    - Fields:
+      - "\u0425"
+      - "\u0445"
+      - 24fc78630782ff2a51b2a2ddfe8355c1
+      - "\u0445\u0430"
+      - /x/
+      - Ba
+      - sound23
+    - Fields:
+      - "\u0413"
+      - "\u0433"
+      - 71d8410187a5e9174a08ea488626244b
+      - "\u0433\u044D"
+      - /g/
+      - g in go
+      - sound04
+    - Fields:
+      - "\u0412"
+      - "\u0432"
+      - 3ffbeb4ab2a5da16fa21b6282fdbc526
+      - "\u0432\u044D"
+      - "/v/ or /v\u02B2/"
+      - v in vine
+      - sound03
+    - Fields:
+      - "\u0417"
+      - "\u0437"
+      - 650cec751f51e0e38a2ce053a7b61f8c
+      - "\u0437\u044D"
+      - "/z/ or /z\u02B2/"
+      - z in zoo
+      - sound09
+    - Fields:
+      - "\u0427"
+      - "\u0447"
+      - c05ee53af252dc7fd7db60654331cfc9
+      - "\u0447\u0435"
+      - "/t\u0361\u0255/"
+      - ch in chip
+      - sound25
+    - Fields:
+      - "\u0414"
+      - "\u0434"
+      - eba063f9005e06d2f474c9311b0c71cd
+      - "\u0434\u044D"
+      - "/d/ or /d\u02B2/"
+      - d in do
+      - sound05
+    - Fields:
+      - "\u0410"
+      - "\u0430"
+      - 70f5ae565586fc7fe79bf33bbfd67127
+      - a
+      - '[a]'
+      - a in father
+      - sound01
     - Fields:
       - "\u042F"
       - "\u044F"
-      - 902aeeaefe2c5e8c825c57dbd186ccb4.png
+      - 902aeeaefe2c5e8c825c57dbd186ccb4
       - "\u044F"
       - "/ja/ or / \u02B2a/"
       - ya in yard
-      - sound33.mp3
+      - sound33
+    - Fields:
+      - "\u0424"
+      - "\u0444"
+      - b9d081ff759c9768111a6a89213b30d7
+      - "\u044D\u0444"
+      - "/f/ or /f\u02B2/"
+      - f in face
+      - sound22
+    - Fields:
+      - "\u041C"
+      - "\u043C"
+      - 84738c1c3d7e4deea974eeaeee6c75af
+      - "\u044D\u043C"
+      - "/m/ or /m\u02B2/"
+      - m in map
+      - sound14
+    - Fields:
+      - "\u0426"
+      - "\u0446"
+      - 8f822e32e9606a7bbb3498e50f94b9c8
+      - "\u0446\u044D"
+      - "/t\u0361s/"
+      - ts in sits
+      - sound24
     - Fields:
       - "\u0420"
       - "\u0440"
-      - 09067dc45914a109d204da034ba1771e.png
+      - 09067dc45914a109d204da034ba1771e
       - "\u044D\u0440"
       - "/r/ or /r\u02B2/"
       - rolled r
-      - sound18.mp3
+      - sound18
+    - Fields:
+      - "\u041F"
+      - "\u043F"
+      - d57f127c607410288ad327ca59023b1d
+      - "\u043F\u044D"
+      - "/p/ or /p\u02B2/"
+      - p in pet
+      - sound17
+    - Fields:
+      - "\u041B"
+      - "\u043B"
+      - f5e511e68af14b914375c32abc132f68
+      - "\u044D\u043B <i>or</i> \u044D\u043B\u044C"
+      - "/l/ or /l\u02B2/"
+      - l in lamp
+      - sound13
+    - Fields:
+      - "\u0423"
+      - "\u0443"
+      - 55031e7cbfcbb76f72d44804cb4317c1
+      - "\u0443"
+      - /u/
+      - oo in boot
+      - sound21
+    - Fields:
+      - "\u042E"
+      - "\u044E"
+      - cf1cef01c6d0143e5a3f3a2ce1c888a1
+      - "\u044E"
+      - "/ju/ or / \u02B2u/"
+      - u in use
+      - sound32
+    - Fields:
+      - "\u041A"
+      - "\u043A"
+      - bcd30add05f0efa20c9bed548c6d82d8
+      - "\u043A\u0430"
+      - "/k/ or /k\u02B2/"
+      - k in kitten
+      - sound12
+    - Fields:
+      - "\u0416"
+      - "\u0436"
+      - eaea9cc0fe34e217887993610392a53c
+      - "\u0436\u044D"
+      - "/\u0290/"
+      - g in genre
+      - sound08
+    - Fields:
+      - "\u0421"
+      - "\u0441"
+      - 367317e987a5e16343f2aa812fc222ea
+      - "\u044D\u0441"
+      - "/s/ or /s\u02B2/"
+      - s in see
+      - sound19
+    - Fields:
+      - "\u042C"
+      - "\u044C"
+      - dfd47bdcf3f30b0d94dc8b58dea79dc5
+      - "\u043C\u044F\u0433\u043A\u0438\u0439 \u0437\u043D\u0430\u043A (soft sign)"
+      - "/ \u02B2/"
+      - a sign which, placed after a consonant
+      - sound30
+    - Fields:
+      - "\u0428"
+      - "\u0448"
+      - 358c748b5d3fcd1c785b48b24f703dda
+      - "\u0448\u0430"
+      - "/\u0282/"
+      - similar to the sh in shut
+      - sound26
+    - Fields:
+      - "\u0401"
+      - "\u0451"
+      - edb493aeff4b3927e4028f2f59a23fbc
+      - "\u0451"
+      - "/jo/ or / \u02B2o/"
+      - yo in yolk
+      - sound07
     fieldTypes: 00000000000000000200000000000000000000000000000003000000
-  - deckName: English-share
+  - deckName: Russian Words
     deckMediaPath: AnkiDecks/English-share/media
     quizSetting:
       difficultyModifier: 1
       questionIndex: 0
-      answerIndex: 0
+      answerIndex: 1
       maxCardPerTask: 10
     fieldNames:
     - Front
