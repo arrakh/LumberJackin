@@ -16,4 +16,5 @@ MonoBehaviour:
   displayName: 
   description: 
   resourceIcon: {fileID: 0}
-  level: 0
+  level: 1
+  upgrades: []

@@ -205,6 +205,7 @@ namespace Quiz
                 int rewardAmount = UnityEngine.Random.Range(reward.minRandomRange, reward.maxRandomRange) * multiplier;
                 reward.materialReward.amount += rewardAmount;
 
+                Debug.Log(reward.materialReward.DisplayName + ": " + rewardAmount.ToString());
                 //No, seriously. What the actual fuck. Why.
                 mats.Add(new KeyValuePair<ResourceSystem.Material, int>(reward.materialReward, rewardAmount));
             }
