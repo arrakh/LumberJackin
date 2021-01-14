@@ -10,9 +10,9 @@ public class Import : MonoBehaviour
 {
     public void OpenFile()
     {
-        string path = EditorUtility.OpenFilePanel("Overwrite with png", "", "apkg");
+        //string path = EditorUtility.OpenFilePanel("Overwrite with png", "", "apkg");
         //Debug.Log(path);
-        File.Move(path, Path.ChangeExtension(path, ".zip"));
+        //File.Move(path, Path.ChangeExtension(path, ".zip"));
         //string filename = Path.GetFileName(path);
         //SearchFile(path);
 

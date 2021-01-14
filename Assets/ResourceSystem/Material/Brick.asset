@@ -16,4 +16,4 @@ MonoBehaviour:
   displayName: Brick
   description: 
   resourceIcon: {fileID: 21300000, guid: 6c9fa2b08c7d54941a16595473690ffb, type: 3}
-  _amount: 2
+  _amount: 0
