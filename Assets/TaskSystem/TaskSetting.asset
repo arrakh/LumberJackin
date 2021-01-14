@@ -55,8 +55,8 @@ MonoBehaviour:
     - materialReward: {fileID: 11400000, guid: 403ec187f06c9244ea8b7db475021fee, type: 2}
       minRandomRange: 5
       maxRandomRange: 15
-  - taskID: ProcessRock
-    gameViewPrefab: {fileID: 5783391951623731378, guid: bd560b7bea5b3554e9039eeb44f96073,
+  - taskID: BuildHome
+    gameViewPrefab: {fileID: 5783391951623731378, guid: dec2bd010e7e4fa418bf9d2c6133b046,
       type: 3}
     isUnlocked: 1
     usingTool: {fileID: 11400000, guid: b593c616e7941114198410df941c15bf, type: 2}
@@ -64,10 +64,7 @@ MonoBehaviour:
     - materialReward: {fileID: 11400000, guid: e5b22c87fb7609e4a85f92b2d2b73bc4, type: 2}
       minRandomRange: 15
       maxRandomRange: 20
-    - materialReward: {fileID: 11400000, guid: 403ec187f06c9244ea8b7db475021fee, type: 2}
-      minRandomRange: 5
-      maxRandomRange: 15
-  activeIndex: 3
+  activeIndex: 1
   quizSetting:
     difficultyModifier: 1
     questionIndex: 0

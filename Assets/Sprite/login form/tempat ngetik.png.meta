@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 92ac4c7fe4ebc624d91f5eccb2d0f71a
+guid: a2a07d3fa32a9cd49bdef60925432f56
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8351501603603205486
-    second: btn_login_idle_0
+      213: -1855242105267905771
+    second: tempat ngetik_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -64,24 +64,24 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -90,13 +90,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: btn_login_idle_0
+      name: tempat ngetik_0
       rect:
         serializedVersion: 2
-        x: 674
-        y: 559
-        width: 698
-        height: 307
+        x: 566
+        y: 1343
+        width: 918
+        height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -104,8 +104,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29230282a81891c80800000000000000
-      internalID: -8351501603603205486
+      spriteID: 51b982f722bd046e0800000000000000
+      internalID: -1855242105267905771
       vertices: []
       indices: 
       edges: []
