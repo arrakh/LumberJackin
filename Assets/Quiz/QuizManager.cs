@@ -46,6 +46,12 @@ namespace Quiz
         [SerializeField] private bool useDebugSet;
         [SerializeField] DebugSet debugSetToUse;
         [SerializeField] TextAsset json;
+
+        //Audio Stuff
+        [Header("Audio")]
+        [SerializeField] private AudioClip correctSFX;
+        [SerializeField] private AudioClip wrongSFX;
+        [SerializeField] private AudioSource sfxSource;
         
         //Score stuff
         private float currentPoints = 0f;
@@ -157,6 +163,8 @@ namespace Quiz
             {
                 totalCorrect++;
 
+                sfxSource.PlayOneShot(correctSFX);
+
                 //Spawn quiz after a delay, will spawn randomly by default
                 Invoke("SpawnNewQuiz", delayBtwQuiz);
             }
@@ -164,6 +172,8 @@ namespace Quiz
             else
             {
                 totalWrong++;
+
+                sfxSource.PlayOneShot(wrongSFX);
 
                 Invoke("ShowNoteView", delayBtwQuiz / 2);
                 //Add wrong answer to end of queue

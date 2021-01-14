@@ -113,5 +113,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: CutTree
       objectReference: {fileID: 0}
+    - target: {fileID: 8090820693823551005, guid: f1d02eaf2832d5045b8a948e8e236904,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 48.118786
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090820693823551005, guid: f1d02eaf2832d5045b8a948e8e236904,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 51.219997
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1d02eaf2832d5045b8a948e8e236904, type: 3}
