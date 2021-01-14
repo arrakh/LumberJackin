@@ -14,7 +14,7 @@ public class SoundManager : MonoBehaviour
         scene = SceneManager.GetActiveScene();
         aud = GetComponent<AudioSource>();
 
-        DontDestroyOnLoad(aud);
+        //DontDestroyOnLoad(aud);
 
         if (scene.name == "S_Task")
         {
