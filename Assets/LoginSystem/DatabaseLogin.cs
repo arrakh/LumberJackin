@@ -45,8 +45,14 @@ public class DatabaseLogin : MonoBehaviour
         form.AddField("email", email.text);
 
         WWW www = new WWW("https://lumberjackin.000webhostapp.com/LumberJackin/Register.php", form);
-        Debug.Log(username.text);
+        
         yield return www;
+
+        if (www.text.Contains("Error"))
+        {
+            Debug.Log("KOSONG");
+
+        }
         Debug.Log(www.text);
 
         SceneManager.LoadScene("Login");
