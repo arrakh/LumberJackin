@@ -4,6 +4,8 @@
 Memorizing Game with leitnerr system implemented 
 
 
+[GDD](https://docs.google.com/document/d/1bRqipOwq3IMp1NtGCQECZnjZPiQvy7C8akExKk36x6g/edit?usp=sharing)
+
 Team : 
 
 Arya Rakha P 		  4210171023
