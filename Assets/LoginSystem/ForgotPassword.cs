@@ -21,7 +21,7 @@ public class ForgotPassword : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("kode", kode_verif.text);
 
-        WWW www = new WWW("http://localhost/LumberJackin/CheckCode.php", form);
+        WWW www = new WWW("https://lumberjackin.000webhostapp.com/LumberJackin/CheckCode.php", form);
         yield return www;
 
         if (www.isDone)
@@ -55,7 +55,7 @@ public class ForgotPassword : MonoBehaviour
         form.AddField("newPass", ganti_pass.text);
         form.AddField("kode", kode_verif.text);
 
-        WWW www = new WWW("http://localhost/LumberJackin/NewPassword.php", form);
+        WWW www = new WWW("https://lumberjackin.000webhostapp.com/LumberJackin/NewPassword.php", form);
         yield return www;
 
         if (www.isDone)

@@ -44,11 +44,19 @@ public class DatabaseLogin : MonoBehaviour
         form.AddField("password", pass.text);
         form.AddField("email", email.text);
 
-        WWW www = new WWW("http://localhost/LumberJackin/Register.php", form);
+        WWW www = new WWW("https://lumberjackin.000webhostapp.com/LumberJackin/Register.php", form);
+        
         yield return www;
 
-        SceneManager.LoadScene("Login");
+        if (www.text.Contains("Error"))
+        {
+            Debug.Log("KOSONG");
+
+        }
         Debug.Log(www.text);
+
+        SceneManager.LoadScene("Login");
+        
     }
 
     public void CallLogin()
@@ -69,7 +77,7 @@ public class DatabaseLogin : MonoBehaviour
         form.AddField("username", username.text);
         form.AddField("password", pass.text);
 
-        WWW www = new WWW("http://localhost/LumberJackin/Login.php", form);
+        WWW www = new WWW("https://lumberjackin.000webhostapp.com/LumberJackin/Login.php", form);
         yield return www;
 
         if (www.isDone)
@@ -105,7 +113,7 @@ public class DatabaseLogin : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("username", username.text);
 
-        WWW www = new WWW("http://localhost/LumberJackin/ForgotPass.php", form);
+        WWW www = new WWW("https://lumberjackin.000webhostapp.com/LumberJackin/ForgotPass.php", form);
         yield return www;
 
         if (www.isDone)
