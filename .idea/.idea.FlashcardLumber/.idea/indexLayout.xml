@@ -23,6 +23,7 @@
     <explicitExcludes>
       <Path>.git</Path>
       <Path>.idea</Path>
+      <Path>.vs</Path>
       <Path>Library</Path>
       <Path>Raw Asset</Path>
       <Path>Temp</Path>
