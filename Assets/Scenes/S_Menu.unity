@@ -167,10 +167,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.00022009015
-    y: 0
-    width: 0.9995598
-    height: 1
+    x: 0
+    y: 0.00007969141
+    width: 1
+    height: 0.9998406
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1806,7 +1806,7 @@ MonoBehaviour:
   fitType: 4
   rows: 1
   columns: 3
-  cellSize: {x: 193.21593, y: 167.69951}
+  cellSize: {x: 193.33333, y: 167.77777}
   spacing: {x: 50, y: 5}
   fitX: 1
   fitY: 1
@@ -2101,7 +2101,7 @@ MonoBehaviour:
         m_MethodName: Toggle
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 1294378321}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2296,7 +2296,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 503917824}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1294378321}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02e00daa66874fc9826e623974fff4c9, type: 3}
@@ -2308,7 +2308,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 503917824}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1294378321}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a6d6b07c4ce9dc4d9824164e42dbee1, type: 3}
@@ -2453,6 +2453,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1294378321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7273737972433500614, guid: 7895a5c09e566f547b0b5b242190eb78,
+    type: 3}
+  m_PrefabInstance: {fileID: 503917824}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1320711709
 PrefabInstance:
   m_ObjectHideFlags: 0
