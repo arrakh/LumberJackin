@@ -16,4 +16,4 @@ MonoBehaviour:
   displayName: Plank
   description: 
   resourceIcon: {fileID: 21300000, guid: 1afeffeaf07c31e4d8f0646a2ce061a7, type: 3}
-  _amount: 0
+  _amount: 10

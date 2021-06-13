@@ -58,6 +58,9 @@ namespace Quiz
         private int totalCorrect;
         private int totalWrong;
 
+        //TEMP, fires at changes on (float) points, (int) total correct, (int) total wrong 
+        public Action<float, int, int> OnQuizResultUpdate;
+
         #region Singleton Instance
         private static QuizManager _instance;
 
@@ -182,6 +185,8 @@ namespace Quiz
 
             //Trigger Answer func on GameView
             currentGameView.OnAnswer(isCorrect);
+
+            OnQuizResultUpdate?.Invoke(currentPoints, totalCorrect, totalWrong);
         }
 
         public void ShowNoteView()

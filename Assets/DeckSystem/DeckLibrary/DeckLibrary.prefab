@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 80, y: 80}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.8, y: 0.8}
 --- !u!222 &8636470415837366608
 CanvasRenderer:
@@ -61,6 +61,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9716981, g: 0.48126557, b: 0.48126557, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -116,7 +117,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7652468124521272452}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8380464067698765698}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3333403630559908385
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,6 +190,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -251,6 +264,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -282,7 +296,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 61.7
+  m_fontSize: 35.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -328,7 +342,7 @@ MonoBehaviour:
     spaceCount: 1
     wordCount: 2
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -408,6 +422,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -625,11 +640,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noteLibrary: {fileID: 1522137556371125951}
-  playerProfile: {fileID: 0}
+  playerProfile: {fileID: 11400000, guid: a221028ec1e1953409fbf2b1cb6ebba4, type: 2}
   buttonHolder: {fileID: 7224474240196363074}
-  buttonPrefab: {fileID: 5699362797044243259, guid: 1badc82028737804b914273a488447d5,
+  buttonPrefab: {fileID: 945351748077044090, guid: 9c6cf918f9dede841a5edaf9e7611f03,
     type: 3}
   DeckLibraryGroup: {fileID: 5681720943868946590}
+  toggleGroup: {fileID: 0}
 --- !u!1 &8537147077056454621
 GameObject:
   m_ObjectHideFlags: 0
@@ -692,6 +708,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3588,7 +3605,7 @@ PrefabInstance:
     - target: {fileID: 7586362644975125145, guid: 2eea8b85fa503e34aa9e0058b8cb1944,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7586362644975125145, guid: 2eea8b85fa503e34aa9e0058b8cb1944,
         type: 3}

@@ -13,6 +13,7 @@ namespace NoteView
         public GameObject buttonHolder;
         public GameObject buttonPrefab;
         public GameObject DeckLibraryGroup;
+        public ToggleGroup toggleGroup;
 
         private void OnEnable()
         {
@@ -24,15 +25,17 @@ namespace NoteView
             //Clear Buttons
             buttonHolder.transform.Clear();
 
-            foreach (Deck deck in playerProfile.decks)
+            for (int i = 0; i < playerProfile.decks.Count; i++)
             {
-                Button button = Instantiate(buttonPrefab, buttonHolder.transform, false).GetComponent<Button>();
-                button.GetComponentInChildren<TextMeshProUGUI>().text = deck.deckName;
-                button.onClick.AddListener(delegate
-                {
-                    ShowNoteLibrary(deck);
-                    DeckLibraryGroup.SetActive(false);
-                });
+                Deck deck = playerProfile.decks[i];
+                var button = Instantiate(buttonPrefab, buttonHolder.transform, false).GetComponent<DeckLibraryButton>();
+
+                button.Initialize(i, deck.deckName, deck.fieldNames, playerProfile, toggleGroup,
+                    delegate 
+                    {
+                        ShowNoteLibrary(deck);
+                        DeckLibraryGroup.SetActive(false);
+                    });
             }
             yield return null; 
         }
