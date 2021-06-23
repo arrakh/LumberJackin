@@ -15,15 +15,17 @@ public class DeckLibraryButton : MonoBehaviour
 
     private PlayerProfile profile;
     private List<string> fields;
+    private List<FieldType> fieldTypes;
     private int deckIndex;
     private int questionIndex = 0;
     private int answerIndex = 1;
     private ToggleGroup toggleGroup;
 
-    public void Initialize(int deckIndex, string deckName, List<string> fields, PlayerProfile profile, ToggleGroup toggleGroup, UnityAction onClick)
+    public void Initialize(int deckIndex, string deckName, List<string> fields, List<FieldType> fieldTypes, PlayerProfile profile, ToggleGroup toggleGroup, UnityAction onClick)
     {
         this.deckIndex = deckIndex;
         this.fields = fields;
+        this.fieldTypes = fieldTypes;
         this.profile = profile;
 
         toggle.group = toggleGroup;
@@ -54,7 +56,7 @@ public class DeckLibraryButton : MonoBehaviour
             questionIndex += offset;
             if (questionIndex > fields.Count - 1) questionIndex = 0;
             else if (questionIndex < 0) questionIndex = fields.Count - 1;
-        } while (answerIndex == questionIndex);
+        } while (answerIndex == questionIndex || fieldTypes[questionIndex] != FieldType.Text);
 
         questionFieldText.text = fields[questionIndex];
         GetSetting().questionIndex = questionIndex;
@@ -67,7 +69,7 @@ public class DeckLibraryButton : MonoBehaviour
             answerIndex += offset;
             if (answerIndex > fields.Count - 1) answerIndex = 0;
             else if (answerIndex < 0) answerIndex = fields.Count - 1;
-        } while (answerIndex == questionIndex);
+        } while (answerIndex == questionIndex || fieldTypes[answerIndex] != FieldType.Text);
 
         answerFieldText.text = fields[answerIndex];
         GetSetting().answerIndex = answerIndex;

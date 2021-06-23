@@ -30,7 +30,7 @@ namespace NoteView
                 Deck deck = playerProfile.decks[i];
                 var button = Instantiate(buttonPrefab, buttonHolder.transform, false).GetComponent<DeckLibraryButton>();
 
-                button.Initialize(i, deck.deckName, deck.fieldNames, playerProfile, toggleGroup,
+                button.Initialize(i, deck.deckName, deck.fieldNames, deck.fieldTypes, playerProfile, toggleGroup,
                     delegate 
                     {
                         ShowNoteLibrary(deck);
